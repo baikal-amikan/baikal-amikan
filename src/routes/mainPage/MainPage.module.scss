@@ -1,0 +1,24 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.centerBlock{
+  text-align: center;
+}
+
+.footerBlock {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  bottom: 1.625rem;
+  opacity: 1;
+  background: transparent;
+  box-shadow: none;
+  text-align: center;
+}

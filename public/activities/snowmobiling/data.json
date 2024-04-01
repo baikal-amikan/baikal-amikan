@@ -1,0 +1,13 @@
+{
+  "id": "snowmobiling",
+  "cover": "/public/activities/snowmobiling/cover.jpeg",
+  "title": {
+    "en": "Snowmobiling",
+    "ru": "Катание на снегоходах"
+  },
+  "seasons": ["winter"],
+  "description": {
+    "en": "Explore the untouched beauty of Khamar-Daban, with its dense forests, frozen rivers, and majestic peaks. Whether you're a seasoned rider seeking high-speed thrills or a novice craving a taste of adventure, Khamar-Daban promises an unforgettable snowmobiling experience in the heart of Siberia's winter wonderland.",
+    "ru": "Исследуйте нетронутую красоту Хамар-Дабана с его густыми лесами, замерзшими реками и величественными вершинами. Являетесь ли вы опытным гонщиком, ищущим острых ощущений на высоких скоростях, или новичком, жаждущим вкуса приключений, Хамар-Дабан обещает незабываемые впечатления от катания на снегоходе в самом сердце зимней страны чудес Сибири."
+  }
+}

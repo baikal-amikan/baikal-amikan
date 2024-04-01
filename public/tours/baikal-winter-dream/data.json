@@ -1,0 +1,34 @@
+{
+  "id": "baikal-winter-dream",
+  "cover": "/public/tours/baikal-winter-dream/cover.jpeg",
+  "duration": { "en": "9 days", "ru": "9 дней" },
+  "activities": ["jeep-tours", "dog-sledding", "snowmobiling", "aeroglisseur"],
+  "places": ["maloye-more", "olkhon", "irkutsk"],
+  "season": "winter",
+  "title": {
+    "en": "Baikal winter dream",
+    "ru": "Зимняя сказка Байкала"
+  },
+  "months": {
+    "en": "February - end of March",
+    "ru": "Февраль - конец марта"
+  },
+  "shortDescription": {
+    "en": "Ride over ice of Baikal by hovercraft, snowmobile or dogsledding in wintry forest, overnight in wooden hotel in quiet remote place, ice-grottoes and frozen shores of Baikal, shaman and hot Banya!",
+    "ru": "Прокатитесь по льду Байкала на снегоходе, собачьей упряжке или на аэроглиссере, ночевка в деревянном отеле в тихом уединенном месте, ледяные гроты и замерзшие берега Байкала, шаман и горячая баня!"
+  },
+
+  "description": { "ru": "", "en": ""} ,
+  "price": [ { "ru": "", "en": "", "price": ""} ],
+  "note": { "ru": "", "en": ""} ,
+  "includes": [ { "ru": "", "en": ""} ],
+  "notIncludes": [ { "ru": "", "en": ""} ],
+  "days": [
+    {
+      "order": 1,
+      "title": { "ru": "",  "en": "" },
+      "description": { "en": "", "ru": "" },
+      "pictures": [ {"title":  { "ru": "",  "en": "" }, "src": ""} ]
+    }
+  ]
+}

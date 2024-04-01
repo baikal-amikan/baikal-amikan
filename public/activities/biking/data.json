@@ -1,0 +1,13 @@
+{
+  "id": "biking",
+  "cover": "/public/activities/biking/cover.jpeg",
+  "title": {
+    "en": "Biking",
+    "ru": "Катание на велосипеде"
+  },
+  "seasons": ["summer"],
+  "description": {
+    "en": "Embark on an exhilarating biking adventure around the majestic Lake Baikal, the world's deepest and oldest freshwater lake. Pedal along scenic routes that hug the shoreline, offering breathtaking views of the pristine waters and surrounding Siberian wilderness.",
+    "ru": "Отправьтесь в захватывающее велосипедное приключение вокруг величественного озера Байкал, самого глубокого и старейшего пресноводного озера в мире. Прокатитесь по живописным маршрутам, проходящим вдоль береговой линии, откуда открывается захватывающий вид на нетронутые воды и окружающую сибирскую дикую природу."
+  }
+}

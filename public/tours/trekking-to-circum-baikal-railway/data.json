@@ -1,0 +1,104 @@
+{
+  "id": "trekking-to-circum-baikal-railway",
+  "cover": "/public/tours/trekking-to-circum-baikal-railway/cover.jpeg",
+  "duration": { "en": "2 days", "ru": "2 дня" },
+  "activities": ["trekking"],
+  "places": ["circum-baikal-railway"],
+  "season": "summer",
+  "title": {
+    "en": "Trekking to Circum-Baikal railway",
+    "ru": "Треккинг по Кругобайкальской железной дороге"
+  },
+  "months": {
+    "en": "June - September",
+    "ru": "Июнь - Сентябрь"
+  },
+  "shortDescription": {
+    "en": "One day trekking through picturesque valley in taiga forest to Baikal lake, and second day trekking along the Circum-Baikal railway. Overnight in tent.",
+    "ru": "Однодневный треккинг по живописной долине в тайгу к озеру Байкал, и второй день треккинг вдоль Кругобайкальской железной дороги. Ночевка в палатке."
+  },
+  "description": {
+    "en": "<p>This 2-day trekking trip combines trekking through the picturesque valley in the taiga forest among evergreen trees and flowers and one day of trekking along the shoreline of Baikal Lake. Away from civilization, you'll enjoy backpacking in the taiga, the clear water of Baikal, the possibility to swimming evening and night near the campfire, visiting the open-air museum - Circum-Baikal railway, which is a part of the old Transsib line will make you feel the same as 100 years ago... It is also a budget tour to Baikal!</p><p><br/><b>Day 1.</b> Transfer from Irkutsk to the train stop by a Trans-Siberian train and trekking through the taiga forest to Baikal Lake.<br/><b>Day 2.</b> Trekking along the Circum-Baikal railway. Return to Irkutsk.</p>",
+    "ru": "<p>Этот двухдневный треккинг сочетает в себе треккинг по живописной долине в таежном лесу среди вечнозеленых деревьев и цветов и однодневный треккинг вдоль береговой линии озера Байкал. Вдали от цивилизации вас ждут пешие прогулки по тайге, прозрачная вода Байкала, возможность купаться вечером и ночью у костра, посещение музея под открытым небом - Кругобайкальской железной дороги, которая является частью старого Транссиба заставит вас почувствовать себя так же, как и 100 лет назад... Это тур один из самых бюджетных туров на Байкал!</p><p><br/><b>День 2.</b> Трансфер из Иркутска до остановки Транссибирским поездом и поход через тайгу к озеру Байкал.<br/><b>День 2.</b> Трек по Кругобайкальской железной дороге. Возвращение в Иркутск.</p>"
+  },
+  "price": [
+    {
+      "en": "The price may vary depending on a season. Please, contact our manager for actual prices.",
+      "ru": "Цена может меняться в зависимости от сезона. Пожалуйста, свяжитесь с нашим менеджером для уточнения цен.",
+      "price": ""
+    }
+  ],
+  "note": null,
+  "includes": [
+    {
+      "en": "Accommodation in tents",
+      "ru": "Размещение в палатках"
+    },
+    {
+      "en": "All fees for visiting national park zones",
+      "ru": "Cборы за посещение зон национальных парков"
+    },
+    {
+      "en": "English-speaking guide service",
+      "ru": "Сопровождение гидом"
+    },
+    {
+      "en": "Meals during the tour",
+      "ru": "Питание во время тура"
+    },
+    {
+      "en": "Rent of camping equipment, cooking and food ware",
+      "ru": "Аренда туристического снаряжения, посуды для приготовления пищи и продуктов питания"
+    },
+    {
+      "en": "Transfer by local train",
+      "ru": "Трансфер на местном поезде"
+    }
+  ],
+  "notIncludes": [
+    {
+      "en": "Beverages",
+      "ru": "Напитки"
+    },
+    {
+      "en": "Personal expenses and souvenirs",
+      "ru": "Личные расходы и сувениры"
+    }
+  ],
+  "days": [
+    {
+      "order": 1,
+      "title": {
+        "en": "Trekking through taiga forest to Baikal lake",
+        "ru": "Треккинг через тайгу к озеру Байкал"
+      },
+      "description": {
+        "en": "<p>09.00 - Meeting with the group at the central train station in Irkutsk.</p><p>09.20 - Morning transfer by local train eastwards from Irkutsk to small Transsib railroad station.</p><p><i>Today, you'll hike in the taiga forest, crossing several springs with clear water. In the evening, you'll reach the lake and set up a tent camp. The forest valley is very picturesque. The trek route goes along an old military tank road; at present days, it looks more like a path. The neighboring forest is quite dark, with lots of evergreen trees, plants, flowers, and berries.</i></p><p>14.00 - Lunch stop near forest stream.</p><p><i>Usually, it takes about 5 -7 hours to hike through this valley and get to Baikal Lake.</i></p><p>17.00 - Set up a tent camp near the beautiful bay of the lake.</p><p><i>If you are brave enough or the water temperature is warm, you definitely have to swim in the clear waters of Baikal. After this day of hiking, this reward is worth it. Enjoy the sunset over the clear waters of Baikal.</i></p><p>19.00 - Dinner.</p><p><i>Watching the city's lights sparkling far away and seeing civilization on the opposite shore gives you a unique feeling of being away from the world overnight in a tent. The total trek distance is about 18 km.</i></p>",
+        "ru": "<p>09.00 - Встреча с группой на центральном вокзале Иркутска.</p><p>09.20 - Утренний трансфер на пригородном поезде на восток из Иркутска до небольшой станции Транссиба.</p><p><i>Сегодня вы отправитесь в поход по тайге, пересекая несколько родников с прозрачной водой. Вечером вы доберетесь до озера и разобьете палаточный лагерь. Лесная долина очень живописна. Маршрут похода проходит по старой военной танковой дороге; в настоящее время это больше похоже на тропу. Соседний лес довольно темный, с множеством вечнозеленых деревьев, растений, цветов и ягод.</i></p><p>14.00 – Остановка на обед возле лесного ручья.</p><p><i>Обычно путь через эту долину до озера Байкал занимает около 5-7 часов.</i></p><p>17.00 - Установка палаточного лагеря возле красивой бухты озера.</p><p><i>Если вы достаточно смелы или температура воды теплая, вам обязательно стоит искупаться в чистых водах Байкала. После целого дня похода награда того стоит. Закат над прозрачными водами Байкала.</i></p><p>19.00 – Ужин.</p><p><i>Наблюдение за сверкающими вдалеке огнями города и вид цивилизации на противоположном берегу дает вам неповторимое ощущение того, что вы находитесь вдали от мира на ночь в палатке. Общая дистанция похода около 18 км.</i></p>"
+      },
+      "pictures": [
+        {"title":  { "ru": "На берегу озера Байкал",  "en": "On the shore of Baikal lake" }, "places": ["circum-baikal-railway"], "src": "/public/tours/trekking-to-circum-baikal-railway/day-1-1.jpg"},
+        {"title":  { "ru": "Треккинг вдоль лесного ручья к озеру Байкал",  "en": "Trekking along the forest stream to Baikal lake" }, "src": "/public/tours/trekking-to-circum-baikal-railway/day-1-2.jpg"},
+        {"title":  { "ru": "Тоннель Кругобайкальской железной дороги",  "en": "The tunnel on Circum-Baikal railway" }, "places": ["circum-baikal-railway"], "src": "/public/tours/trekking-to-circum-baikal-railway/day-1-3.jpg"}
+      ]
+    },
+    {
+      "order": 2,
+      "title": {
+        "en": "Trekking along the Circum-Baikal railway",
+        "ru": "Треккинг по Кругобайкальской железной дороге"
+      },
+      "description": {
+        "en": "<p>09.00 - Breakfast. 10.00 - Start trekking.</p><p><i>At first, we'll have a short, easy walk to the top of one of the neighboring hills, where you'll observe Baikal from up high. Once we return, we'll collect camping equipment and continue the trek trip along the shoreline of Baikal Lake.</i></p><p><i>Today, we will hike on the historical Transsib railroad branch. This part of Transsib was originally the connection between Western and Eastern branches of Russian railroads at the Baikal Lake region. This part was named \"Golden Buckle of Russian Steel Belt\" for the transcendental building expenses. This railroad branch has many bridges, tunnels, walls, and other constructions; everything is hand-made from stones with large art. This part of Transsib is not included in the general railroad line, and this fact has turned it into a museum.</i></p><p>13.00 - Lunch stop at the shore of Baikal Lake.</p><p><i>On the way, you will visit the old Russian village of Angasolka. Optionally, you may visit the Museum of Roeriсhs in Angasolka. After trekking up a short, deep valley, you will return to the central Transsib railroad.</i></p><p>18.00 - Transfer by evening local train back to Irkutsk.</p><p>21.00 - Arrival to Irkutsk.</p><p><i>Optional: you may trek further to Angasolka village along the circum-Baikal railway to Kultuk village and catch a car there to Irkutsk.</i></p>",
+        "ru": "<p>09.00 – Завтрак. 10.00 – Начало треккинга.</p><p><i>Сначала нас совершит короткая легкая прогулка на вершину одного из соседних холмов, где вы сможете увидеть Байкал с высоты. По возвращению соберем походное снаряжение и продолжим поход по берегу Байкала.</i></p><p><i>Сегодня мы отправимся в поход по исторической ветке Транссиба. Эта часть Транссиба изначально была связующим звеном между западными и восточными ветками российских железных дорог в районе озера Байкал. За огромные затраты на строительство эта часть получила название «Золотая пряжка Русского стального пояса». На этой железнодорожной ветке много мостов, тоннелей, стен и других сооружений; все сделано вручную из камней с большим искусством. Эта часть Транссиба не входит в общую железнодорожную линию, и это превратило ее в музей.</i></p><p>13.00 – Обед на берегу Байкала.</p><p><i>По дороге вы посетите старинную русскую деревню Ангасолка. По желанию вы можете посетить музей Рерихов в Ангасолке. Пройдя по короткой и глубокой долине, вы вернетесь к центральной Транссибской железной дороге.</i></p><p>18.00 - Трансфер вечерним пригородным поездом обратно в Иркутск.</p><p>21.00 – Прибытие в Иркутск.</p><p><i>По желанию: можно пройти дальше до села Ангасолка по Кругобайкальской железной дороге до села Култук и там сесть на машину до Иркутска.</i></p>"
+      },
+      "pictures": [
+        {"title":  { "ru": "Треккинг по Кругобайкальской железной дороге",  "en": "Trekking along the Circum-Baikal railway" }, "src": "/public/tours/trekking-to-circum-baikal-railway/day-2-1.jpg"},
+        {"title":  { "ru": "Рассвет на Кругобайкальской железной дороге",  "en": "Sunrise on the Circum-Baikal railway" }, "places": ["circum-baikal-railway"], "src": "/public/tours/trekking-to-circum-baikal-railway/day-2-2.jpg"},
+        {"title":  { "ru": "Поход по туннелю",  "en": "Trekking through the tunnel" }, "places": ["circum-baikal-railway"], "activities": ["trekking"], "src": "/public/tours/trekking-to-circum-baikal-railway/day-2-3.jpg"},
+        {"title":  { "ru": "Деревня Култук на юге озера Байкал",  "en": "Kultuk village on the south of Baikal lake" }, "src": "/public/tours/trekking-to-circum-baikal-railway/day-2-4.jpg"},
+        {"title":  { "ru": "Поезд в поселке Ангасолка Кругобайкальской железной дороги",  "en": "A train in Angasolka village on Circum-Baikal railway" }, "src": "/public/tours/trekking-to-circum-baikal-railway/day-2-5.jpg"}
+      ]
+    }
+  ]
+}

@@ -1,1 +1,4 @@
-# baikal-amikan
+# Baikal-Amikan
+## React + TypeScript + Vite
+
+

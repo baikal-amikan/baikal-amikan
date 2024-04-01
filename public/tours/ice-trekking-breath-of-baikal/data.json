@@ -1,0 +1,33 @@
+{
+  "id": "ice-trekking-breath-of-baikal",
+  "cover": "/public/tours/ice-trekking-breath-of-baikal/cover.jpeg",
+  "duration": { "en": "8 days", "ru": "8 дней" },
+  "activities": ["trekking", "sightseeing", "dog-sledding"],
+  "places": ["irkutsk", "listvyanka", "khamar-daban"],
+  "season": "winter",
+  "title": {
+    "en": "Ice-trekking \"Breath of Baikal\"",
+    "ru": "Ледовый треккинг \"Дыхание Байкала\""
+  },
+  "months": {
+    "en": "February - March",
+    "ru": "Февраль - Март"
+  },
+  "shortDescription": {
+    "en": "Ice-trek in the middle of frozen Baikal lake, spend a night in tent on ice, walk on skis in deep snow of wintry taiga, warm sauna and night in wooden hut in the silence of surrounding forest.",
+    "ru": "Ледовый трек по замерзшему Байкалу, ночевка в палатке на льду, лыжный переход по заснеженной тайге, баня и ночевка в деревянной избе в тишине окружающего леса."
+  },
+  "description": { "ru": "", "en": ""} ,
+  "price": [ { "ru": "", "en": "", "price": ""} ],
+  "note": { "ru": "", "en": ""} ,
+  "includes": [ { "ru": "", "en": ""} ],
+  "notIncludes": [ { "ru": "", "en": ""} ],
+  "days": [
+    {
+      "order": 1,
+      "title": { "ru": "",  "en": "" },
+      "description": { "en": "", "ru": "" },
+      "pictures": [ {"title":  { "ru": "",  "en": "" }, "src": ""} ]
+    }
+  ]
+}

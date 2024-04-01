@@ -1,0 +1,13 @@
+{
+  "id": "sludyanka",
+  "cover": "/public/places/sludyanka/cover.jpeg",
+  "title": {
+    "en": "Sludyanka",
+    "ru": "Слюдянка"
+  },
+  "seasons": ["winter"],
+  "description": {
+    "en": "Sludyanka is a town and the administrative center of Slyudyansky District of Irkutsk Oblast, Russia, located at the southern tip of Lake Baikal, 126 kilometers (78 mi) south of Irkutsk. The name comes from the mineral (mica or \"slyuda\" in Russian) extracted here.<p/>Slyudyanka starts one of the most popular and accessible routes to the most famous peak of the Khamar Daman mountains — Chersky Peak. This guard of Baikal rises above the level of the world ocean to a height of more than 2,000 meters.\n<p/>Sludyanka stands on the Transsiberian railway. It is the only train station in the world made of pink marble. It is possible to go by train to the Circum-Baikal railway to Port Baikal.",
+    "ru": "Слюдянка — город и административный центр Слюдянского района Иркутской области России, расположенный на южной оконечности озера Байкал, в 126 километрах (78 миль) к югу от Иркутска. Название происходит от добываемого здесь минерала (слюда или «слуда»).<p/>Слюдянка открывает один из самых популярных и доступных маршрутов на самую знаменитую вершину гор Хамар-Даман — пик Черского. Этот страж Байкала возвышается над уровнем мирового океана на высоту более 2000 метров.\n<p/>Слюдянка стоит на Транссибирской магистрали. Это единственный железнодорожный вокзал в мире, построенный из розового мрамора. До порта Байкал можно добраться поездом до Кругобайкальской железной дороги."
+  }
+}

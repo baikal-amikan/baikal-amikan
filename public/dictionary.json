@@ -1,0 +1,143 @@
+[
+  {
+    "id": "mainPageQuote",
+    "text": {
+      "en": "Baikal is our home.<br/>Travelling is our passion.<br/>Discover with us!",
+      "ru": "Байкал - наш дом.<br/>Путешествие - наш образ жизни.<br/>С любовью подберем для вас тур!"
+    }
+  },
+  {
+    "id": "tours",
+    "text": {
+      "en": "Our Tours and Excursions",
+      "ru": "Наши Туры и Экскурсии"
+    }
+  },
+  {
+    "id": "home",
+    "text": {
+      "en": "Baikal-Amikan Home",
+      "ru": "Baikal-Amikan Главная"
+    }
+  },
+  {
+    "id": "guestBook",
+    "text": {
+      "en": "Our tourists about travelling with us",
+      "ru": "Отзывы наших туристов"
+    }
+  },
+  {
+    "id": "contactUs",
+    "text": {
+      "en": "Contact us",
+      "ru": "Связаться с нами"
+    }
+  },
+  {
+    "id": "includes",
+    "text": {
+      "en": "Price includes",
+      "ru": "В стоимость включено"
+    }
+  },
+  {
+    "id": "price",
+    "text": {
+      "en": "Price",
+      "ru": "Стоимость"
+    }
+  },
+  {
+    "id": "notIncludes",
+    "text": {
+      "en": "Price doesn't include",
+      "ru": "В стоимость не включено"
+    }
+  },
+  {
+    "id": "exploreTours",
+    "text": {
+      "en": "Tours and Excursions",
+      "ru": "Туры и Экскурсии"
+    }
+  },
+  {
+    "id": "day",
+    "text": {
+      "en": "Day",
+      "ru": "День"
+    }
+  },
+  {
+    "id": "days",
+    "text": {
+      "en": {
+        "one": "day",
+        "few": "days",
+        "many": "days"
+      },
+      "ru": {
+        "one": "день",
+        "few": "дня",
+        "many": "дней"
+      }
+    }
+  },
+  {
+    "id": "bookTour",
+    "text": {
+      "en": "Book this tour",
+      "ru": "Забронировать этот тур"
+    }
+  },
+  {
+    "id": "whereToGo",
+    "text": {
+      "en": "Where to go around Lake Baikal?",
+      "ru": "Какие места посетить на Байкале?"
+    }
+  },
+  {
+    "id": "whatToDo",
+    "text": {
+      "en": "Activities around Lake Baikal",
+      "ru": "Чем заняться на Байкале?"
+    }
+  },
+  {
+    "id": "team",
+    "text": {
+      "en": "Meet our team",
+      "ru": "Познакомьтесь с командой"
+    }
+  },
+  {
+    "id": "faq",
+    "text": {
+      "en": "FAQ: Frequently Asked Questions",
+      "ru": "ЧаВо: Часто задаваемые вопросы"
+    }
+  },
+  {
+    "id": "articles",
+    "text": {
+      "en": "Stories, articles and interesting facts about Lake Baikal",
+      "ru": "Истории, статьи и интересные факты о Байкале"
+    }
+  },
+  {
+    "id": "return",
+    "text": {
+      "en": "Return to the Main Page",
+      "ru": "Вернуться на Главную"
+    }
+  },
+  {
+    "id": "404",
+    "text": {
+      "en": "This page had been decommissioned or never existed.",
+      "ru": "Эта страница была удалена или никогда не существовала."
+    }
+  }
+]
