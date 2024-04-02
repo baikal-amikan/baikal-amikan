@@ -1,0 +1,30 @@
+
+.formBlock {
+  background-color: #fff;
+  padding: 50px;
+  margin: 0 5%;
+}
+
+.contentEditable{
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contentEditable p{
+  margin: 0;
+  padding: 0;
+}
+.contentEditable p strong{
+  background-color: #ce93d8;
+}
+
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.datePicker {
+  margin-top: 16px !important;
+}

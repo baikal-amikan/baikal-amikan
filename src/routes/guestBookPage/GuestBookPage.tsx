@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import { Button, Container, Modal } from "@mui/material";
 import { useSafeContext } from "../../config.ts";
 import { BaseContext } from "../../contexts/BaseContext.tsx";
 import css from "./GuestBookPage.module.scss";
@@ -7,6 +7,8 @@ import SideMenu from "../../components/sideMenu/SideMenu.tsx";
 import FooterBlock from "../../components/footerBlock/FooterBlock.tsx";
 import NavbarBlock from "../../components/narbarBlock/NavbarBlock.tsx";
 import ReviewBlock from "../../components/reviewBlock/ReviewBlock.tsx";
+import FormBlock from "../../components/formBlock/FormBlock.tsx";
+import { useState } from "react";
 
 export default function GuestBookPage() {
   const {
@@ -14,6 +16,8 @@ export default function GuestBookPage() {
     dictionary,
     allReviews
   } = useSafeContext(BaseContext);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  document.title = `Guest Book | Baikal-Amikan`;
 
   return (
     <div className={css.container}>
@@ -28,6 +32,21 @@ export default function GuestBookPage() {
 
       {allReviews && language && dictionary ?
         <Container maxWidth="md" style={{marginBottom: "100px"}}>
+          <Modal
+            aria-labelledby='new-review'
+            aria-describedby="Write new review"
+            open={modalIsOpen}
+            onClose={() => setModalIsOpen(false)}
+            sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div>
+              <FormBlock tourId={null} type={"review"}/>
+              <Button>Close</Button>
+            </div>
+          </Modal>
+          <Button variant="contained" color="primary" style={{margin: "20px 0px 5px"}} onClick={() => (setModalIsOpen(true))}>
+            {dictionary.find((item) => item.id === "leaveReviewFormPlaceholder")?.text[language]}
+          </Button>
+
           {allReviews.map((review, index) => (
             <ReviewBlock review={review} key={`review-${index}`} />))}
 

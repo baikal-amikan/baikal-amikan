@@ -87,8 +87,8 @@
   {
     "id": "bookTour",
     "text": {
-      "en": "Book this tour",
-      "ru": "Забронировать этот тур"
+      "en": "Book tour",
+      "ru": "Забронировать тур"
     }
   },
   {
@@ -139,5 +139,125 @@
       "en": "This page had been decommissioned or never existed.",
       "ru": "Эта страница была удалена или никогда не существовала."
     }
+  },
+  {
+    "id": "formNamePlaceholder",
+    "text": {
+      "en": "What is your name?",
+      "ru": "Как вас зовут?"
+    }
+  },
+  {
+    "id": "formEmailPlaceholder",
+    "text": {
+      "en": "Your email",
+      "ru": "Ваш email"
+    }
+  },
+  {
+    "id": "formReviewTextFormPlaceholder",
+    "text": {
+      "en": "Share your experience",
+      "ru": "Поделитесь своими впечатлениями"
+    }
+  },
+  {
+    "id": "sendReview",
+    "text": {
+      "en": "Send review",
+      "ru": "Отправить отзыв"
+    }
+  },
+  {
+    "id": "formDateStartPlaceholder",
+    "text": {
+      "en": "When would you like to start the tour?",
+      "ru": "Когда вы хотели бы начать тур?"
+    }
+  },
+  {
+    "id": "formDateEndPlaceholder",
+    "text": {
+      "en": "When would you like to return?",
+      "ru": "Когда вы хотели бы вернуться?"
+    }
+  },
+  {
+    "id": "formGroupSizePlaceholder",
+    "text": {
+      "en": "How many people are in the group?",
+      "ru": "Сколько человек в группе?"
+    }
+  },
+  {
+    "id": "formKidsPlaceholder",
+    "text": {
+      "en": "How many kids are in the group? (if any)",
+      "ru": "Сколько детей в группе? (если есть)"
+    }
+  },
+  {
+    "id": "formAccommodationTypeQuestion",
+    "text": {
+      "en": "What type of accommodation do you prefer?",
+      "ru": "Какой тип размещения вы предпочитаете?"
+    }
+  },
+  {
+    "id": "formAccommodationTypePlaceholder",
+    "text": {
+      "en": "twin, double, single",
+      "ru": "двухместный, одноместный, другой"
+    }
+  },
+  {
+    "id": "formFoodPreferencesQuestion",
+    "text": {
+      "en": "Do you have any food preferences or allergies?",
+      "ru": "Есть ли у вас пищевые предпочтения или аллергии?"
+    }
+  },
+  {
+    "id": "formFoodPreferencesPlaceholder",
+    "text": {
+      "en": "vegetarian, vegan, allergies, etc.",
+      "ru": "вегетарианец, веган, аллергии и т.д."
+    }
+  },
+  {
+    "id": "formOtherRequestsQuestion",
+    "text": {
+      "en": "Do you have any other requests or questions?",
+      "ru": "Есть ли у вас другие пожелания или вопросы?"
+    }
+  },
+  {
+    "id": "formOtherRequestsPlaceholder",
+    "text": {
+      "en": "I want to rent a sleeping bag, ice skates, etc.",
+      "ru": "Я хочу арендовать спальный мешок, коньки и т.д."
+    }
+  },
+  {
+    "id": "notEmptyError",
+    "text": {
+      "en": "* Please, fill in the field",
+      "ru": "* Пожалуйста, заполните это поле"
+    }
+  },
+  {
+    "id": "emailError",
+    "text": {
+      "en": "* Please, enter valid email",
+      "ru": "* Пожалуйста, введите корректный email"
+    }
+  },
+  {
+    "id": "groupSizeError",
+    "text": {
+      "en": "* Please, fill the group size field",
+      "ru": "* Пожалуйста, укажите количество человек"
+    }
   }
+
 ]

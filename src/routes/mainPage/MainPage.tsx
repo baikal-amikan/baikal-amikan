@@ -36,7 +36,7 @@ export default function MainPage() {
                 <Typography variant="h1" align="center"
                             dangerouslySetInnerHTML={{ __html: mainPageQuote }} />
                 <br />
-                <Link to={`/${language}/tours/`} className={"buttonLink"}>
+                <Link to={`/${language}/tours/`} className={css.exploreTours}>
                   {dictionary.find((item) => item.id === "exploreTours")?.text[language]}
                 </Link>
               </>

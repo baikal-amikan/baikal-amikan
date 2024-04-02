@@ -1,4 +1,4 @@
-import { Alert, Container, Divider, Paper, Typography } from "@mui/material";
+import { Alert, Button, Container, Divider, Modal, Paper, Typography } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getData, useSafeContext } from "../../config.ts";
@@ -8,9 +8,9 @@ import PicturesBlock from "../../components/picturesBlock/PicturesBlock.tsx";
 import LogoBlock from "../../components/logoBlock/LogoBlock.tsx";
 import SideMenu from "../../components/sideMenu/SideMenu.tsx";
 import FooterBlock from "../../components/footerBlock/FooterBlock.tsx";
-import classNames from "classnames";
 import NavbarBlock from "../../components/narbarBlock/NavbarBlock.tsx";
 import ReviewBlock from "../../components/reviewBlock/ReviewBlock.tsx";
+import FormBlock from "../../components/formBlock/FormBlock.tsx";
 
 export default function TourPage() {
   const {
@@ -22,10 +22,12 @@ export default function TourPage() {
     allTours,
     allReviews
   } = useSafeContext(BaseContext);
+
   const [tour, setTour] = useState<iTour | null>(null);
   const [reviews, setReviews] = useState<Array<iReview>| null>(null);
   const { lang } = useParams<{ lang: "en" | "ru" }>();
   const { tourId } = useParams<string>();
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   useEffect(() => {
     if (!lang && language) {
@@ -69,6 +71,9 @@ export default function TourPage() {
     <div className={css.container}>
       <SideMenu />
       <LogoBlock />
+
+
+
       {language && dictionary && tour ?
         <NavbarBlock links={[
           {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "href": `/${language}/`},
@@ -81,6 +86,18 @@ export default function TourPage() {
 
       {tour && language && dictionary && allActivities && allPlaces ?
         <Container maxWidth="md" style={{marginBottom: "100px"}}>
+          <Modal
+            aria-labelledby={tour.id}
+            aria-describedby={`Book a ${tour.title[language]} tour form`}
+            open={modalIsOpen}
+            onClose={() => setModalIsOpen(false)}
+            sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div>
+              <FormBlock tourId={tour.id} type={"tour"}/>
+              <Button>Close</Button>
+            </div>
+          </Modal>
+
           <Typography variant="h4">{tour.title[language]}</Typography>
           <Typography variant="body1" align="left" paragraph style={{marginBottom: "40px"}}>
             {tour.months[language]} | {tour.duration[language]}
@@ -88,6 +105,9 @@ export default function TourPage() {
 
           <Paper elevation={3}>
             <Alert severity="info" icon={false} className={css.descriptionCard} >
+              <Button variant="contained" color="primary" style={{margin: "20px 0px 5px"}} onClick={() => (setModalIsOpen(true))}>
+                {dictionary.find((item) => item.id === "bookTour")?.text[language]}
+              </Button>
               <Typography variant="body1" align="left"
                           dangerouslySetInnerHTML={{ __html: tour.description[language] }} />
               <Typography variant="caption" align="left" paragraph style={{ marginBottom: "5px", lineHeight: "1.5rem"  }}>
@@ -168,9 +188,9 @@ export default function TourPage() {
                   </ul>
                 </> : ""}
 
-              <Link to={`#`} className={classNames("buttonLink", css.bookTour)}>
+              <Button variant="contained" color="primary" style={{margin: "5px 0px 20px"}} onClick={() => (setModalIsOpen(true))}>
                 {dictionary.find((item) => item.id === "bookTour")?.text[language]}
-              </Link>
+              </Button>
             </Alert>
           </Paper>
 
