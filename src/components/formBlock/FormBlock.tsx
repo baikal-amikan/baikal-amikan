@@ -122,7 +122,7 @@ ${dictionary.find(item => item.id === 'formGroupSizePlaceholder')?.text[language
 ${dictionary.find(item => item.id === 'formKidsPlaceholder')?.text[language]} <b>${formData.kids}</b><br/>
 ${dictionary.find(item => item.id === 'formAccommodationTypeQuestion')?.text[language]} <b>${formData.accommodationType}</b><br/>
 ${dictionary.find(item => item.id === 'formFoodPreferencesQuestion')?.text[language]} <b>${formData.foodRequest}</b><br/>
-${dictionary.find(item => item.id === 'formOtherRequestsQuestion')?.text[language]} <b>${formData.text}</b>`,
+${dictionary.find(item => item.id === 'formOtherRequestsQuestion')?.text[language]} <b>${formData.text}</b><p/><p/><p/>`,
             formData.email,
             formData.name).then((result) => {
               console.log(result);
@@ -141,7 +141,7 @@ ${dictionary.find(item => item.id === 'formOtherRequestsQuestion')?.text[languag
             `<b>New review</b><p>
 ${dictionary.find(item => item.id === 'formEmailPlaceholder')?.text[language]} <b>${formData.email}</b><br/>
 ${dictionary.find(item => item.id === 'formNamePlaceholder')?.text[language]} <b>${formData.name}</b><br/>
-${dictionary.find(item => item.id === 'formOtherRequestsQuestion')?.text[language]} <b>${formData.text}</b>`,
+${dictionary.find(item => item.id === 'formOtherRequestsQuestion')?.text[language]} <b>${formData.text}</b><p/><p/><p/>`,
             formData.email,
             formData.name).then((result) => {
               console.log(result);
