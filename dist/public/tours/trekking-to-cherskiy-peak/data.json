@@ -1,0 +1,33 @@
+{
+  "id": "trekking-to-cherskiy-peak",
+  "cover": "/public/tours/trekking-to-cherskiy-peak/cover.jpeg",
+  "duration": { "en": "6 days", "ru": "6 дней" },
+  "activities": ["trekking", "snowmobiling", "ice-climbing"],
+  "places": ["irkutsk", "khamar-daban", "tunkinskaya-valley"],
+  "season": "winter",
+  "title": {
+    "en": "Trekking to Cherskiy peak",
+    "ru": "Треккинг на пик Черского"
+  },
+  "months": {
+    "en": "February - March",
+    "ru": "Февраль - Март"
+  },
+  "shortDescription": {
+    "en": "Beautiful walk in snowy Siberian forest among old cedar trees and snow capped mountains. Overnight in wooden cabin. A tour can be prolonged with visiting Tunka valley and ice climbing on ice fall. This is an adventurous tour for sportive enthusiasts.",
+    "ru": "Прекрасная прогулка по снежному сибирскому лесу среди старых кедровых деревьев и снежных гор. Ночевка в деревянной хижине. Тур может быть продлен посещением Тункинской долины и ледового водопада. Это приключенческий тур для спортивных энтузиастов."
+  },
+  "description": { "ru": "", "en": ""} ,
+  "price": [ { "ru": "", "en": "", "price": ""} ],
+  "note": { "ru": "", "en": ""} ,
+  "includes": [ { "ru": "", "en": ""} ],
+  "notIncludes": [ { "ru": "", "en": ""} ],
+  "days": [
+    {
+      "order": 1,
+      "title": { "ru": "",  "en": "" },
+      "description": { "en": "", "ru": "" },
+      "pictures": [ {"title":  { "ru": "",  "en": "" }, "src": ""} ]
+    }
+  ]
+}

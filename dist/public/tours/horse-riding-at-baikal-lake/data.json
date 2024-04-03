@@ -1,0 +1,34 @@
+{
+  "id": "horse-riding-at-baikal-lake",
+  "cover": "/public/tours/horse-riding-at-baikal-lake/cover.jpeg",
+  "duration": { "en": "1 day", "ru": "1 день" },
+  "activities": ["sightseeing", "horse-riding"],
+  "places": ["listvyanka"],
+  "season": "summer",
+  "title": {
+    "en": "Horse-riding at Baikal lake",
+    "ru": "Верховая езда на Байкале"
+  },
+  "months": {
+    "en": "April-October",
+    "ru": "Апрель-Октябрь"
+  },
+  "shortDescription": {
+    "en": "During this horse-riding tour to Baikal lake we offer a ride to observation point in Listvyanka - Cherskiy rock, with picnic in taiga forest. In the fields on the way it is possible to go allure and galloping. Recommended for beginners and experienced travellers.",
+    "ru": "Во время этого верхового тура на озеро Байкал мы предлагаем поездку на наблюдательную точку в Листвянке - Черский камень, с пикником в тайге. На полях по пути можно пойти на галоп и галоп. Рекомендуется для начинающих и опытных путешественников."
+  },
+
+  "description": { "ru": "", "en": ""} ,
+  "price": [ { "ru": "", "en": "", "price": ""} ],
+  "note": { "ru": "", "en": ""} ,
+  "includes": [ { "ru": "", "en": ""} ],
+  "notIncludes": [ { "ru": "", "en": ""} ],
+  "days": [
+    {
+      "order": 1,
+      "title": { "ru": "",  "en": "" },
+      "description": { "en": "", "ru": "" },
+      "pictures": [ {"title":  { "ru": "",  "en": "" }, "src": ""} ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ice-climbing",
+  "cover": "/public/activities/ice-climbing/cover.jpeg",
+  "title": {
+    "en": "Ice-climbing",
+    "ru": "Ледолазание"
+  },
+  "seasons": ["winter"],
+  "description": {
+    "en": "Ice climbing is a sport that combines rock climbing and mountaineering.",
+    "ru": "Ледолазание - это вид спорта, сочетающий в себе элементы скалолазания и альпинизма. "
+  }
+}
