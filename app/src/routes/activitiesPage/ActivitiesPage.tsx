@@ -30,7 +30,7 @@ export default function ActivitiesPage() {
               image={activity.cover}
               title={activity.title[language]}
               subtitle={activity.seasons.map((season) => (allSeasons.find((item) => (item.id === season))?.title[language])).join(', ')}
-              link={`/${language}/activities/${activity.id}`}/>
+              link={`/${language}/places/${activity.id}`}/>
           ))}
         </Grid>
       </Container>: 'Loading...'}

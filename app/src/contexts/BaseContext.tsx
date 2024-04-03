@@ -129,16 +129,6 @@ export function BaseContextProvider({ children }: BaseContextProps) {
   const languagePart = location.pathname.split('/')[1]?.toLowerCase();
   const language = languagePart === "en" || languagePart === "ru" ? languagePart : "ru";
 
-  useEffect(() => {
-    if (location.search[1] !== "/" && languagePart !== "en" && languagePart !== "ru") {
-      navigate({
-        pathname: `/ru${location.pathname}`,
-        search: location.search,
-        hash: location.hash,
-      });
-    }
-  }, [languagePart, location, navigate]);
-
   const [dictionary, setDictionary] = useState<Array<iDictionaryItem> | null>(null);
   const [season, setSeason] = useState<iSeason | null>(null);
   const [contacts, setContacts] = useState<iContacts | null>(null);

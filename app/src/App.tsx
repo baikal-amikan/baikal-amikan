@@ -26,20 +26,31 @@ function App() {
           <Route path="/:lang" element={<MainPage />} />
 
           <Route path="/:lang/tours" element={<ToursPage />} />
+          <Route path="/tours" element={<ToursPage />} />
           <Route path="/:lang/tours/:tourId" element={<TourPage />} />
+          <Route path="/tours/:tourId" element={<TourPage />} />
 
           <Route path="/:lang/places" element={<PlacesPage />} />
+          <Route path="/places" element={<PlacesPage />} />
           <Route path="/:lang/places/:placeId" element={<PlacePage />} />
+          <Route path="/places/:placeId" element={<PlacePage />} />
 
           <Route path="/:lang/activities" element={<ActivitiesPage />} />
+          <Route path="/activities" element={<ActivitiesPage />} />
           <Route path="/:lang/activities/:activityId" element={<ActivityPage />} />
+          <Route path="/activities/:activityId" element={<ActivityPage />} />
 
           <Route path="/:lang/articles" element={<ArticlesPage />} />
+          <Route path="/articles" element={<ArticlesPage />} />
           <Route path="/:lang/articles/:articleId" element={<ArticlePage />} />
+          <Route path="/articles/:articleId" element={<ArticlePage />} />
 
           <Route path="/:lang/guest-book" element={<GuestBookPage />} />
+          <Route path="/guest-book" element={<GuestBookPage />} />
           <Route path="/:lang/team" element={<TeamPage />} />
+          <Route path="/team" element={<TeamPage />} />
           <Route path="/:lang/faq" element={<FAQPage />} />
+          <Route path="/faq" element={<FAQPage />} />
 
           <Route path="*" element={<NoMatch />} />
         </Routes>

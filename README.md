@@ -3,10 +3,13 @@
 
 To modify the app locally 
 ```bash
-cd app && npm run dev
+npm i --prefix app
+npm run --prefix app dev
 ```
 
 To deploy new version of the app
 ```bash
-cd app && npm run build
+npm run --prefix app build
+git commit 
+git push
 ```
