@@ -55,42 +55,42 @@ export default function SideMenu () {
         <Typography variant="subtitle1" style={{maxWidth: "300px"}}>
           <List style={{margin: "50px 20px 50px 50px"}}>
             <ListItem key="tours">
-              <Button className={css.drawerLink} startIcon={<StarIcon/>} href={`/${language}/tours`}>
-                {dictionary.find(item => item.id === 'tours')?.text[language]}
+              <Button className={css.drawerLink} startIcon={<StarIcon/>}>
+                <Link to={`/${language}/tours`}>{dictionary.find(item => item.id === 'tours')?.text[language]}</Link>
               </Button>
             </ListItem>
 
             <ListItem key="whereToGo">
-              <Button className={css.drawerLink} startIcon={<AirportShuttleIcon/>} href={`/${language}/places`}>
-                {dictionary.find(item => item.id === 'whereToGo')?.text[language]}
+              <Button className={css.drawerLink} startIcon={<AirportShuttleIcon/>}>
+                <Link to={`/${language}/places`}>{dictionary.find(item => item.id === 'whereToGo')?.text[language]}</Link>
               </Button>
             </ListItem>
 
             <ListItem key="whatToDo">
-              <Button className={css.drawerLink} startIcon={<HikingIcon/>} href={`/${language}/activities`}>
-                {dictionary.find(item => item.id === 'whatToDo')?.text[language]}
+              <Button className={css.drawerLink} startIcon={<HikingIcon/>}>
+                <Link to={`/${language}/activities`}>{dictionary.find(item => item.id === 'whatToDo')?.text[language]}</Link>
               </Button>
             </ListItem>
 
             <ListItem key="guestBook">
-              <Button className={css.drawerLink} startIcon={<RateReviewIcon/>} href={`/${language}/guest-book`}>
-                {dictionary.find(item => item.id === 'guestBook')?.text[language]}
+              <Button className={css.drawerLink} startIcon={<RateReviewIcon/>}>
+                <Link to={`/${language}/guest-book`}>{dictionary.find(item => item.id === 'guestBook')?.text[language]}</Link>
               </Button>
             </ListItem>
 
             <ListItem key="storiesAndArticles">
-              <Button className={css.drawerLink} startIcon={<AutoStoriesIcon/>} href={`/${language}/articles`}>
-                {dictionary.find(item => item.id === 'articles')?.text[language]}
+              <Button className={css.drawerLink} startIcon={<AutoStoriesIcon/>}>
+                <Link to={`/${language}/articles`}>{dictionary.find(item => item.id === 'articles')?.text[language]}</Link>
               </Button>
             </ListItem>
             <ListItem key="team">
-              <Button className={css.drawerLink} startIcon={<GroupsIcon/>} href={`/${language}/team`}>
-                {dictionary.find(item => item.id === 'team')?.text[language]}
+              <Button className={css.drawerLink} startIcon={<GroupsIcon/>} >
+                <Link to={`/${language}/team`}>{dictionary.find(item => item.id === 'team')?.text[language]}</Link>
               </Button>
             </ListItem>
             <ListItem key="faq">
-              <Button className={css.drawerLink} startIcon={<QuestionMarkIcon/>} href={`/${language}/faq`}>
-                {dictionary.find(item => item.id === 'faq')?.text[language]}
+              <Button className={css.drawerLink} startIcon={<QuestionMarkIcon/>}>
+                <Link to={`/${language}/faq`}>{dictionary.find(item => item.id === 'faq')?.text[language]}</Link>
               </Button>
             </ListItem>
 
