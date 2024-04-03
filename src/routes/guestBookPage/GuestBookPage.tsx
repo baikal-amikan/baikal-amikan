@@ -7,8 +7,8 @@ import SideMenu from "../../components/sideMenu/SideMenu.tsx";
 import FooterBlock from "../../components/footerBlock/FooterBlock.tsx";
 import NavbarBlock from "../../components/narbarBlock/NavbarBlock.tsx";
 import ReviewBlock from "../../components/reviewBlock/ReviewBlock.tsx";
-import FormBlock from "../../components/formBlock/FormBlock.tsx";
 import { useState } from "react";
+import SendEmailBlock from "../../components/sendEmailBlock/SendEmailBlock.tsx";
 
 export default function GuestBookPage() {
   const {
@@ -39,12 +39,12 @@ export default function GuestBookPage() {
             onClose={() => setModalIsOpen(false)}
             sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div>
-              <FormBlock tourId={null} type={"review"}/>
+              <SendEmailBlock tourId={null} type={"review"}/>
               <Button>Close</Button>
             </div>
           </Modal>
           <Button variant="contained" color="primary" style={{margin: "20px 0px 5px"}} onClick={() => (setModalIsOpen(true))}>
-            {dictionary.find((item) => item.id === "leaveReviewFormPlaceholder")?.text[language]}
+            {dictionary.find((item) => item.id === "leaveReview")?.text[language]}
           </Button>
 
           {allReviews.map((review, index) => (

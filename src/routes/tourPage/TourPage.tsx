@@ -10,7 +10,7 @@ import SideMenu from "../../components/sideMenu/SideMenu.tsx";
 import FooterBlock from "../../components/footerBlock/FooterBlock.tsx";
 import NavbarBlock from "../../components/narbarBlock/NavbarBlock.tsx";
 import ReviewBlock from "../../components/reviewBlock/ReviewBlock.tsx";
-import FormBlock from "../../components/formBlock/FormBlock.tsx";
+import SendEmailBlock from "../../components/sendEmailBlock/SendEmailBlock.tsx";
 
 export default function TourPage() {
   const {
@@ -93,7 +93,7 @@ export default function TourPage() {
             onClose={() => setModalIsOpen(false)}
             sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div>
-              <FormBlock tourId={tour.id} type={"tour"}/>
+              <SendEmailBlock tourId={tour.id} type={"tour"}/>
               <Button>Close</Button>
             </div>
           </Modal>

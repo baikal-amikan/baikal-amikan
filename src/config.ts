@@ -23,26 +23,28 @@ export function useSafeContext<T>(context: Context<T | undefined>, message?: str
 }
 
 export async function sentEmail(subject: string, body: string, replyToEmail: string, replyToName: string){
-  const query = `subject=${subject}&body=${body}&replyToEmail=${replyToEmail}&replyToName=${replyToName}`;
-  const url = `https://hooks.zapier.com/hooks/catch/18431460/3p6h571/?${query}`;
-  if (
-    replyToEmail !== undefined && replyToEmail !== "" &&
-    body !== undefined  && body !== "" &&
-    replyToName !== undefined  && replyToName !== ""  &&
-    (subject == "Baikal-Amikan: Book a tour" || subject == "Baikal-Amikan: New review" || subject == "Baikal-Amikan: Contact us")) {
-      try {
-        const response = await fetch(url,
-          {method: 'POST'});
-        if (response.status !== 200) {
-          console.log(`Failed to sent query: ${url}. Response: ${response.status}`);
-          return {"status": "response status error"};
-        }
-        return {"status": "success"};
-      } catch (error) {
-        console.log(`Failed to sent ${url}. Error: ${error}`);
-        return {"status": "general error"};
-      }
-  }
-  console.log(`Failed to verify ${url}.`);
-  return {"status": "verification data error"};
+  console.log(`sentEmail: ${subject}, ${body}, ${replyToEmail}, ${replyToName}`);
+
+  // const query = `subject=${subject}&body=${body}&replyToEmail=${replyToEmail}&replyToName=${replyToName}`;
+  // const url = `https://hooks.zapier.com/hooks/catch/18431460/3p6h571/?${query}`;
+  // if (
+  //   replyToEmail !== undefined && replyToEmail !== "" &&
+  //   body !== undefined  && body !== "" &&
+  //   replyToName !== undefined  && replyToName !== ""  &&
+  //   (subject == "Baikal-Amikan: Book a tour" || subject == "Baikal-Amikan: New review" || subject == "Baikal-Amikan: Contact us")) {
+  //     try {
+  //       const response = await fetch(url,
+  //         {method: 'POST'});
+  //       if (response.status !== 200) {
+  //         console.log(`Failed to sent query: ${url}. Response: ${response.status}`);
+  //         return {"status": "response status error"};
+  //       }
+  //       return {"status": "success"};
+  //     } catch (error) {
+  //       console.log(`Failed to sent ${url}. Error: ${error}`);
+  //       return {"status": "general error"};
+  //     }
+  // }
+  // console.log(`Failed to verify ${url}.`);
+  // return {"status": "verification data error"};
 }
