@@ -37,8 +37,8 @@ export default function FAQPage() {
       <LogoBlock />
       {language && dictionary ?
         <NavbarBlock links={[
-          {text: dictionary?.find((item) => (item.id === "home"))?.text[language], href: `/${language}/`},
-          {text: dictionary?.find((item) => (item.id === "faq"))?.text[language], href: `/${language}/faq`},
+          {text: dictionary?.find((item) => (item.id === "home"))?.text[language], link: `/${language}/`},
+          {text: dictionary?.find((item) => (item.id === "faq"))?.text[language], link: `/${language}/faq`},
         ]}/>: 'Loading...'}
 
       {FAQ && language && dictionary ?

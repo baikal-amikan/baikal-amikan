@@ -17,8 +17,8 @@ export default function PlacesPage() {
       <LogoBlock />
       {language && dictionary ?
         <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "href": `/${language}/`},
-          {"text": dictionary?.find((item) => (item.id === "whereToGo"))?.text[language], "href": `/${language}/places/`},
+          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
+          {"text": dictionary?.find((item) => (item.id === "whereToGo"))?.text[language], "link": `/${language}/places/`},
         ]}/>: 'Loading...'}
 
       {language && dictionary && allPlaces ? <Container  maxWidth="lg" style={{margin: "50px auto 100px"}}>

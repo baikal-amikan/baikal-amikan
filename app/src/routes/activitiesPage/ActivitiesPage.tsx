@@ -17,8 +17,8 @@ export default function ActivitiesPage() {
       <LogoBlock  />
       {language && dictionary ?
         <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "href": `/${language}/`},
-          {"text": dictionary?.find((item) => (item.id === "whatToDo"))?.text[language], "href": `/${language}/activities/`},
+          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
+          {"text": dictionary?.find((item) => (item.id === "whatToDo"))?.text[language], "link": `/${language}/activities/`},
         ]}/>: 'Loading...'}
 
       {language && allSeasons && allActivities ? <Container maxWidth="lg" style={{margin: "50px auto 100px"}}>

@@ -76,9 +76,9 @@ export default function TourPage() {
 
       {language && dictionary && tour ?
         <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "href": `/${language}/`},
-          {"text": dictionary?.find((item) => (item.id === "tours"))?.text[language], "href": `/${language}/tours/`},
-          {"text": tour.title[language], "href": `${language}/tours/${tour.id}`},
+          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
+          {"text": dictionary?.find((item) => (item.id === "tours"))?.text[language], "link": `/${language}/tours/`},
+          {"text": tour.title[language], "link": `${language}/tours/${tour.id}`},
         ]}/>: 'Loading...'}
 
       {tour ? <Paper elevation={3} className={css.cover}

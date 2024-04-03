@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "build": "npm run lint && tsc && vite build --emptyOutDir && node copy-public.cjs",
+    "build": "npm run lint && tsc && vite build --emptyOutDir && mkdir -p ../docs/public/ && cp -r ./public/* ../docs/public/ && cp 404.html ../docs/",
     "preview": "vite preview"
   },
   "dependencies": {

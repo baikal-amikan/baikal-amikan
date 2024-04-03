@@ -5,6 +5,7 @@ import NavbarBlock from "../components/narbarBlock/NavbarBlock.tsx";
 import { useSafeContext } from "../config.ts";
 import { BaseContext } from "../contexts/BaseContext.tsx";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { Link } from "react-router-dom";
 
 
 export function NoMatch() {
@@ -14,7 +15,7 @@ export function NoMatch() {
       <LogoBlock />
       {language && dictionary ?
         <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "href": `/${language}/`},
+          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
         ]}/>: 'Loading...'}
 
     {language && dictionary ? <Container maxWidth="sm">
@@ -22,8 +23,8 @@ export function NoMatch() {
         <Typography variant={"body1"} style={{margin: "5px auto 30px"}}>
           {dictionary.find(item => item.id === '404')?.text[language]} <br/>
         </Typography>
-        <Button variant={'contained'} color={"error"} startIcon={<ArrowBackIcon/>} href={`/${language}/`}>
-          {dictionary.find(item => item.id === 'return')?.text[language]}
+        <Button variant={'contained'} color={"error"} startIcon={<ArrowBackIcon/>}>
+          <Link to={`/${language}/`}>{dictionary.find(item => item.id === 'return')?.text[language]}</Link>
         </Button>
 
       </Container>: 'Loading...'}

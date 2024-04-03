@@ -25,8 +25,8 @@ export default function GuestBookPage() {
       <LogoBlock />
       {language && dictionary ?
         <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "href": `/${language}/`},
-          {text: dictionary?.find((item) => (item.id === "guestBook"))?.text[language], href: `/${language}/guest-book`},
+          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
+          {text: dictionary?.find((item) => (item.id === "guestBook"))?.text[language], link: `/${language}/guest-book`},
         ]}/>: 'Loading...'}
 
 

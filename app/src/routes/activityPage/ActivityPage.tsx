@@ -69,9 +69,9 @@ export default function ActivityPage() {
 
       {language && dictionary && activity ?
         <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "href": `/${language}/`},
-          {"text": dictionary?.find((item) => (item.id === "whatToDo"))?.text[language], "href": `/${language}/activities/`},
-          {"text": activity.title[language], "href": `${language}/activities/${activity.id}`},
+          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
+          {"text": dictionary?.find((item) => (item.id === "whatToDo"))?.text[language], "link": `/${language}/activities/`},
+          {"text": activity.title[language], "link": `${language}/activities/${activity.id}`},
         ]}/>: 'Loading...'}
 
       {language && dictionary && activity ? <Container maxWidth="md" style={{marginTop: "40px"}}>

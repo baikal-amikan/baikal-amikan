@@ -70,9 +70,9 @@ export default function PlacePage() {
 
       {language && dictionary && place ?
         <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "href": `/${language}/`},
-          {"text": dictionary?.find((item) => (item.id === "whereToGo"))?.text[language], "href": `/${language}/places/`},
-          {"text": place.title[language], "href": `/${language}/places/${place.id}`},
+          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
+          {"text": dictionary?.find((item) => (item.id === "whereToGo"))?.text[language], "link": `/${language}/places/`},
+          {"text": place.title[language], "link": `/${language}/places/${place.id}`},
         ]}/>: 'Loading...'}
 
 

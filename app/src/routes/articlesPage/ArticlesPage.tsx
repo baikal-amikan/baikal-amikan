@@ -18,8 +18,8 @@ export default function ArticlesPage() {
       <LogoBlock  />
       {language && dictionary ?
         <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "href": `/${language}/`},
-          {"text": dictionary?.find((item) => (item.id === "articles"))?.text[language], "href": `/${language}/activities/`},
+          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
+          {"text": dictionary?.find((item) => (item.id === "articles"))?.text[language], "link": `/${language}/activities/`},
         ]}/>: 'Loading...'}
 
       {language && dictionary && allArticles ? <Container maxWidth="md"  style={{ margin: "0 auto 130px" }}>

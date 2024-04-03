@@ -39,8 +39,8 @@ export default function TeamPage() {
       <LogoBlock />
       {language && dictionary ?
         <NavbarBlock links={[
-          {text: dictionary?.find((item) => (item.id === "home"))?.text[language], href: `/${language}/`},
-          {text: dictionary?.find((item) => (item.id === "team"))?.text[language], href: `/${language}/team`},
+          {text: dictionary?.find((item) => (item.id === "home"))?.text[language], link: `/${language}/`},
+          {text: dictionary?.find((item) => (item.id === "team"))?.text[language], link: `/${language}/team`},
         ]}/>: 'Loading...'}
 
       {team && language && dictionary ?

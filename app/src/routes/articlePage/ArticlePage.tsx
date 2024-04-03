@@ -37,9 +37,9 @@ export default function ArticlePage() {
 
       {language && dictionary && article ?
         <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "href": `/${language}/`},
-          {"text": dictionary?.find((item) => (item.id === "articles"))?.text[language], "href": `/${language}/articles/`},
-          {"text": article.title[language], "href": `${language}/articles/${article.id}`},
+          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
+          {"text": dictionary?.find((item) => (item.id === "articles"))?.text[language], "link": `/${language}/articles/`},
+          {"text": article.title[language], "link": `${language}/articles/${article.id}`},
         ]}/>: 'Loading...'}
 
       {language && dictionary && article ? <Container maxWidth="md" style={{marginTop: "40px"}}>

@@ -99,8 +99,8 @@ export default function ToursPage() {
 
       {language && dictionary ?
         <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "href": `/${language}/`},
-          {"text": dictionary?.find((item) => (item.id === "tours"))?.text[language], "href": `/${language}/tours/`},
+          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
+          {"text": dictionary?.find((item) => (item.id === "tours"))?.text[language], "link": `/${language}/tours/`},
         ]}/>: 'Loading...'}
 
       <Container style={{maxWidth: '90%', margin: '50px auto 100px'}}>

@@ -23,10 +23,19 @@
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
 .drawerLink{
-  color: #f0f0f0 !important;
+  color: #90caf9 !important;
   margin-bottom: 10px;
+  text-align: left;
 }
 .drawerLink:hover{
+  color: #42a5f5 !important;
+}
+.drawerLink a{
+  color: #90caf9 !important;
+  text-decoration: none;
+}
+.drawerLink a:hover{
+  text-decoration: none;
   color: #42a5f5 !important;
 }
 .contactsBlock{
