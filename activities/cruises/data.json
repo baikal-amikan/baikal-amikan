@@ -1,0 +1,13 @@
+{
+  "id": "cruises",
+  "cover": "/public/activities/cruises/cover.jpeg",
+  "title": {
+    "en": "Сruises",
+    "ru": "Круизы"
+  },
+  "seasons": ["summer"],
+  "description": {
+    "en": "Relax in comfort as you glide past rugged cliffs, pristine shores, and charming villages. Immerse yourself in the rich cultural heritage of the Baikal region, with opportunities to discover ancient traditions and folklore.",
+    "ru": "Расслабьтесь в комфорте, скользя мимо скалистых скал, нетронутых берегов и очаровательных деревень. Погрузитесь в богатое культурное наследие Байкальского региона и получите возможность открыть для себя древние традиции и фольклор."
+  }
+}

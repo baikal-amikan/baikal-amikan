@@ -1,0 +1,292 @@
+{
+  "id": "trekking-and-canoeing-at-baikal-lake",
+  "cover": "/public/tours/trekking-and-canoeing-at-baikal-lake/cover.jpeg",
+  "duration": { "en": "3 days", "ru": "3 дня" },
+  "activities": [
+    "trekking",
+    "canoeing"
+  ],
+  "places": [
+    "irkutsk",
+    "listvyanka",
+    "bolshoye-goloustnoye",
+    "bolshiye-koty"
+  ],
+  "season": "summer",
+  "title": {
+    "en": "Trekking and canoeing at Baikal lake",
+    "ru": "Треккинг и каноэ на Байкале"
+  },
+  "months": {
+    "en": "June - September",
+    "ru": "Июнь - Сентябрь"
+  },
+  "shortDescription": {
+    "en": "On this tour, you will trek for two days along the shore of Baikal and canoe for one day.",
+    "ru": "В этом туре вы пройдете треккинговый маршрут вдоль берега Байкала в течение двух дней и один день каноэ."
+  },
+  "description": {
+    "en": "<p>This trekking and canoeing at Baikal tour is a 3-day tour, two of which are hiking (trekking) along the picturesque shore of the Great Siberian Lake Baikal and one-day canoeing at Baikal over the most transparent waters of the sacred lake. You'll enjoy a combined route in the shadows of the Taiga forest. Along the rocky shoreline, you'll feel Baikal's breath while canoeing. Overnights are in tents (or wooden houses on demand).</p> <p> <b>Day 1.</b>Transfer Irkutsk - Bolshoye Goloustnoye village. Trekking for 20 km to Kadilniy cape. <br/><b>Day 2.</b>Trekking Kadilniy cape - Bolshiye Koty village. <br/><b>Day 3.</b>Canoeing Bolshiye Koty - Listvyanka.</p>",
+    "ru": "<p>Этот треккинг-тур на каноэ по Байкалу представляет собой 3-х дневный тур, два из которых пешие (треккинговые) по живописным Берег Великого Сибирского озера Байкал и однодневное плавание на байдарках по прозрачнейшим водам священного озера. озеро. Вас ждет комбинированный маршрут в тени таежного леса. Вдоль скалистого берега вы почувствуете Дыхание Байкала во время гребли на каноэ. Ночевки в палатках (или деревянных домиках по желанию).</p> <p> <b>День 1.</b>Трансфер Иркутск – село Большое Голоустное. Переход 20 км к мысу Кадильный. <br/><b>День 2.</b>Трекинг мыс Кадильный - село Большие Коты. <br/><b>День 3.</b>Каноэ Большие Коты – Листвянка.</p>"
+  },
+  "price": [
+    {
+      "ru": "Цена может меняться в зависимости от сезона. Актуальные цены уточняйте у нашего менеджера.",
+      "en": "The price may vary depending on the season. Please contact our manager regarding the actual prices.",
+      "price": ""
+    }
+  ],
+  "note": {
+    "en": "We may adjust the program individually according to your interests and demands. We may shorten or extend the program depending on your time or change the last trekking day into a transfer by boat to Litvyanka, quad, or horse riding. For this tour, you may stay in tents or wooden guest houses. (in this case, there is no need to carry your tent, mat, and sleeping bag) prepare vegetarian food, organize fishing at the Lake, etc. Please don't hesitate to contact us and let us know what you need.",
+    "ru": "Мы можем скорректировать программу индивидуально в соответствии с вашими интересами и требованиями. Мы можем сократить или продлить программу в зависимости от вашего времени или заменить последний день похода на трансфер на катере до Литвянки, квадроцикле или конную прогулку. Во время этого тура вы можете остановиться в палатках или деревянных гостевых домах. (в этом случае нет необходимости носить с собой палатку, коврик и спальный мешок), приготовить вегетарианскую еду, организовать рыбалку на озере и т. д. Пожалуйста, не стесняйтесь обращаться к нам и сообщать, что вам нужно."
+  },
+  "includes": [
+    {
+      "en": "Accommodation in tents",
+      "ru": "Размещение в палатках"
+    },
+    {
+      "en": "All fees for visiting national park zones",
+      "ru": "Все сборы за посещение зон национальных парков"
+    },
+    {
+      "en": "Banya in Bolshiye Koty",
+      "ru": "Баня в Больших Котах"
+    },
+    {
+      "en": "English-speaking guide service",
+      "ru": "Услуги англоговорящего гида"
+    },
+    {
+      "en": "Meals during the tour",
+      "ru": "Питание во время тура"
+    },
+    {
+      "en": "Rent of camping equipment, cooking and food ware",
+      "ru": "Аренда туристического снаряжения, посуды для приготовления пищи и продуктов питания"
+    },
+    {
+      "en": "Rent of canoes and instructor",
+      "ru": "Аренда каноэ и инструктора"
+    },
+    {
+      "en": "Transfer Irkutsk - Bolshoye Goloustnoye",
+      "ru": "Трансфер Иркутск - Большое Голоустное"
+    },
+    {
+      "en": "Transfer Listvyanka - Irkutsk",
+      "ru": "Трансфер Листвянка - Иркутск"
+    }
+  ],
+  "notIncludes": [
+    {
+      "en": "Accommodation in guest houses",
+      "ru": "Проживание в гостевых домах"
+    },
+    {
+      "en": "Beverages",
+      "ru": "Напитки"
+    },
+    {
+      "en": "Extra services not mentioned in the programme",
+      "ru": "Дополнительные услуги, не упомянутые в программе"
+    }
+  ],
+  "days": [
+    {
+      "order": 1,
+      "title": {
+        "ru": "Трансфер Иркутск - поселок Большое Голоустное. Начало треккинга по берегу Байкала.",
+        "en": "Transfer Irkutsk - Bolshoye Goloustnoye village. Start of trekking along the shore of Baikal"
+      },
+      "description": {
+        "en": "<p>09.00 - Pick up from the airport/train station and transfer to Bolshoe Goloustnoye village - the starting point of our trekking. (about 140 km ride). The village's name means \"wide bare river mouth\" – the town stands where one of the rivers flows into Baikal Lake. Only 30 km of the road is paved, the rest is gravel. <p>12.00 - Prepare the backpacks and trek along the lake's shoreline. <p>13.00 - Lunch. <p><i> We'll stop for lunch on the shore of Baikal and this is the time when you can relax and may deepen your hands to say \"Hello\" to Baikal (or even have a swim) in the crystal-clear waters of Great Siberian Lake. Lunch will be prepared for you over a campfire near the lake. After the rest, we continued hiking along the shoreline. The route runs over some hills and sometimes gets to the very waters of the lake. Our trekking distance today is about 20 km.</i></p> <p>17.00 - Set up a tent camp. <p><i>In the evening, we'll reach Kadilnaya Bay, where we will set up the tent camp and make a fire. Enjoy listening to splashing waves or the silence of sacred waters by sitting near a campfire on the shore of the lake. Overnight in tents (or wooden house on your demand).</i></p>",
+        "ru": "<p>09.00 - Встреча в аэропорту/вокзале и трансфер в село Большое Голоустное - отправную точку нашего треккинга. (около 140 км езды). Название села означает «широкое голое устье реки» — город стоит там, где одна из рек впадает в озеро Байкал. Только 30 км дороги заасфальтировано, остальное гравий. <p>12.00 - Готовим рюкзаки и идем вдоль берега озера Байкал. <p>13.00 – Обед. <p><i>Мы остановимся на обед на берегу Байкала, вы сможете расслабиться и опустить руки в воду, чтобы поздороваться с Байкалом (или даже искупаться) в кристально чистой воде Великого Сибирского озера. Обед для вас будет приготовлен на костре возле озера. После отдыха мы продолжим поход вдоль береговой линии. Маршрут проходит по холмам и иногда доходит до самых вод озера. Расстояние нашего похода в этот день около 20 км.</i></p> <p>17.00 – Установка палаточного лагеря. <p><i>Вечером мы доберемся до бухты Кадильная, где разобьем палаточный лагерь и разожжем костер. Наслаждайтесь плеском волн или тишиной священных вод, сидя возле костра на берегу озера. Ночевка в палатках (или деревянном домике по вашему желанию).</i></p>"
+      },
+      "pictures": [
+        {
+          "title": {
+            "ru": "Треккинг сразу после дождя по берегу Байкала",
+            "en": "Trekking just after the rain along the shore of Baikal"
+          },
+          "activities": [
+            "trekking"
+          ],
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-1-1.jpg"
+        },
+        {
+          "title": {
+            "ru": "Русский дом в селе Большое Голоустное",
+            "en": "Russian house in Bolshoye Goloustnoye village"
+          },
+          "places": [
+            "bolshoye-goloustnoye"
+          ],
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-1-2.jpg"
+        },
+        {
+          "title": {
+            "ru": "Спокойная вода утром в Большом Голоустном",
+            "en": "Calm water in the morning in Bolshoye Goloustnoye"
+          },
+          "places": [
+            "bolshoye-goloustnoye"
+          ],
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-1-3.jpg"
+        },
+        {
+          "title": {
+            "ru": "Церковь Святителя Николая в селе Большое Голоустное",
+            "en": "Church of St.Nickolas in Bolshoye Goloustnoye village"
+          },
+          "places": [
+            "bolshoye-goloustnoye"
+          ],
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-1-4.jpg"
+        },
+        {
+          "title": {
+            "ru": "На берегу озера Байкал",
+            "en": "On the shore of Baikal lake"
+          },
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-1-5.jpg"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "title": {
+        "ru": "Переход в село Большие Коты (расстояние около 20 км).",
+        "en": "Trekking to Bolshie Koty village (about 20 km distance)"
+      },
+      "description": {
+        "en": "<p>09.00 - Breakfast.</p> <p><i>After breakfast, we'll pack our camping equipment and walk deeper into the valley (about 1.5 km) to discover the caves. This cave is about 20 meters high and has a reach-through hole on the top. Archeologists have found marks on the fireplace and different household items of the Iron Age, bones of man's skeleton, and teeth of some animals. We'll go back to the Lake and continue trekking along the shore.</i></p> <p><i>The next sight we'll pass is \"Devil's Bridge.\" This place was called so because locals more than 100 years ago have built a hand-made pass on a steep slope of this rocky cliff, avoiding a long way around it. This impressive trail goes 15-20 m over the lake level and goes through this cliff much shorter.</i></p> <p>13.00 - Lunch. It will be prepared for you over the fire with Baikal water.</p> <p><i>Further, the route climbs to the top of the cliff, which has the name “Screeper.” This cliff has a unique geological structure that is very rare in the Baikal region - Yurk conglomerate. It is made of sandy rock with shingle. Going up is long but not disappointing, as you will have a breathtaking view from the top as your reward! From the top of the cliff, you’ll see a fantastic view of the vast expanses of the Lake and the transparent turquoise-colored waters of Baikal, as well as a nearby village - Bolshiye Koty. It is an old Russian village founded during the Siberian Gold Rush in the 1880s. There are about 40 locals who live there all year round; others come here only in summer. This place has its own atmosphere, which is very calm and relaxing.</i></p> <p>17.00 - Accommodation is in tents or wooden houses (depending on your needs).</p> <p>18.00 - Banya: A Russian steam sauna will help you relax after a trekking day.</p> <p>20.00 - Dinner. The total trekking distance is about 23 km.</p>",
+        "ru": "<p>09.00 – Завтрак.</p> <p><i>После завтрака мы соберем походное снаряжение и отправимся вглубь долины (около 1,5 км), чтобы открыть для себя пещеры. Эта пещера имеет высоту около 20 метров и имеет сквозное отверстие наверху. Археологи нашли следы на камин и различные предметы быта железного века, кости скелета человека, зубы некоторых животных. Хорошо вернитесь к озеру и продолжайте путь вдоль берега.</i></p> <p><i>Следующая достопримечательность, которую мы проедем, — «Чертов мост». Это место назвали так потому, что местные жители более 100 лет назад построили рукотворный перевал на крутом склоне этого скалистого утеса, избегая долгого обхода его. Этот впечатляющий маршрут выходит на 15-20 м над уровнем озера и проходит через этот обрыв значительно короче.</i></p> <p>13.00 – Обед. Его приготовят для вас на костре с байкальской водой.</p> <p><i>Далее маршрут поднимается на вершину скалы, имеющей название «Скрипер». Эта скала имеет уникальную геологическое строение, очень редкое для Прибайкалья - Юркский конгломерат. Он сделан из песчаной породы с галька. Подъем наверх долгий, но не разочаровывающий, ведь в награду вам откроется захватывающий вид сверху! С вершины скалы открывается фантастический вид на бескрайние просторы озера и прозрачную бирюзовые воды Байкала, а также близлежащее село – Большие Коты. Это старинная русская деревня, основанная Во время сибирской золотой лихорадки в 1880-х годах. Здесь круглый год живут около 40 местных жителей; другие приходят сюда только летом. В этом месте своя атмосфера, очень спокойная и расслабляющая.</i></p> <p>17.00 - Размещение в палатках или деревянных домиках (в зависимости от ваших потребностей).</p> <p>18.00 – Баня: русская паровая баня поможет расслабиться после походного дня.</p> <p>20.00 – Ужин. Общая дистанция похода составляет около 23 км.</p>"
+      },
+      "pictures": [
+        {
+          "title": {
+            "ru": "На смотровой площадке в поселке Большие Коты",
+            "en": "On the observation point in Bolshie Koty village"
+          },
+          "places": [
+            "bolshiye-koty"
+          ],
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-2-1.jpg"
+        },
+        {
+          "title": {
+            "ru": "Среди цветущих лугов мыса Кадильный",
+            "en": "Among flowering meadows of Kadilniy cape"
+          },
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-2-2.jpg"
+        },
+        {
+          "title": {
+            "ru": "Берег озера Байкал",
+            "en": "Shore of Baikal Lake"
+          },
+          "activities": [
+            "trekking"
+          ],
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-2-3.jpg"
+        },
+        {
+          "title": {
+            "ru": "Приготовление чая с байкальской водой и местными травами",
+            "en": "Cooking tea with Baikal water and local herbs"
+          },
+          "activities": [
+            "trekking"
+          ],
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-2-4.jpg"
+        },
+        {
+          "title": {
+            "ru": "Остановка, чтобы полюбоваться необъятностью озера",
+            "en": "Pausing to admire the vastness of the lake"
+          },
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-2-5.jpg"
+        },
+        {
+          "title": {
+            "ru": "Иногда вода может быть неподвижной, как зеркало",
+            "en": "Sometimes the water can be still like a mirror"
+          },
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-2-6.jpg"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "title": {
+        "ru": "Сплав на байдарке Большие Коты – Листвянка. Трансфер в Иркутск.",
+        "en": "Canoeing Bolshie Koty - Listvyanka. Transfer to Irkutsk"
+      },
+      "description": {
+        "en": "<p>09.00 - Breakfast.</p> <p>10.00 - Start of trekking.</p> <p><i>After breakfast, you may walk up to the observation point to see the view of the village and the surrounding taiga forest from up high. Today, we’ll cover the rest of the distance to Listvyanka by canoes.</i></p> <p>11.00 - Start canoeing.</p> <p><i>Two people stay in one canoe. You will be accompanied by a canoeing instructor. Many agree that canoeing gives “the feeling of the lake” as you stay close to the water. Make sure you have waterproof and windproof clothes. If it is windy, staying closer to the shore is always better.</i></p> <p>13.00 - Lunch in the forest.</p> <p><i>The distance to Listvyanka is about 18 km. The name of Listvyanka village comes from the Larch trees – Listvennitza is widely spread in the nearby mountains. Upon arrival at Listvyanka village, you’ll visit the central square, where you can find freshly smoked Baikal fish \"omul\" and some Baikal souvenirs. This is the final destination of our trip.</i></p> <p>17.00 - Transfer to Irkutsk.</p> <p><i>It is possible to spend this night in Listvyanka's guest house and return to Irkutsk the next day. (Not included, extra service).</i></p>",
+        "ru": "<p>09.00 - Завтрак.</p> <p>10.00 - Начало треккинга.</p> <p><i>После завтрака вы можете подняться на смотровую площадку, чтобы увидеть вид на село и окружающий таежный лес с высоты. Сегодня остаток пути до Листвянки мы преодолеем на байдарках.</i></p> <p>11.00 - Начало сплава.</p> <p><i>В одной байдарке остаются два человека. Вас будет сопровождать инструктор по гребле на каноэ. Многие согласны с тем, что гребля на каноэ дает «ощущение озера», поскольку вы находитесь рядом с водой. Убедитесь, что у вас есть водонепроницаемая и ветронепроницаемая одежда. Если ветрено, всегда лучше держаться ближе к берегу.</i></p> <p>13.00 - Обед в лесу.</p> <p><i>Расстояние до Листвянки около 18 км. Название села Листвянка происходит от лиственницы – Лиственница широко распространена в близлежащих горах. По прибытии в село Листвянка вы посетите центральную площадь, где сможете найти свежекопченую байкальскую рыбу «омуль» и некоторые байкальские сувениры. Это конечный пункт нашего путешествия.</i></p> <p>17.00 - Переезд в Иркутск.</p> <p><i>Возможно переночевать в гостевом доме Листвянки и вернуться в Иркутск на следующий день. (Не входит в комплект, дополнительная услуга).</i></p>"
+      },
+      "pictures": [
+        {
+          "title": {
+            "ru": "Инструкторы катаются на байдарках по Байкалу",
+            "en": "Instructors are kayaking on Baikal"
+          },
+          "activities": [
+            "canoeing"
+          ],
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-3-1.jpg"
+        },
+        {
+          "title": {
+            "ru": "У костра в лесу",
+            "en": "Campfire in the forest"
+          },
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-3-2.jpg"
+        },
+        {
+          "title": {
+            "ru": "Каноэ по берегу Байкала",
+            "en": "Canoeing along the shore of Baikal"
+          },
+          "activities": [
+            "canoeing"
+          ],
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-3-3.jpg"
+        },
+        {
+          "title": {
+            "ru": "Каноэ на Байкале",
+            "en": "Canoeing on Baikal"
+          },
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-3-4.jpg"
+        },
+        {
+          "title": {
+            "ru": "Во время сплава на каноэ группу может сопровождать тримаран",
+            "en": "During the canoeing trip, the group may be accompanied by a trimaran"
+          },
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-3-5.jpg"
+        },
+        {
+          "title": {
+            "ru": "Лодка в селе Листвянка",
+            "en": "A boat in Listvyanka village"
+          },
+          "activities": [
+            "canoeing"
+          ],
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-3-6.jpg"
+        },
+        {
+          "title": {
+            "ru": "Олег - инструктор по гребле на каноэ",
+            "en": "Oleg - canoeing instructor"
+          },
+          "src": "/public/tours/trekking-and-canoeing-at-baikal-lake/day-3-7.jpg"
+        }
+      ]
+    }
+  ]
+}

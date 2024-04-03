@@ -1,0 +1,34 @@
+{
+  "id": "expedition-to-reindeer-herders",
+  "cover": "/public/tours/expedition-to-reindeer-herders/cover.jpeg",
+  "duration": { "en": "9 days", "ru": "9 дней" },
+  "activities": ["trekking"],
+  "places": ["north-of-baikal", "severobaikalsk"],
+  "season": "summer",
+  "title": {
+    "en": "Expedition to reindeer herders of Northern Baikal",
+    "ru": "Экспедиция к оленеводам Северного Байкала"
+  },
+  "months": {
+    "en": "June - September",
+    "ru": "Июнь - Сентябрь"
+  },
+  "shortDescription": {
+    "en": "This tour is for real enthusiasts who would like to get familiar with traditions and lifestyle of the native people of Siberia – Evenki.",
+    "ru": "Экспедиция для настоящих энтузиастов, желающих познакомиться с традициями и образом жизни коренных народов Сибири – эвенков."
+  },
+
+  "description": { "ru": "", "en": ""} ,
+  "price": [ { "ru": "", "en": "", "price": ""} ],
+  "note": { "ru": "", "en": ""} ,
+  "includes": [ { "ru": "", "en": ""} ],
+  "notIncludes": [ { "ru": "", "en": ""} ],
+  "days": [
+    {
+      "order": 1,
+      "title": { "ru": "",  "en": "" },
+      "description": { "en": "", "ru": "" },
+      "pictures": [ {"title":  { "ru": "",  "en": "" }, "src": ""} ]
+    }
+  ]
+}

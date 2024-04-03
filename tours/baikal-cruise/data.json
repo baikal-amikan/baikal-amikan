@@ -1,0 +1,34 @@
+{
+  "id": "baikal-cruise",
+  "cover": "/public/tours/baikal-cruise/cover.jpeg",
+  "duration": { "en": "9 days", "ru": "9 дней" },
+  "activities": ["cruises"],
+  "places": ["olkhon", "listvyanka", "north-of-baikal", "maloye-more", "svyatoy-nos"],
+  "season": "summer",
+  "title": {
+    "en": "Baikal cruise",
+    "ru": "Круиз по Байкалу"
+  },
+  "months": {
+    "en": "June - September",
+    "ru": "Июнь - Сентябрь"
+  },
+  "shortDescription": {
+    "en": "Visiting the most remote places and cozy bays of Baikal Nature Reserve. Untouched nature, swimming in clear waters, hot springs, tasting local food and enjoying beauty of Baikal nature.",
+    "ru": "Посещение самых отдаленных мест и уютных бухт Байкальского заповедника. Нетронутая природа, купание в чистых водах, горячие источники, дегустация местной еды и наслаждение красотой байкальской природы."
+  },
+
+  "description": { "ru": "", "en": ""} ,
+  "price": [ { "ru": "", "en": "", "price": ""} ],
+  "note": { "ru": "", "en": ""} ,
+  "includes": [ { "ru": "", "en": ""} ],
+  "notIncludes": [ { "ru": "", "en": ""} ],
+  "days": [
+    {
+      "order": 1,
+      "title": { "ru": "",  "en": "" },
+      "description": { "en": "", "ru": "" },
+      "pictures": [ {"title":  { "ru": "",  "en": "" }, "src": ""} ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "dog-sledding",
+  "cover": "/public/activities/dog-sledding/cover.jpeg",
+  "title": {
+    "en": "Dog-sledding",
+    "ru": "Катание на собачьих упряжках"
+  },
+  "seasons": ["winter"],
+  "description": {
+    "en": "With a team of huskies guiding your way, traverse the icy surface and experience the raw beauty of Siberia's winter landscape. Feel the adrenaline rush as you glide past towering ice formations and vast stretches of pristine snow, surrounded by the serene silence of this UNESCO World Heritage Site. ",
+    "ru": "Скользите по ледяной поверхности и насладитесь необузданной красотой зимнего пейзажа Сибири. Почувствуйте прилив адреналина, скользя мимо высоких ледяных образований и огромных участков нетронутого снега в окружении безмятежной тишины объекта Всемирного наследия ЮНЕСКО."
+  }
+}
