@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "pretty": "prettier --write .",
+    "lint": "eslint src/**/ --ext ts,tsx --report-unused-disable-directives",
     "build": "npm run lint && tsc && vite build --emptyOutDir && mkdir -p ../docs/public/ && cp -r ./public/* ../docs/public/ && cp 404.html ../docs/",
     "preview": "vite preview"
   },
@@ -16,6 +17,7 @@
     "@mui/lab": "^5.0.0-alpha.169",
     "@mui/material": "^5.15.14",
     "@mui/x-date-pickers": "^7.1.0",
+    "prettier": "^3.2.5",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.10",
     "fs-extra": "^11.2.0",

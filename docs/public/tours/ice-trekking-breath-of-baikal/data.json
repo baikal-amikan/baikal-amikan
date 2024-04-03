@@ -17,17 +17,17 @@
     "en": "Ice-trek in the middle of frozen Baikal lake, spend a night in tent on ice, walk on skis in deep snow of wintry taiga, warm sauna and night in wooden hut in the silence of surrounding forest.",
     "ru": "Ледовый трек по замерзшему Байкалу, ночевка в палатке на льду, лыжный переход по заснеженной тайге, баня и ночевка в деревянной избе в тишине окружающего леса."
   },
-  "description": { "ru": "", "en": ""} ,
-  "price": [ { "ru": "", "en": "", "price": ""} ],
-  "note": { "ru": "", "en": ""} ,
-  "includes": [ { "ru": "", "en": ""} ],
-  "notIncludes": [ { "ru": "", "en": ""} ],
+  "description": { "ru": "", "en": "" },
+  "price": [{ "ru": "", "en": "", "price": "" }],
+  "note": { "ru": "", "en": "" },
+  "includes": [{ "ru": "", "en": "" }],
+  "notIncludes": [{ "ru": "", "en": "" }],
   "days": [
     {
       "order": 1,
-      "title": { "ru": "",  "en": "" },
+      "title": { "ru": "", "en": "" },
       "description": { "en": "", "ru": "" },
-      "pictures": [ {"title":  { "ru": "",  "en": "" }, "src": ""} ]
+      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
     }
   ]
 }

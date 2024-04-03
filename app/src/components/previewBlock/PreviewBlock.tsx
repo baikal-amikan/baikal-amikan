@@ -3,13 +3,12 @@ import { Grid, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 
 interface PreviewBlockProps {
-  title: string,
-  subtitle: string,
-  image: string,
-  link: string,
+  title: string;
+  subtitle: string;
+  image: string;
+  link: string;
 }
-export default function PreviewBlock({title, subtitle, image, link}: PreviewBlockProps) {
-
+export default function PreviewBlock({ title, subtitle, image, link }: PreviewBlockProps) {
   return (
     <Grid item xs={12} md={6}>
       <Link to={link} className={css.preview}>
@@ -18,5 +17,5 @@ export default function PreviewBlock({title, subtitle, image, link}: PreviewBloc
         <Typography variant="subtitle1">{subtitle}</Typography>
       </Link>
     </Grid>
-)}
-
+  );
+}

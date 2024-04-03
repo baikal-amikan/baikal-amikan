@@ -17,17 +17,17 @@
     "en": "Life-experience of gigantic, crystalline, miraculous wonder on earth during our photo-tour! Ice trekking on Baikal and night on ice in the middle of the lake, crossing Baikal by dog-sled, ice grottoes...",
     "ru": "Жизненный опыт гигантского, кристального, чудесного чуда на земле во время нашего фототура! Ледовый поход по Байкалу и ночь на льду посреди озера, пересечение Байкала на собачьей упряжке, ледяные гроты..."
   },
-  "description": { "ru": "", "en": ""} ,
-  "price": [ { "ru": "", "en": "", "price": ""} ],
-  "note": { "ru": "", "en": ""} ,
-  "includes": [ { "ru": "", "en": ""} ],
-  "notIncludes": [ { "ru": "", "en": ""} ],
+  "description": { "ru": "", "en": "" },
+  "price": [{ "ru": "", "en": "", "price": "" }],
+  "note": { "ru": "", "en": "" },
+  "includes": [{ "ru": "", "en": "" }],
+  "notIncludes": [{ "ru": "", "en": "" }],
   "days": [
     {
       "order": 1,
-      "title": { "ru": "",  "en": "" },
+      "title": { "ru": "", "en": "" },
       "description": { "en": "", "ru": "" },
-      "pictures": [ {"title":  { "ru": "",  "en": "" }, "src": ""} ]
+      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
     }
   ]
 }

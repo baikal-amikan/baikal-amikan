@@ -18,17 +18,17 @@
     "ru": "Экспедиция для настоящих энтузиастов, желающих познакомиться с традициями и образом жизни коренных народов Сибири – эвенков."
   },
 
-  "description": { "ru": "", "en": ""} ,
-  "price": [ { "ru": "", "en": "", "price": ""} ],
-  "note": { "ru": "", "en": ""} ,
-  "includes": [ { "ru": "", "en": ""} ],
-  "notIncludes": [ { "ru": "", "en": ""} ],
+  "description": { "ru": "", "en": "" },
+  "price": [{ "ru": "", "en": "", "price": "" }],
+  "note": { "ru": "", "en": "" },
+  "includes": [{ "ru": "", "en": "" }],
+  "notIncludes": [{ "ru": "", "en": "" }],
   "days": [
     {
       "order": 1,
-      "title": { "ru": "",  "en": "" },
+      "title": { "ru": "", "en": "" },
       "description": { "en": "", "ru": "" },
-      "pictures": [ {"title":  { "ru": "",  "en": "" }, "src": ""} ]
+      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
     }
   ]
 }

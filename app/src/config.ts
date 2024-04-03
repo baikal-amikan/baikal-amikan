@@ -22,7 +22,7 @@ export function useSafeContext<T>(context: Context<T | undefined>, message?: str
   return result;
 }
 
-export async function sentEmail(subject: string, body: string, replyToEmail: string, replyToName: string){
+export async function sentEmail(subject: string, body: string, replyToEmail: string, replyToName: string) {
   console.log(`sentEmail: ${subject}, ${body}, ${replyToEmail}, ${replyToName}`);
 
   // const query = `subject=${ZAPIER_HOOK_URL}?{subject}&body=${body}&replyToEmail=${replyToEmail}&replyToName=${replyToName}`;

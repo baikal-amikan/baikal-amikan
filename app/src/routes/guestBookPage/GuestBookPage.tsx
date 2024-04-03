@@ -7,53 +7,56 @@ import SideMenu from "../../components/sideMenu/SideMenu.tsx";
 import FooterBlock from "../../components/footerBlock/FooterBlock.tsx";
 import NavbarBlock from "../../components/narbarBlock/NavbarBlock.tsx";
 import ReviewBlock from "../../components/reviewBlock/ReviewBlock.tsx";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SendEmailBlock from "../../components/sendEmailBlock/SendEmailBlock.tsx";
 
 export default function GuestBookPage() {
-  const {
-    language,
-    dictionary,
-    allReviews
-  } = useSafeContext(BaseContext);
+  const { language, dictionary, allReviews } = useSafeContext(BaseContext);
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  document.title = `Guest Book | Baikal-Amikan`;
+  useEffect(() => {
+    document.title = `Guest Book | Baikal-Amikan`;
+  }, []);
 
   return (
     <div className={css.container}>
       <SideMenu />
       <LogoBlock />
-      {language && dictionary ?
-        <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
-          {text: dictionary?.find((item) => (item.id === "guestBook"))?.text[language], link: `/${language}/guest-book`},
-        ]}/>: 'Loading...'}
+      {language && dictionary ? (
+        <NavbarBlock
+          links={[
+            { text: dictionary?.find((item) => item.id === "home")?.text[language], link: `/${language}/` },
+            { text: dictionary?.find((item) => item.id === "guestBook")?.text[language], link: `/${language}/guest-book` },
+          ]}
+        />
+      ) : (
+        "Loading..."
+      )}
 
-
-      {allReviews && language && dictionary ?
-        <Container maxWidth="md" style={{marginBottom: "100px"}}>
+      {allReviews && language && dictionary ? (
+        <Container maxWidth="md" style={{ marginBottom: "100px" }}>
           <Modal
-            aria-labelledby='new-review'
+            aria-labelledby="new-review"
             aria-describedby="Write new review"
             open={modalIsOpen}
             onClose={() => setModalIsOpen(false)}
-            sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}
+          >
             <div>
-              <SendEmailBlock tourId={null} type={"review"}/>
+              <SendEmailBlock tourId={null} type={"review"} />
               <Button>Close</Button>
             </div>
           </Modal>
-          <Button variant="contained" color="primary" style={{margin: "20px 0px 5px"}} onClick={() => (setModalIsOpen(true))}>
+          <Button variant="contained" color="primary" style={{ margin: "20px 0px 5px" }} onClick={() => setModalIsOpen(true)}>
             {dictionary.find((item) => item.id === "leaveReview")?.text[language]}
           </Button>
 
           {allReviews.map((review, index) => (
-            <ReviewBlock review={review} key={`review-${index}`} />))}
-
+            <ReviewBlock review={review} key={`review-${index}`} />
+          ))}
         </Container>
-        :
+      ) : (
         <div>Loading...</div>
-      }
+      )}
       <FooterBlock />
     </div>
   );

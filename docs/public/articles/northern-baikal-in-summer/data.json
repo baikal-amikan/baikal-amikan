@@ -14,9 +14,11 @@
     "ru": "Волшебный Северный Байкал летом"
   },
   "text": null,
-  "video": [{
-    "src": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hPaqB9IkMTo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
-    "description": null
-  }],
+  "video": [
+    {
+      "src": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hPaqB9IkMTo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+      "description": null
+    }
+  ],
   "pictures": null
 }

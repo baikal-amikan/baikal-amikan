@@ -11,12 +11,10 @@ import PicturesBlock from "../../components/picturesBlock/PicturesBlock.tsx";
 import TourBlock from "../../components/tourBlock/TourBlock.tsx";
 import NavbarBlock from "../../components/narbarBlock/NavbarBlock.tsx";
 
-
-
 export default function PlacePage() {
   const { placeId } = useParams<string>();
   const [place, setPlace] = useState<iPlace | null>(null);
-  const { language, allPlaces, dictionary, allTours} = useSafeContext(BaseContext);
+  const { language, allPlaces, dictionary, allTours } = useSafeContext(BaseContext);
 
   useEffect(() => {
     let ignore = false;
@@ -44,12 +42,12 @@ export default function PlacePage() {
   useEffect(() => {
     let ignore = false;
     if (allPlaces && allTours && place && !place.pictures) {
-      const updatedPlace = {...place} as iPlace;
+      const updatedPlace = { ...place } as iPlace;
       updatedPlace.pictures = [];
       for (const tour of allTours) {
         if (tour.places && tour.places.includes(updatedPlace.id)) {
           for (const day of tour.days) {
-            updatedPlace.pictures.push(...day.pictures.filter(picture => picture.places?.includes(updatedPlace.id)));
+            updatedPlace.pictures.push(...day.pictures.filter((picture) => picture.places?.includes(updatedPlace.id)));
           }
         }
       }
@@ -62,46 +60,46 @@ export default function PlacePage() {
     };
   }, [place, allPlaces, allTours]);
 
-
   return (
     <div className={css.root}>
       <SideMenu />
-      <LogoBlock  />
+      <LogoBlock />
 
-      {language && dictionary && place ?
-        <NavbarBlock links={[
-          {"text": dictionary?.find((item) => (item.id === "home"))?.text[language], "link": `/${language}/`},
-          {"text": dictionary?.find((item) => (item.id === "whereToGo"))?.text[language], "link": `/${language}/places/`},
-          {"text": place.title[language], "link": `/${language}/places/${place.id}`},
-        ]}/>: 'Loading...'}
+      {language && dictionary && place ? (
+        <NavbarBlock
+          links={[
+            { text: dictionary?.find((item) => item.id === "home")?.text[language], link: `/${language}/` },
+            { text: dictionary?.find((item) => item.id === "whereToGo")?.text[language], link: `/${language}/places/` },
+            { text: place.title[language], link: `/${language}/places/${place.id}` },
+          ]}
+        />
+      ) : (
+        "Loading..."
+      )}
 
+      {language && dictionary && place ? (
+        <Container maxWidth="md" style={{ marginTop: "40px" }}>
+          <Typography variant="h4" style={{ marginBottom: "20px" }}>
+            {place.title[language]}
+          </Typography>
 
-      {language && dictionary && place ? <Container maxWidth="md" style={{marginTop: "40px"}}>
+          {place.pictures ? <PicturesBlock pictures={place.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} /> : "Loading..."}
 
-        <Typography variant="h4" style={{marginBottom: "20px"}}>
-          {place.title[language]}
-        </Typography>
+          <Typography style={{ marginTop: "20px" }} variant="body1" align="left" paragraph>
+            {place.description[language]}
+          </Typography>
 
-        {place.pictures?
-          <PicturesBlock pictures={
-            place.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))
-          } />: 'Loading...'}
-
-        <Typography style={{marginTop: "20px"}} variant="body1" align="left" paragraph>
-          {place.description[language]}
-        </Typography>
-
-        <Divider style={{marginTop: "40px"}}/>
-        <Typography style={{marginTop: "20px"}} variant="h5" align="left" paragraph>
-          {dictionary.find(item => item.id === 'tours')?.text[language]}
-        </Typography>
-        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} style={{marginBottom: "50px"}}>
-          {allTours?.filter((tour) => (tour.places?.includes(place.id))).map((tour) => (
-              <TourBlock tour={tour} language={language} key={`tour-${tour.id}`} />
-            )
-          )}
-        </Grid>
-      </Container>: 'Loading...'}
+          <Divider style={{ marginTop: "40px" }} />
+          <Typography style={{ marginTop: "20px" }} variant="h5" align="left" paragraph>
+            {dictionary.find((item) => item.id === "tours")?.text[language]}
+          </Typography>
+          <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} style={{ marginBottom: "50px" }}>
+            {allTours?.filter((tour) => tour.places?.includes(place.id)).map((tour) => <TourBlock tour={tour} language={language} key={`tour-${tour.id}`} />)}
+          </Grid>
+        </Container>
+      ) : (
+        "Loading..."
+      )}
       <FooterBlock />
     </div>
   );

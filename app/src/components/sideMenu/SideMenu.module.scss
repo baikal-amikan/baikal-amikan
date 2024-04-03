@@ -1,17 +1,17 @@
-.container{
+.container {
   position: fixed;
   margin: 30px;
   top: 0;
   right: 0;
   z-index: 1000;
 }
-.drawer{
+.drawer {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3) !important;
   border-radius: 10px;
   padding: 20px 40px;
 }
-.langLinks{
+.langLinks {
   position: fixed;
   margin: 30px;
   top: 0;
@@ -19,39 +19,39 @@
   z-index: 1000;
 }
 
-.drawerButton{
+.drawerButton {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
-.drawerLink{
+.drawerLink {
   color: #90caf9 !important;
   margin-bottom: 10px;
   text-align: left;
 }
-.drawerLink:hover{
+.drawerLink:hover {
   color: #42a5f5 !important;
 }
-.drawerLink a{
+.drawerLink a {
   color: #90caf9 !important;
   text-decoration: none;
 }
-.drawerLink a:hover{
+.drawerLink a:hover {
   text-decoration: none;
   color: #42a5f5 !important;
 }
-.contactsBlock{
+.contactsBlock {
   border-top: 1px solid #f0f0f0;
   margin-top: 30px;
   padding-top: 30px;
 }
-.contactsBlock a{
+.contactsBlock a {
   color: #f0f0f0 !important;
   padding-right: 5px;
   padding-bottom: 5px;
 }
-.contactsBlock a:hover{
+.contactsBlock a:hover {
   color: #42a5f5 !important;
 }
-.contactsBlock p{
+.contactsBlock p {
   padding-top: 5px;
   padding-left: 5px;
   text-align: center;

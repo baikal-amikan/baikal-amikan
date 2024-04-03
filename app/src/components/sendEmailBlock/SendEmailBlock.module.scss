@@ -1,4 +1,3 @@
-
 .sendEmailBlock {
   background-color: #fff;
   padding: 40px;
@@ -7,10 +6,10 @@
   text-align: right;
 }
 
-.sendEmailBlock textarea{
+.sendEmailBlock textarea {
   font-size: 0.9rem !important;
 }
-.sendEmailLink{
+.sendEmailLink {
   display: inline-block;
   padding: 10px 20px;
   text-align: right;
@@ -22,7 +21,7 @@
   transition: background-color 0.3s ease;
 }
 
-.sendEmailLink:hover{
+.sendEmailLink:hover {
   background-color: #dc004e;
   color: #fff !important;
 }

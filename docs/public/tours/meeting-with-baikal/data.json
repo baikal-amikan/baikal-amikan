@@ -20,16 +20,18 @@
   "description": {
     "en": "<p>This 3-days (2 days possible) trekking tour allows you to explore the picturesque western shore of Baikal in the most environment-friendly way - trekking. You'll enjoy combined route in the shadows of Taiga forest together with walking along the splashes of waves of crystal-clear waters of the Lake and evenings next to the fire. Overnight in tents (or wooden houses on your demand). On a third day we offer an alternative: instead of trekking you can do horse-riding, 4WD Quad ride or boat ride at Baikal over the clearest waters of sacred lake. Part of the route was modified by Big Baikal trail, which becomes more attractive for family trekking at Baikal. Guests should be ready to hike about 18-20 km distance per day. Banya (Russian steam sauna) will help you to pause and relax after trekking day (in case of accommodation in guest houses).</p><p><b>Day 1. </b>Transfer Irkutsk - Bolshoye Goloustnoye village. Trekking for about 20 km to Kadilniy cape<br/><b>Day 2. </b>Trekking Kadilniy cape - Bolshiye Koty village (20 km)<br/><b>Day 3. </b>Trekking Bolshiye Koty - Listvyanka</p>",
     "ru": "<p>Этот 3-дневный (возможно 2-дневный) треккинг позволяет исследовать юго-западный участок Байкала. Тропа поведет вас в тени таежного леса, с несколькими выходами на скалы, подъемом на утес Скрипер с панорамным видом на бескрайние воды Байкала, горы Хамар-Дабан и пос. Большие Коты, спусками в уютные бухты с галечными дикими пляжами. Ночевки предусмотрены в деревянных домиках. Альтернативный вариант - часть пути пройти на катере, квадроциклах, лошадях Гости должны быть готовы проходить расстояние около 18-20 км в день.</p><p><b>День 1. </b>Трансфер Иркутск - село Большое Голоустное. Переход около 20 км до мыса Кадильный<br/><b>День 2. </b>Переход мыс Кадильный - село Большие Коты (20 км)<br/><b>День 3. </b>Треккинг Большие Коты - Листвянка</p>"
-  } ,
-  "price": [ {
-    "ru": "Стоимость тура по запросу и зависит от cезона и размера группы",
-    "en": "Tour price on request and depends on a season and the group size",
-    "price": ""}
+  },
+  "price": [
+    {
+      "ru": "Стоимость тура по запросу и зависит от cезона и размера группы",
+      "en": "Tour price on request and depends on a season and the group size",
+      "price": ""
+    }
   ],
   "note": {
     "ru": "Мы можем скорректировать программу индивидуально для Вас в соответствии с вашими пожеланиями. Мы можем сократить или увеличить длительность программы в зависимости от вашего времени, изменить последний день похода на трансфер на катере в Листвянку, или заменить этот день на переход на байдарках или лошадях. <p>В этом туре также возможно размещение в палатках (должно быть согласовано с нацпарком). Пожалуйста, сообщите менеджеру о ваших пожеланиях при бронировании тура.",
     "en": "We may adjust the program individually for you according to your interests and demands. We may shorten, longer the program depending on your time, change the last trekking day into a transfer by boat to Litvyanka, or canoe or horse-riding. <p>In this tour you may choose accommodation in tents or wooden guest houses. (in this case there is no need to carry your tent, mat and sleeping bag), prepare vegetarian food, organize fishing at the Lake, etc. Please, don't hesitate to contact us and let us know your demands."
-  } ,
+  },
   "includes": [
     {
       "ru": "Размещение в палатках",

@@ -17,17 +17,17 @@
     "en": "Visit the \"Heart of Baikal\" - sunny Olkhon island, trekking and camping along the shore of sacred lake Baikal, train along the Circum-Baikal railway, speed boat ride.",
     "ru": "Посетите \"Сердце Байкала\" - солнечный остров Ольхон, пеший поход и кемпинг вдоль берега священного озера Байкал, поезд по Кругобайкальской железной дороге, катерная прогулка."
   },
-  "description": { "ru": "", "en": ""} ,
-  "price": [ { "ru": "", "en": "", "price": ""} ],
-  "note": { "ru": "", "en": ""} ,
-  "includes": [ { "ru": "", "en": ""} ],
-  "notIncludes": [ { "ru": "", "en": ""} ],
+  "description": { "ru": "", "en": "" },
+  "price": [{ "ru": "", "en": "", "price": "" }],
+  "note": { "ru": "", "en": "" },
+  "includes": [{ "ru": "", "en": "" }],
+  "notIncludes": [{ "ru": "", "en": "" }],
   "days": [
     {
       "order": 1,
-      "title": { "ru": "",  "en": "" },
+      "title": { "ru": "", "en": "" },
       "description": { "en": "", "ru": "" },
-      "pictures": [ {"title":  { "ru": "",  "en": "" }, "src": ""} ]
+      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
     }
   ]
 }

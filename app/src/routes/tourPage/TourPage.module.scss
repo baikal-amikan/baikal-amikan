@@ -1,9 +1,9 @@
-.container{
+.container {
   width: 100%;
   padding: 0;
   margin: 0;
 }
-.cover{
+.cover {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -12,9 +12,10 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 0!important;
+  border-radius: 0 !important;
 }
-.placeLabel, .activityLabel{
+.placeLabel,
+.activityLabel {
   background-color: rgb(144, 202, 249);
   color: #242424;
   padding: 2px 6px;
@@ -22,43 +23,43 @@
   border-radius: 5px;
   margin-right: 8px;
 }
-.activityLabel{
+.activityLabel {
   background-color: rgb(206, 147, 216);
 }
 
-.descriptionCard{
+.descriptionCard {
   padding: 5px 30px 20px !important;
   margin-bottom: 40px;
 }
-.dayCard{
+.dayCard {
   padding: 0;
   margin-bottom: 70px;
 }
-.dayCard h4{
+.dayCard h4 {
   margin-bottom: 25px;
 }
-.dayCard p{
+.dayCard p {
   margin-bottom: 30px;
 }
 
-.dayCard p > p{
+.dayCard p > p {
   margin: 5px 15px 10px 15px;
   color: #212121;
 }
-p > i{
-  color: rgb(173,72,189);
+p > i {
+  color: rgb(173, 72, 189);
 }
-.priceCard{
+.priceCard {
   margin-top: 50px;
   margin-bottom: 80px;
   padding: 20px 50px 30px !important;
 }
-.priceCard h5{
+.priceCard h5 {
   margin: 10px 0 5px;
 }
-.priceCard h6{
+.priceCard h6 {
   margin: 10px 0 5px;
 }
-.bookTour{
+.bookTour {
   margin-top: 30px;
 }

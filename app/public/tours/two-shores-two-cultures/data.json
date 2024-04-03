@@ -18,17 +18,17 @@
     "ru": "Посещение обоих берегов озера Байкал и испытание двух культур, переезд на льду с острова Ольхон в Усть-Баргузин, собачьи упряжки и ледяные гроты!"
   },
 
-  "description": { "ru": "", "en": ""} ,
-  "price": [ { "ru": "", "en": "", "price": ""} ],
-  "note": { "ru": "", "en": ""} ,
-  "includes": [ { "ru": "", "en": ""} ],
-  "notIncludes": [ { "ru": "", "en": ""} ],
+  "description": { "ru": "", "en": "" },
+  "price": [{ "ru": "", "en": "", "price": "" }],
+  "note": { "ru": "", "en": "" },
+  "includes": [{ "ru": "", "en": "" }],
+  "notIncludes": [{ "ru": "", "en": "" }],
   "days": [
     {
       "order": 1,
-      "title": { "ru": "",  "en": "" },
+      "title": { "ru": "", "en": "" },
       "description": { "en": "", "ru": "" },
-      "pictures": [ {"title":  { "ru": "",  "en": "" }, "src": ""} ]
+      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
     }
   ]
 }

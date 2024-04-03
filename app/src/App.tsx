@@ -16,7 +16,6 @@ import ArticlesPage from "./routes/articlesPage/ArticlesPage.tsx";
 import TeamPage from "./routes/teamPage/TeamPage.tsx";
 import FAQPage from "./routes/faqPage/FAQPage.tsx";
 
-
 function App() {
   return (
     <ThemeProvider theme={theme}>
