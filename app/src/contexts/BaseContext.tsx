@@ -130,7 +130,7 @@ export function BaseContextProvider({ children }: BaseContextProps) {
   const language = languagePart === "en" || languagePart === "ru" ? languagePart : "ru";
 
   useEffect(() => {
-    if (languagePart !== "en" && languagePart !== "ru") {
+    if (location.search[1] !== "/" && languagePart !== "en" && languagePart !== "ru") {
       navigate({
         pathname: `/ru${location.pathname}`,
         search: location.search,
