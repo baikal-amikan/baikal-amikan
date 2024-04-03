@@ -68,10 +68,10 @@ export default function SendEmailBlock({tourId, type}: SendEmailBlockProps){
   }, [tour, allTours, tourId]);
 
   return (
-    <div>
+    <div className={css.sendEmailBlock}>
       {language && dictionary && initialBody ?
-        <div className={css.sendEmailBlock}>
-          <Typography variant={"subtitle2"} style={{ margin: "20px auto" }}>Email Subject: "{subject}"</Typography>
+        <div>
+          <Typography variant={"body1"} style={{ margin: "20px auto" }}>Email to: <b>baikalamikan@gmail.com</b><br/>Email Subject: <b>"{subject}"</b></Typography>
 
           <TextField
             fullWidth
