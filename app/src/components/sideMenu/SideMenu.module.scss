@@ -18,6 +18,19 @@
   right: 80px;
   z-index: 1000;
 }
+@media (max-width: 768px) {
+  .container {
+    margin: 10px;
+    top: 10px;
+    right: 20px;
+  }
+  .langLinks {
+    margin: 0 auto;
+    top: 60px;
+    right: 0;
+  }
+}
+
 
 .drawerButton {
   background-color: rgba(0, 0, 0, 0.4) !important;

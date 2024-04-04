@@ -1,6 +1,7 @@
-import { Box, Card, CardContent, CardMedia, ImageList, ImageListItem, Modal, Paper, Typography } from "@mui/material";
+import { Box, Card, CardContent, CardMedia, ImageList, ImageListItem, Modal, Paper, Typography, useMediaQuery } from "@mui/material";
 import { useState } from "react";
 import css from "./PicturesBlock.module.scss";
+import theme from "../../theme.ts";
 
 interface PicturesBlockProps {
   variant?: "woven" | "standard" | "masonry" | "quilted";
@@ -12,6 +13,8 @@ interface PicturesBlockProps {
 
 export default function PicturesBlock({ pictures, variant }: PicturesBlockProps) {
   const [open, setOpen] = useState(false);
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+  const ImageListVariant = variant ? variant : "woven";
   const handleOpen = () => {
     setOpen(true);
   };
@@ -20,7 +23,7 @@ export default function PicturesBlock({ pictures, variant }: PicturesBlockProps)
   };
   return (
     <>
-      <ImageList sx={{ width: "100%", margin: "10px auto 30px" }} variant={variant ? variant : "woven"} cols={3} gap={8} onClick={handleOpen}>
+      <ImageList sx={{ width: "100%", margin: "10px auto 30px" }} variant={isSmallScreen ? "standard" : ImageListVariant} cols={isSmallScreen ? 2 : 3} gap={isSmallScreen ? 6 : 8} onClick={handleOpen}>
         {pictures.map((item) => (
           <ImageListItem key={`image-list-item-${item.url}`}>
             <img srcSet={`${item.url}?w=161&fit=crop&auto=format&dpr=2 2x`} src={`${item.url}?w=161&fit=crop&auto=format`} alt={item.title} loading="lazy" className={css.image} />

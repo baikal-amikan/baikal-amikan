@@ -36,7 +36,7 @@ export default function SideMenu() {
 
   return (
     <div className={css.container}>
-      <Button variant={"contained"} onClick={toggleDrawer(true)} className={css.drawerButton} aria-label="menu" size={"large"}>
+      <Button variant={"contained"} onClick={toggleDrawer(true)} className={css.drawerButton} aria-label="menu" size={"large"} sx={{ size: "small" }}>
         <MenuIcon />
       </Button>
 

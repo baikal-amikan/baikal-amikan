@@ -13,8 +13,8 @@ export default function TourBlock({ tour, language }: TourBlockProps) {
   const { allPlaces, allActivities, season } = useSafeContext(BaseContext);
 
   return (
-    <Grid item xs={6} key={`seasons-tab-${tour.id}`}>
-      <Paper elevation={3} key={`tour-${tour.id}`} style={{ margin: "20px 20px 0" }}>
+    <Grid item xs={12} md={6} key={`seasons-tab-${tour.id}`} className={css.tourContainer}>
+      <Paper elevation={3} key={`tour-${tour.id}`} className={css.tourPaperBlock}>
         <Card>
           <Link to={`/${language}/tours/${tour.id}`}>
             {season ? <CardMedia sx={{ height: 240 }} itemProp="image" image={tour.covers ? tour.covers[season?.id] : tour.cover} title={tour.title[language]} /> : ""}

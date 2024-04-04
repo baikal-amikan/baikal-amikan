@@ -21,7 +21,13 @@ function CustomTabPanel(props: TabPanelProps) {
   const { children, value, index, ...other } = props;
 
   return (
-    <div role="tabpanel" hidden={value !== index} id={`seasons-tabpanel-${index}`} aria-labelledby={`seasons-tab-${index}`} {...other}>
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`seasons-tabpanel-${index}`}
+      aria-labelledby={`seasons-tab-${index}`}
+      {...other}
+    >
       {value === index && <Box sx={{ p: 3 }}> {children} </Box>}
     </div>
   );
@@ -92,11 +98,18 @@ export default function ToursPage() {
         "Loading..."
       )}
 
-      <Container style={{ maxWidth: "90%", margin: "50px auto 100px" }}>
-        <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+      <Container className={css.container}>
+        <Box sx={{ borderBottom: 1, borderColor: "divider" }} className={css.tourTabs}>
           <Tabs value={value} onChange={handleChange} aria-label="seasons" style={{ textAlign: "center" }}>
             {allSeasons && language
-              ? allSeasons.map((season, index) => <Tab className={css.tabLabel} key={`seasons-tabpanel-${index}`} label={season.title[language]} {...a11yProps(index)} />)
+              ? allSeasons.map((season, index) => (
+                  <Tab
+                    className={css.tabLabel}
+                    key={`seasons-tabpanel-${index}`}
+                    label={season.title[language]}
+                    {...a11yProps(index)}
+                  />
+                ))
               : "Loading seasons..."}
           </Tabs>
         </Box>
@@ -104,8 +117,16 @@ export default function ToursPage() {
         {allSeasons && language
           ? allSeasons.map((season, index) => (
               <CustomTabPanel value={value} index={index} key={`seasons-tab-${index}`}>
-                <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                  {seasonsWithTours && seasonsWithTours[season.id].map((tour) => <TourBlock tour={tour} language={language} key={`tour-${tour.id}`} />)}
+                <Grid
+                  container
+                  rowSpacing={1}
+                  columnSpacing={{ xs: 0, sm: 0, md: 1, lg: 2 }}
+                  className={css.toursContainer}
+                >
+                  {seasonsWithTours &&
+                    seasonsWithTours[season.id].map((tour) => (
+                      <TourBlock tour={tour} language={language} key={`tour-${tour.id}`} />
+                    ))}
                 </Grid>
               </CustomTabPanel>
             ))

@@ -10,6 +10,6 @@ npm run --prefix app dev
 To deploy new version of the app
 ```bash
 npm run --prefix app build
-git commit 
+git commit -am "version 1.2.1"
 git push
 ```

@@ -1,3 +1,16 @@
+.tourContainer{
+  margin: 0 auto;
+  padding: 0;
+}
+.tourPaperBlock{
+  margin: 20px 20px 0;
+}
+@media (max-width: 768px) {
+  .tourPaperBlock {
+    margin: 10px 0;
+  }
+}
+
 .title {
   color: #212121;
 }
