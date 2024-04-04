@@ -13,7 +13,8 @@ import ReviewBlock from "../../components/reviewBlock/ReviewBlock.tsx";
 import SendEmailBlock from "../../components/sendEmailBlock/SendEmailBlock.tsx";
 
 export default function TourPage() {
-  const { language, setLanguage, dictionary, allActivities, allPlaces, allTours, allReviews } = useSafeContext(BaseContext);
+  const { language, setLanguage, dictionary, allActivities, allPlaces, allTours, allReviews } =
+    useSafeContext(BaseContext);
 
   const [tour, setTour] = useState<iTour | null>(null);
   const [reviews, setReviews] = useState<Array<iReview> | null>(null);
@@ -76,7 +77,15 @@ export default function TourPage() {
         "Loading..."
       )}
 
-      {tour ? <Paper elevation={3} className={css.cover} style={{ backgroundImage: `url(${tour.cover})`, margin: "0 0 50px 0" }} /> : ""}
+      {tour ? (
+        <Paper
+          elevation={3}
+          className={css.cover}
+          style={{ backgroundImage: `url(${tour.cover})`, margin: "0 0 50px 0" }}
+        />
+      ) : (
+        ""
+      )}
 
       {tour && language && dictionary && allActivities && allPlaces ? (
         <Container maxWidth="md" style={{ marginBottom: "100px" }}>
@@ -100,15 +109,33 @@ export default function TourPage() {
 
           <Paper elevation={3}>
             <Alert severity="info" icon={false} className={css.descriptionCard}>
-              <Button variant="contained" color="primary" style={{ margin: "20px 0px 5px" }} onClick={() => setModalIsOpen(true)}>
+              <Button
+                variant="contained"
+                color="primary"
+                style={{ margin: "20px 0px 5px" }}
+                onClick={() => setModalIsOpen(true)}
+              >
                 {dictionary.find((item) => item.id === "bookTour")?.text[language]}
               </Button>
-              <Typography variant="body1" align="left" dangerouslySetInnerHTML={{ __html: tour.description[language] }} />
-              <Typography variant="caption" align="left" paragraph style={{ marginBottom: "5px", lineHeight: "1.5rem" }}>
+              <Typography
+                variant="body1"
+                align="left"
+                dangerouslySetInnerHTML={{ __html: tour.description[language] }}
+              />
+              <Typography
+                variant="caption"
+                align="left"
+                paragraph
+                style={{ marginBottom: "5px", lineHeight: "1.5rem" }}
+              >
                 {tour.activities.map((id) => {
                   const activity = allActivities.find((item) => item.id === id);
                   return (
-                    <Link key={`activity-${id}`} to={`/${language}/activities/${activity?.id}`} className={css.activityLabel}>
+                    <Link
+                      key={`activity-${id}`}
+                      to={`/${language}/activities/${activity?.id}`}
+                      className={css.activityLabel}
+                    >
                       {activity?.title[language]}
                     </Link>
                   );
@@ -131,11 +158,19 @@ export default function TourPage() {
             return (
               <div key={index} className={css.dayCard}>
                 <Typography variant="h4">
-                  {" "}
                   {dictionary.find((item) => item.id === "day")?.text[language]} {day.order}. {day.title[language]}
                 </Typography>
-                <Typography variant="body1" align="left" paragraph dangerouslySetInnerHTML={{ __html: day.description[language] }} />
-                <PicturesBlock pictures={day.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} />
+                <Typography
+                  variant="body1"
+                  align="left"
+                  paragraph
+                  dangerouslySetInnerHTML={{ __html: day.description[language] }}
+                />
+                {day.pictures.length > 0 ? (
+                  <PicturesBlock pictures={day.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} />
+                ) : (
+                  ""
+                )}
               </div>
             );
           })}
@@ -143,7 +178,11 @@ export default function TourPage() {
             <Alert severity="info" className={css.priceCard} icon={false}>
               {tour.note ? (
                 <>
-                  <Typography variant="caption" align="left" dangerouslySetInnerHTML={{ __html: tour.note[language] }} />
+                  <Typography
+                    variant="caption"
+                    align="left"
+                    dangerouslySetInnerHTML={{ __html: tour.note[language] }}
+                  />
                   <Divider style={{ margin: "20px 0" }} />
                 </>
               ) : (
@@ -165,7 +204,9 @@ export default function TourPage() {
 
               {tour.includes ? (
                 <>
-                  <Typography variant="subtitle1">{dictionary.find((item) => item.id === "includes")?.text[language]}</Typography>
+                  <Typography variant="subtitle1">
+                    {dictionary.find((item) => item.id === "includes")?.text[language]}
+                  </Typography>
                   <ul>
                     <Typography variant="body1" align="left" paragraph>
                       {tour.includes.map((include, index) => {
@@ -180,7 +221,9 @@ export default function TourPage() {
 
               {tour.notIncludes ? (
                 <>
-                  <Typography variant="subtitle1">{dictionary.find((item) => item.id === "notIncludes")?.text[language]}</Typography>
+                  <Typography variant="subtitle1">
+                    {dictionary.find((item) => item.id === "notIncludes")?.text[language]}
+                  </Typography>
                   <ul>
                     <Typography variant="body1" align="left" paragraph>
                       {tour.notIncludes.map((notInclude, index) => {
@@ -193,7 +236,12 @@ export default function TourPage() {
                 ""
               )}
 
-              <Button variant="contained" color="primary" style={{ margin: "5px 0px 20px" }} onClick={() => setModalIsOpen(true)}>
+              <Button
+                variant="contained"
+                color="primary"
+                style={{ margin: "5px 0px 20px" }}
+                onClick={() => setModalIsOpen(true)}
+              >
                 {dictionary.find((item) => item.id === "bookTour")?.text[language]}
               </Button>
             </Alert>
