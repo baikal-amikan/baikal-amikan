@@ -77,11 +77,23 @@ export default function SendEmailBlock({ tourId, type }: SendEmailBlockProps) {
             Email Subject: <b>"{subject}"</b>
           </Typography>
 
-          <TextField fullWidth rows={10} size="small" multiline name="body" placeholder={initialBody} value={body} onChange={(e) => setBody(e.target.value)} />
+          <TextField
+            fullWidth
+            rows={10}
+            size="small"
+            multiline
+            name="body"
+            placeholder={initialBody}
+            value={body}
+            onChange={(e) => setBody(e.target.value)}
+          />
           <Typography variant={"caption"} style={{ margin: "20px auto 0", display: "block" }}>
             {explainWhatToDo}
           </Typography>
-          <Link className={css.sendEmailLink} to={`mailto:baikalamikan@com?subject=${subject}&body=${body.replace(/\n/g, "%0D%0A")}&Content-Type=text/html`}>
+          <Link
+            className={css.sendEmailLink}
+            to={`mailto:baikalamikan@com?subject=${subject}&body=${body.replace(/\n/g, "%0D%0A")}&Content-Type=text/html`}
+          >
             {dictionary.find((item) => item.id === "sendEmail")?.text[language]}
           </Link>
         </div>

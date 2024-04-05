@@ -23,7 +23,10 @@ export default function ArticlesPage() {
         <NavbarBlock
           links={[
             { text: dictionary?.find((item) => item.id === "home")?.text[language], link: `/${language}/` },
-            { text: dictionary?.find((item) => item.id === "articles")?.text[language], link: `/${language}/articles/` },
+            {
+              text: dictionary?.find((item) => item.id === "articles")?.text[language],
+              link: `/${language}/articles/`,
+            },
           ]}
         />
       ) : (

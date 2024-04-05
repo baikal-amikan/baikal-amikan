@@ -52,8 +52,18 @@ export default function FAQPage() {
         <Container maxWidth="lg" style={{ marginBottom: "100px" }}>
           {FAQ.map((question, index) => (
             <div key={`question-${index}`} style={{ marginTop: "30px" }}>
-              <Typography variant="h3" align="left" style={{ margin: "20px auto 0px auto" }} dangerouslySetInnerHTML={{ __html: question.question[language] }} />
-              <Typography variant="body1" align="left" style={{ margin: "5px auto 5px auto" }} dangerouslySetInnerHTML={{ __html: question.response[language] }} />
+              <Typography
+                variant="h3"
+                align="left"
+                style={{ margin: "20px auto 0px auto" }}
+                dangerouslySetInnerHTML={{ __html: question.question[language] }}
+              />
+              <Typography
+                variant="body1"
+                align="left"
+                style={{ margin: "5px auto 5px auto" }}
+                dangerouslySetInnerHTML={{ __html: question.response[language] }}
+              />
             </div>
           ))}
         </Container>

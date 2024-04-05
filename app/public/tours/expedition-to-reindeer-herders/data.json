@@ -34,7 +34,7 @@
     "en": "The best time to travel to this place is the first half of June. Participants must be ready for primary accommodation conditions (hunter's huts with toilets outside and tents). Those who prefer comfortable traveling should find another tour."
   },
   "includes": [
-    { "en": "Accommodation as mentioned in the programme", "ru": "Проживание согласно программе"},
+    { "en": "Accommodation as mentioned in the programme", "ru": "Проживание согласно программе" },
     { "en": "All fees for visiting national park zones", "ru": "Все сборы за посещение зон национальных парков" },
     { "en": "All transfers mentioned in the programme", "ru": "Все трансферы, указанные в программе" },
     { "en": "English-speaking guide service", "ru": "Услуги англоговорящего гида" },
@@ -42,367 +42,518 @@
     { "en": "Transfer to/from airport", "ru": "Трансфер в/из аэропорта" }
   ],
   "notIncludes": [
-    { "en": "Bank transfer fees" , "ru": "Комиссия за банковский перевод" },
-    { "en": "Beverages" , "ru": "Напитки" },
-    { "en": "Personal expenses and souvenirs" , "ru": "Личные расходы и сувениры" }
+    { "en": "Bank transfer fees", "ru": "Комиссия за банковский перевод" },
+    { "en": "Beverages", "ru": "Напитки" },
+    { "en": "Personal expenses and souvenirs", "ru": "Личные расходы и сувениры" }
   ],
   "days": [
     {
       "order": 1,
       "title": {
-        "en": "Arrival to Nizhneangarsk. Excursion to the observation point. Transfer to Noviy Uoyan." ,
-        "ru": "Прибытие в Нижнеангарск. Экскурсия на смотровую площадку. Переезд в Новый Уоян." },
-      "description": { 
-        "en": "<p>09.00 - After arriving at Nizhneangarsk, our guide will meet you.</p><p>10.00 - The Evenki people will perform the ritual of purifying for you at the beginning of your trip.</p><p>11.30 - Transfer Nizhneangarsk - Severobaikalsk.</p><p>12.00 - Lunch in a cafe.</p><p>13.30 - Trekking along the ecological route to the observation point.</p><p><i>You will be picked up by a car and have a ride to the city border. This is the start of trekking. The trekking is about 2 hours.</i></p><p>17.30 - Transfer by local train Severobaikalsk - Noviy Uoyan.</p><p> 21.30 - Arrival to Noviy Uoyan, transfer to guest house.</p><p>22.00 - Dinner in a local family with tasting the local cuisine. Overnight.</p>" ,
-        "ru": "<p>09.00 - По прибытии в Нижнеангарск вас встретит наш гид.</p><p>10.00 - Эвенки выполнят для вас ритуал очищения в начале вашего путешествия.</p><p>11.30 – Трансфер Нижнеангарск – Северобайкальск.</p><p>12.00 – Обед в кафе.</p><p>13.30 - Переход по экологическому маршруту до смотровой площадки.</p><p><i>Вас заберет машина и отвезет к границе города. Это начало треккинга. Треккинг длится около 2 часов.</i></p><p>17.30 - Трансфер на пригородном поезде Северобайкальск - Новый Уоян.</p><p> 21.30 - Прибытие в Новый Уоян, трансфер в гостевой дом.</p><p>22.00 – Ужин в местной семье с дегустацией местной кухни. Ночью.</p>"  },
+        "en": "Arrival to Nizhneangarsk. Excursion to the observation point. Transfer to Noviy Uoyan.",
+        "ru": "Прибытие в Нижнеангарск. Экскурсия на смотровую площадку. Переезд в Новый Уоян."
+      },
+      "description": {
+        "en": "<p>09.00 - After arriving at Nizhneangarsk, our guide will meet you.</p><p>10.00 - The Evenki people will perform the ritual of purifying for you at the beginning of your trip.</p><p>11.30 - Transfer Nizhneangarsk - Severobaikalsk.</p><p>12.00 - Lunch in a cafe.</p><p>13.30 - Trekking along the ecological route to the observation point.</p><p><i>You will be picked up by a car and have a ride to the city border. This is the start of trekking. The trekking is about 2 hours.</i></p><p>17.30 - Transfer by local train Severobaikalsk - Noviy Uoyan.</p><p> 21.30 - Arrival to Noviy Uoyan, transfer to guest house.</p><p>22.00 - Dinner in a local family with tasting the local cuisine. Overnight.</p>",
+        "ru": "<p>09.00 - По прибытии в Нижнеангарск вас встретит наш гид.</p><p>10.00 - Эвенки выполнят для вас ритуал очищения в начале вашего путешествия.</p><p>11.30 – Трансфер Нижнеангарск – Северобайкальск.</p><p>12.00 – Обед в кафе.</p><p>13.30 - Переход по экологическому маршруту до смотровой площадки.</p><p><i>Вас заберет машина и отвезет к границе города. Это начало треккинга. Треккинг длится около 2 часов.</i></p><p>17.30 - Трансфер на пригородном поезде Северобайкальск - Новый Уоян.</p><p> 21.30 - Прибытие в Новый Уоян, трансфер в гостевой дом.</p><p>22.00 – Ужин в местной семье с дегустацией местной кухни. Ночью.</p>"
+      },
       "pictures": [
-        { "title": {
-          "en": "In one of the bays of Northern Baikal" ,
-          "ru": "В одной из бухт Северного Байкала"
+        {
+          "title": {
+            "en": "In one of the bays of Northern Baikal",
+            "ru": "В одной из бухт Северного Байкала"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-1-1.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-1-1.jpeg" },
-        { "title": {
-          "en": "Trekking to the shore of Baikal lake" ,
-          "ru": "Поход к берегу озера Байкал"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-1-2.jpeg" },
-        { "title": {
-          "en": "On observation point in Severobaykalsk" ,
-          "ru": "На смотровой площадке в Северобайкальске"
+        {
+          "title": {
+            "en": "Trekking to the shore of Baikal lake",
+            "ru": "Поход к берегу озера Байкал"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-1-2.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-1-3.jpeg" },
-        { "title": {
-          "en": "Trekking to the observation point in Severobaykalsk" ,
-          "ru": "Треккинг к смотровой площадке в Северобайкальске"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-1-4.jpeg" },
-        { "title": {
-          "en": "Visit to the shore of Baikal lake in the evening" ,
-          "ru": "Посещение берега озера Байкал вечером"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-1-5.jpeg" },
-        { "title": {
-          "en": "In the village of Noviy Uoyan" ,
-          "ru": "В поселке Новый Уоян"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-1-6.jpeg" },
-        { "title": {
-          "en": "Dinner in a local hospitable family" ,
-          "ru": "Ужин в местной гостеприимной семье"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-1-7.jpeg" }
+        {
+          "title": {
+            "en": "On observation point in Severobaykalsk",
+            "ru": "На смотровой площадке в Северобайкальске"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-1-3.jpeg"
+        },
+        {
+          "title": {
+            "en": "Trekking to the observation point in Severobaykalsk",
+            "ru": "Треккинг к смотровой площадке в Северобайкальске"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-1-4.jpeg"
+        },
+        {
+          "title": {
+            "en": "Visit to the shore of Baikal lake in the evening",
+            "ru": "Посещение берега озера Байкал вечером"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-1-5.jpeg"
+        },
+        {
+          "title": {
+            "en": "In the village of Noviy Uoyan",
+            "ru": "В поселке Новый Уоян"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-1-6.jpeg"
+        },
+        {
+          "title": {
+            "en": "Dinner in a local hospitable family",
+            "ru": "Ужин в местной гостеприимной семье"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-1-7.jpeg"
+        }
       ]
     },
     {
       "order": 2,
       "title": {
-        "en": "A ride in the forest by 4WD, meeting the reindeer and Evenki people, crossing the lake by boat (snowmobiles in winter). Banya on the shore of the lake." ,
+        "en": "A ride in the forest by 4WD, meeting the reindeer and Evenki people, crossing the lake by boat (snowmobiles in winter). Banya on the shore of the lake.",
         "ru": "Поездка по лесу на 4WD, знакомство с оленями и эвенками, переправа через озеро на лодке (зимой на снегоходах). Баня на берегу озера."
       },
-      "description": { 
-        "en": "<p>09.00 - breakfast in the guest house.</p><p>10.00 - Transfer by 4WD cars along the forest road for about 70 km.</p><p><i>It usually takes about 3-4 hours to ride. The road passes some bumpy and swampy areas and crosses the valley of the river. You will be met by Evenki people and reindeer when you get to the place.</i></p><p>13.00 - Lunch in the forest as a picnic.</p><p><i>After lunch, you will load your luggage on reindeer and trek to the lake hidden in the mountains. The trekking distance is about 7 km until you reach the lake. Then you will cross the lake by motorboat, which is about 4 km long. This night, you will spend in a wooden house on the very shore of this picturesque lake. Take your chance to try Banya, which stands nearby, and you must definitely try to swim in the lake's clear water afterward!!!</i></p><p>19.00 - Dinner, overnight in a wooden hunter's cabin. (One shared room is very simple, with a toilet outside.)</p>" , 
+      "description": {
+        "en": "<p>09.00 - breakfast in the guest house.</p><p>10.00 - Transfer by 4WD cars along the forest road for about 70 km.</p><p><i>It usually takes about 3-4 hours to ride. The road passes some bumpy and swampy areas and crosses the valley of the river. You will be met by Evenki people and reindeer when you get to the place.</i></p><p>13.00 - Lunch in the forest as a picnic.</p><p><i>After lunch, you will load your luggage on reindeer and trek to the lake hidden in the mountains. The trekking distance is about 7 km until you reach the lake. Then you will cross the lake by motorboat, which is about 4 km long. This night, you will spend in a wooden house on the very shore of this picturesque lake. Take your chance to try Banya, which stands nearby, and you must definitely try to swim in the lake's clear water afterward!!!</i></p><p>19.00 - Dinner, overnight in a wooden hunter's cabin. (One shared room is very simple, with a toilet outside.)</p>",
         "ru": "<p>09.00 – завтрак в гостевом доме.</p><p>10.00 - Трансфер на полноприводных автомобилях по лесной дороге около 70 км.</p><p><i>Обычно поездка занимает около 3-4 часов. Дорога проходит по ухабистым и болотистым участкам и пересекает долину реки. Когда вы доберетесь до места, вас встретят эвенки и олени.</i></p><p>13.00 - Обед в лесу в виде пикника.</p><p><i>После обеда вы погрузите свой багаж на оленей и отправитесь к озеру, скрытому в горах. Расстояние треккинга составляет около 7 км, пока вы не доберетесь до озера. Затем вы пересечете озеро на моторной лодке длиной около 4 км. Эту ночь вы проведете в деревянном домике на самом берегу живописного озера. Не упустите шанс попробовать баню, которая стоит неподалеку, а потом обязательно попробуйте искупаться в прозрачной воде озера!!!</i></p><p>19.00 – Ужин, ночевка в деревянном охотничьем домике. (Одна общая комната очень простая, с туалетом снаружи.)</p>"
       },
       "pictures": [
-        { "title": {
-          "en": "Alexander is a real Evenk",
-          "ru": "Александр - настоящий эвенк"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-2-1.jpeg" },
-        { "title": {
-          "en": "Riding in the forest by Russian 4WD car - Niva" ,
-          "ru": "Поездка по лесу на российском 4WD автомобиле - Нива"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-2-2.jpeg" },
-        { "title": {
-          "en": "A little break in the forest" ,
-          "ru": "Небольшой перерыв в лесу"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-2-3.jpeg" },
-        { "title": {
-          "en": "Banya stands on the shore of the small lake" ,
-          "ru": "Баня стоит на берегу маленького озера"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-2-4.jpeg" },
-        { "title": {
-          "en": "Trekking in tundra-forest zone, sometimes passing the swampy areas" ,
-          "ru": "Треккинг в тундро-лесной зоне, иногда проходит через болотистые участки"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-1-5.jpeg" },
-        { "title": {
-          "en": "Loading the reindeer with backpacks" ,
-          "ru": "Погрузка оленей рюкзаками"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-2-6.jpeg" },
-        { "title": {
-          "en": "Reindeer eat mostly moss (reindeer lichen)" ,
-          "ru": "Олени питаются в основном мхом (оленьим лишайником)"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-2-7.jpeg" },
-        { "title": {
-          "en": "Some reindeer are white and called Albinos" ,
-          "ru": "Некоторые олени белые и называются альбиносами"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-2-8.jpeg" }
+        {
+          "title": {
+            "en": "Alexander is a real Evenk",
+            "ru": "Александр - настоящий эвенк"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-2-1.jpeg"
+        },
+        {
+          "title": {
+            "en": "Riding in the forest by Russian 4WD car - Niva",
+            "ru": "Поездка по лесу на российском 4WD автомобиле - Нива"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-2-2.jpeg"
+        },
+        {
+          "title": {
+            "en": "A little break in the forest",
+            "ru": "Небольшой перерыв в лесу"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-2-3.jpeg"
+        },
+        {
+          "title": {
+            "en": "Banya stands on the shore of the small lake",
+            "ru": "Баня стоит на берегу маленького озера"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-2-4.jpeg"
+        },
+        {
+          "title": {
+            "en": "Trekking in tundra-forest zone, sometimes passing the swampy areas",
+            "ru": "Треккинг в тундро-лесной зоне, иногда проходит через болотистые участки"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-1-5.jpeg"
+        },
+        {
+          "title": {
+            "en": "Loading the reindeer with backpacks",
+            "ru": "Погрузка оленей рюкзаками"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-2-6.jpeg"
+        },
+        {
+          "title": {
+            "en": "Reindeer eat mostly moss (reindeer lichen)",
+            "ru": "Олени питаются в основном мхом (оленьим лишайником)"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-2-7.jpeg"
+        },
+        {
+          "title": {
+            "en": "Some reindeer are white and called Albinos",
+            "ru": "Некоторые олени белые и называются альбиносами"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-2-8.jpeg"
+        }
       ]
     },
     {
       "order": 3,
       "title": {
-        "en": "Trekking from the lake to the reindeer farm. Accommodation in a wooden house. Tasting the local cuisine." ,
-        "ru": "Поход от озера до оленеводческой фермы. Размещение в деревянном доме. Дегустация местной кухни." },
-      "description":
-      {
-        "en": "<p>09.00 - Breakfast.</p><p>10.00 - Loading the reindeer. Trekking for 4 km from the lake to the reindeer farm.</p><p><i>Upon arrival at the farm, you will be accommodated in a wooden house (one shared room, toilet outside). Rest, meeting the rest of the deer.</i></p><p>13.00 - Lunch.<p><i>After lunch, you may walk to the river nearby and try fishing. Evenki, who lives on the farm, will tell you about fishing, hunting techniques, and wildlife here, as they know the animals and life in the taiga best.</i></p><p>16.00 - Return to the farm.</p><p>17.00 - Banya.</p><p>19.00 - Dinner and a tasting of the local cuisine. Overnight.</p>" ,
+        "en": "Trekking from the lake to the reindeer farm. Accommodation in a wooden house. Tasting the local cuisine.",
+        "ru": "Поход от озера до оленеводческой фермы. Размещение в деревянном доме. Дегустация местной кухни."
+      },
+      "description": {
+        "en": "<p>09.00 - Breakfast.</p><p>10.00 - Loading the reindeer. Trekking for 4 km from the lake to the reindeer farm.</p><p><i>Upon arrival at the farm, you will be accommodated in a wooden house (one shared room, toilet outside). Rest, meeting the rest of the deer.</i></p><p>13.00 - Lunch.<p><i>After lunch, you may walk to the river nearby and try fishing. Evenki, who lives on the farm, will tell you about fishing, hunting techniques, and wildlife here, as they know the animals and life in the taiga best.</i></p><p>16.00 - Return to the farm.</p><p>17.00 - Banya.</p><p>19.00 - Dinner and a tasting of the local cuisine. Overnight.</p>",
         "ru": "<p>09.00 – Завтрак.</p><p>10.00 – Погрузка оленей. Треккинг 4 км от озера до оленеводческой фермы.</p><p><i>По прибытии на ферму вас поселят в деревянном домике (одна общая комната, туалет на улице). Отдых, встреча с остальными оленями.</i></p><p>13.00 – Обед.<p><i>После обеда вы можете прогуляться до близлежащей реки и попробовать порыбачить. Эвенки, живущие на хуторе, расскажут вам о рыбалке, технике охоты и животном мире, так как они лучше всех знают животных и жизнь в тайге.</i></p><p>16.00 – Возвращение на ферму.</p><p>17.00 – Баня.</p><p>19.00 – Ужин и дегустация местной кухни. Ночевка.</p>"
       },
       "pictures": [
-        { "title": {
-          "en": "Trekking to the lake with reindeer and Evenki" ,
-          "ru": "Треккинг к озеру с оленями и эвенками"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-3-1.jpeg" },
-        { "title": {
-          "en": "A lake hidden in taiga forest" ,
-          "ru": "Озеро, скрытое в тайге"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-3-2.jpeg" },
-        { "title": {
-          "en": "Crossing the river with caravan of reindeer" ,
-          "ru": "Переправа через реку с караваном оленей"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-3-3.jpeg" },
-        { "title": {
-          "en": "Sasha is going to cook freshly-caught fish in traditional way" ,
-          "ru": "Саша собирается приготовить свежепойманную рыбу традиционным способом"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-3-4.jpeg" },
-        { "title": {
-          "en": "Meeting with the reindeer" ,
-          "ru": "Встреча с оленями"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-3-5.jpeg" },
-        { "title": {
-          "en": "On the farm of reindeer herders of Northern Baikal" ,
-          "ru": "На ферме оленеводов Северного Байкала"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-3-6.jpeg" },
-        { "title": {
-          "en": "Blossoming bushes on the way" ,
-          "ru": "Цветущие кусты на пути"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-3-7.jpeg" }
+        {
+          "title": {
+            "en": "Trekking to the lake with reindeer and Evenki",
+            "ru": "Треккинг к озеру с оленями и эвенками"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-3-1.jpeg"
+        },
+        {
+          "title": {
+            "en": "A lake hidden in taiga forest",
+            "ru": "Озеро, скрытое в тайге"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-3-2.jpeg"
+        },
+        {
+          "title": {
+            "en": "Crossing the river with caravan of reindeer",
+            "ru": "Переправа через реку с караваном оленей"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-3-3.jpeg"
+        },
+        {
+          "title": {
+            "en": "Sasha is going to cook freshly-caught fish in traditional way",
+            "ru": "Саша собирается приготовить свежепойманную рыбу традиционным способом"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-3-4.jpeg"
+        },
+        {
+          "title": {
+            "en": "Meeting with the reindeer",
+            "ru": "Встреча с оленями"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-3-5.jpeg"
+        },
+        {
+          "title": {
+            "en": "On the farm of reindeer herders of Northern Baikal",
+            "ru": "На ферме оленеводов Северного Байкала"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-3-6.jpeg"
+        },
+        {
+          "title": {
+            "en": "Blossoming bushes on the way",
+            "ru": "Цветущие кусты на пути"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-3-7.jpeg"
+        }
       ]
     },
     {
       "order": 4,
       "title": {
-        "en": "One day trekking to Balturikha lake" ,
+        "en": "One day trekking to Balturikha lake",
         "ru": "Однодневный поход к озеру Балтуриха."
       },
       "description": {
-        "en": "<p>09.00 - Breakfast.</p><p>10.00 - Start of trekking. We must cross a river and do radial trekking to Balturikha Lake. Evenki will show you the way and tell you about their home, Taiga.</p><p>13.00 - Lunch.</p><p>17.00 - Return to the farm.</p><p>18.00 - Banya.</p><p>19.00 - Dinner. Overnight at the same house.</p>" ,
+        "en": "<p>09.00 - Breakfast.</p><p>10.00 - Start of trekking. We must cross a river and do radial trekking to Balturikha Lake. Evenki will show you the way and tell you about their home, Taiga.</p><p>13.00 - Lunch.</p><p>17.00 - Return to the farm.</p><p>18.00 - Banya.</p><p>19.00 - Dinner. Overnight at the same house.</p>",
         "ru": "<p>09.00 – Завтрак.</p><p>10.00 – Начало треккинга. Нам предстоит пересечь реку и совершить радиальный переход к озеру Балтуриха. Эвенки покажут вам дорогу и расскажут о своем доме Тайге.</p><p>13.00 – Обед.</p><p>17.00 — Возвращение на ферму.</p><p>18.00 – Баня.</p><p>19.00 – Ужин. Ночевка в том же доме.</p>"
       },
       "pictures": [
-        { "title": {
-          "en": "Smoke helps to keep away flies and mosquitoes from reindeer",
-          "ru": "Дым помогает держать мух и комаров от оленей"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-4-1.jpeg" },
-        { "title": {
-          "en": "Pan is the leader of the reindeer family",
-          "ru": "Пан - лидер семьи оленей"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-4-2.jpeg" },
-        { "title": {
-          "en": "Inside the house on the farm",
-          "ru": "Внутри дома на ферме"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-4-3.jpeg" },
-        { "title": {
-          "en": "Reindeer moss (lichen) is the reindeer food",
-          "ru": "Оленьи мох (лишайник) - пища для оленей"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-4-4.jpeg" },
-        { "title": {
-          "en": "Chum is traditional conic-shaped house of Evenki people",
-          "ru": "Чум - традиционный конический дом эвенков"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-4-5.jpeg" }
+        {
+          "title": {
+            "en": "Smoke helps to keep away flies and mosquitoes from reindeer",
+            "ru": "Дым помогает держать мух и комаров от оленей"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-4-1.jpeg"
+        },
+        {
+          "title": {
+            "en": "Pan is the leader of the reindeer family",
+            "ru": "Пан - лидер семьи оленей"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-4-2.jpeg"
+        },
+        {
+          "title": {
+            "en": "Inside the house on the farm",
+            "ru": "Внутри дома на ферме"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-4-3.jpeg"
+        },
+        {
+          "title": {
+            "en": "Reindeer moss (lichen) is the reindeer food",
+            "ru": "Оленьи мох (лишайник) - пища для оленей"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-4-4.jpeg"
+        },
+        {
+          "title": {
+            "en": "Chum is traditional conic-shaped house of Evenki people",
+            "ru": "Чум - традиционный конический дом эвенков"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-4-5.jpeg"
+        }
       ]
     },
     {
       "order": 5,
       "title": {
-        "en": "Start trekking from the reindeer farm to the hunter's winter house" ,
+        "en": "Start trekking from the reindeer farm to the hunter's winter house",
         "ru": "Начало похода от оленеводческой фермы к зимовью охотника"
       },
       "description": {
-        "en": "<p>09.00 - Breakfast.</p><p>10.00 - Loading the reindeer. Trekking from the reindeer farm together with reindeer and Evenki people.</p><p><i>Evenki is often called the \"taiga people\" as they can orientate in endless taiga forests and mountains without any navigators. They \"read\" the weather, tell which animal has been at this place recently, and can quickly identify the bear's sleeping place and the tree where it scratched its claws.</i></p><p>13.00 - Lunch on the way as a picnic.</p><p><i>The trekking distance is about 10 km. At 17.00, you will arrive at the winter house where hunters used to stay when they went hunting. You will spend the night in a home or tent.</i></p><p><i>Enjoy stories (trustworthy) told by Evenkis from their lives living in the Taiga, sitting by the evening fire.</i></p>" ,
+        "en": "<p>09.00 - Breakfast.</p><p>10.00 - Loading the reindeer. Trekking from the reindeer farm together with reindeer and Evenki people.</p><p><i>Evenki is often called the \"taiga people\" as they can orientate in endless taiga forests and mountains without any navigators. They \"read\" the weather, tell which animal has been at this place recently, and can quickly identify the bear's sleeping place and the tree where it scratched its claws.</i></p><p>13.00 - Lunch on the way as a picnic.</p><p><i>The trekking distance is about 10 km. At 17.00, you will arrive at the winter house where hunters used to stay when they went hunting. You will spend the night in a home or tent.</i></p><p><i>Enjoy stories (trustworthy) told by Evenkis from their lives living in the Taiga, sitting by the evening fire.</i></p>",
         "ru": "<p>09.00 – Завтрак.</p><p>10.00 – Погрузка оленей. Поход с оленеводческого хозяйства вместе с оленями и эвенками.</p><p><i>Эвенков часто называют «таёжным народом», так как они умеют ориентироваться в бескрайних таёжных лесах и горах без всяких навигаторов. Они «читают» погоду, подсказывают, какое животное недавно побывало в этом месте, могут быстро определить место сна медведя и дерево, на котором он поцарапал когти.</i></p><p>13.00 – Обед по дороге в виде пикника.</p><p><i>Дальность похода около 10 км. В 17.00 вы прибудете в зимний дом, где останавливались охотники, когда выходили на охоту. Ночь вы проведете в доме или палатке.</i></p><p><i>Наслаждайтесь историями (достоверными), рассказанными эвенками из жизни, живущими в тайге, сидя у вечернего костра.</i></p>"
       },
       "pictures": [
-        { "title": {
-          "en": "Near the hunter's cabin" ,
-          "ru": "Около охотничьей хижины"
+        {
+          "title": {
+            "en": "Near the hunter's cabin",
+            "ru": "Около охотничьей хижины"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-5-1.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-5-1.jpeg" },
-        { "title": {
-          "en": "On the reindeer farm with Evenki people" ,
-          "ru": "На оленеводческой ферме с эвенками"
+        {
+          "title": {
+            "en": "On the reindeer farm with Evenki people",
+            "ru": "На оленеводческой ферме с эвенками"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-5-2.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-5-2.jpeg" },
-        { "title": {
-          "en": "Having a rest after trekking" ,
-          "ru": "Отдых после треккинга"
+        {
+          "title": {
+            "en": "Having a rest after trekking",
+            "ru": "Отдых после треккинга"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-5-3.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-5-3.jpeg" },
-        { "title": {
-          "en": "Volodya" ,
-          "ru": "Володя"
+        {
+          "title": {
+            "en": "Volodya",
+            "ru": "Володя"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-5-4.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-5-4.jpeg" },
-        { "title": {
-          "en": "It feels \"like home\"" ,
-          "ru": "Чувствуется «как дома»"
+        {
+          "title": {
+            "en": "It feels \"like home\"",
+            "ru": "Чувствуется «как дома»"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-5-5.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-5-5.jpeg" },
-        { "title": {
-          "en": "Flowers blossoming in the mountains" ,
-          "ru": "Цветущие цветы в горах"
+        {
+          "title": {
+            "en": "Flowers blossoming in the mountains",
+            "ru": "Цветущие цветы в горах"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-5-6.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-5-6.jpeg" },
-        { "title": {
-          "en": "Trekking with reindeer in the mountain valley" ,
-          "ru": "Треккинг с оленями в горной долине"
-        },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-5-7.jpeg" }
+        {
+          "title": {
+            "en": "Trekking with reindeer in the mountain valley",
+            "ru": "Треккинг с оленями в горной долине"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-5-7.jpeg"
+        }
       ]
     },
     {
       "order": 6,
       "title": {
-        "en": "Trekking to the mountain pass. Overnight in a tent or chum" ,
+        "en": "Trekking to the mountain pass. Overnight in a tent or chum",
         "ru": "Поход на перевал. Ночевка в палатке или чуме."
       },
       "description": {
-        "en": "<p>09.00 - Breakfast.</p><p>10.00 - Loading the reindeer. Trekking for about 12 km to the mountain pass.</p><p><i>This pass was used long ago by Tunguz people to enter the mountains from the Upper Angara River. Today, you will trek to the foot of this pass. On the way, you will pass alpine meadows with blossoming flowers in summer. It is possible to collect local herbs that are used in tea and other fields, especially those with healing qualities.</I></p><p>13.00 - Lunch on the way as a picnic.</p><p>17.00 - After you arrive at the place, you may set up a tent or spend the night in a conic-shaped chum - the traditional \"house\" of Evenkis.</p><p>19.00 - Dinner, overnight.</p>" ,
+        "en": "<p>09.00 - Breakfast.</p><p>10.00 - Loading the reindeer. Trekking for about 12 km to the mountain pass.</p><p><i>This pass was used long ago by Tunguz people to enter the mountains from the Upper Angara River. Today, you will trek to the foot of this pass. On the way, you will pass alpine meadows with blossoming flowers in summer. It is possible to collect local herbs that are used in tea and other fields, especially those with healing qualities.</I></p><p>13.00 - Lunch on the way as a picnic.</p><p>17.00 - After you arrive at the place, you may set up a tent or spend the night in a conic-shaped chum - the traditional \"house\" of Evenkis.</p><p>19.00 - Dinner, overnight.</p>",
         "ru": "<p>09.00 – Завтрак.</p><p>10.00 – Погрузка оленей. Переход около 12 км до перевала.</p><p><i>Этот перевал издавна использовался тунгузами для входа в горы со стороны Верхней Ангары. Сегодня вы отправитесь к подножию этого перевала. По пути вы проедете альпийские луга с цветущими летом цветами. Можно собирать местные травы, которые используются в чайной и других областях, особенно обладающие целебными свойствами.</I></p><p>13.00 – Обед по дороге в виде пикника.</p><p>17.00 - По прибытии на место можно поставить палатку или переночевать в коническом чуме - традиционном «доме» эвенков.</p><p>19.00 – Ужин, ночевка.</p>"
       },
       "pictures": [
-        { "title": {
-          "en": "Hunter's cabin on sunrise" ,
-          "ru": "Охотничья хижина на восходе"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-6-1.jpeg" },
-        { "title": {
-          "en": "In the meadow" ,
-          "ru": "На лугу"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-6-2.jpeg" },
-        { "title": {
-          "en": "It is possible to pick up local herbs" ,
-          "ru": "Можно собирать местные травы"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-6-3.jpeg" },
-        { "title": {
-          "en": "Klavdiya Vasilyevna is the most experienced participant of our group. She is a wonderful guide, a cook, driver and the kindest person!" ,
-          "ru": "Клавдия Васильевна - самый опытный участник нашей группы. Она замечательный гид, повар, водитель и самый добрый человек!"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-6-4.jpeg" },
-        { "title": {
-          "en": "Setting the tent camp and tchum (conic shaped house)" ,
-          "ru": "Установка палаточного лагеря и чума"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-6-5.jpeg" },
-        { "title": {
-          "en": "Beautiful slopes of the valley where the tent camp is located" ,
-          "ru": "Красивые склоны долины, где расположен палаточный лагерь"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-6-6.jpeg" },
-        { "title": {
-          "en": "Trekking in the the valley among the mountains" ,
-          "ru": "Треккинг в долине среди гор"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-6-7.jpeg" }
+        {
+          "title": {
+            "en": "Hunter's cabin on sunrise",
+            "ru": "Охотничья хижина на восходе"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-6-1.jpeg"
+        },
+        {
+          "title": {
+            "en": "In the meadow",
+            "ru": "На лугу"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-6-2.jpeg"
+        },
+        {
+          "title": {
+            "en": "It is possible to pick up local herbs",
+            "ru": "Можно собирать местные травы"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-6-3.jpeg"
+        },
+        {
+          "title": {
+            "en": "Klavdiya Vasilyevna is the most experienced participant of our group. She is a wonderful guide, a cook, driver and the kindest person!",
+            "ru": "Клавдия Васильевна - самый опытный участник нашей группы. Она замечательный гид, повар, водитель и самый добрый человек!"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-6-4.jpeg"
+        },
+        {
+          "title": {
+            "en": "Setting the tent camp and tchum (conic shaped house)",
+            "ru": "Установка палаточного лагеря и чума"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-6-5.jpeg"
+        },
+        {
+          "title": {
+            "en": "Beautiful slopes of the valley where the tent camp is located",
+            "ru": "Красивые склоны долины, где расположен палаточный лагерь"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-6-6.jpeg"
+        },
+        {
+          "title": {
+            "en": "Trekking in the the valley among the mountains",
+            "ru": "Треккинг в долине среди гор"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-6-7.jpeg"
+        }
       ]
     },
     {
       "order": 7,
-      "title":{
-        "en": "Climbing the mountain pass, trekking down to the forest zone. Transfer by car to Uoyan village. Hot springs. Arrival to Severobaikalsk." ,
+      "title": {
+        "en": "Climbing the mountain pass, trekking down to the forest zone. Transfer by car to Uoyan village. Hot springs. Arrival to Severobaikalsk.",
         "ru": "Восхождение на перевал, спуск в лесную зону. Переезд на машине в село Уоян. Горячие источники. Прибытие в Северобайкальск."
       },
       "description": {
-        "en": "<p>08.00 - Breakfast. </p><p>10.00 - Loading the reindeer and start of trekking.</p><p><i>Today, you will ascend the mountain pass with a nice panoramic view of the nearby mountains of Verkhne-Angarskiy mountain ridge. Trekking down for about 10 km. You will be picked up by a 4WD car on the forest road. It is difficult to say \"Goodbye\" to these magnificent animals and people who became your family for these last 5 days.</i></p><p>14.00 - Transfer to Uoyan village. </p><p>14.30 - Lunch in the village. </p><p>15.30 - Transfer to hot springs Dzelinda (about 80 km ride). It is always nice to relax in hot springs after trekking.</p><p>18.00 - Transfer to Severobaikalsk city. Accommodation in guest house/hostel. Dinner. </p>" ,
+        "en": "<p>08.00 - Breakfast. </p><p>10.00 - Loading the reindeer and start of trekking.</p><p><i>Today, you will ascend the mountain pass with a nice panoramic view of the nearby mountains of Verkhne-Angarskiy mountain ridge. Trekking down for about 10 km. You will be picked up by a 4WD car on the forest road. It is difficult to say \"Goodbye\" to these magnificent animals and people who became your family for these last 5 days.</i></p><p>14.00 - Transfer to Uoyan village. </p><p>14.30 - Lunch in the village. </p><p>15.30 - Transfer to hot springs Dzelinda (about 80 km ride). It is always nice to relax in hot springs after trekking.</p><p>18.00 - Transfer to Severobaikalsk city. Accommodation in guest house/hostel. Dinner. </p>",
         "ru": "<p>08.00 – Завтрак. </p><p>10.00 – Погрузка оленей и начало треккинга.</p><p><i>Сегодня вы подниметесь на перевал, откуда открывается прекрасный панорамный вид на близлежащие горы Верхне-Ангарского хребта. Спуск около 10 км. На лесной дороге вас встретит полноприводный автомобиль. Трудно сказать «Прощай» этим великолепным животным и людям, ставшим вашей семьей за эти 5 дней.</i></p><p>14.00 – Трансфер в село Уоян. </p><p>14.30 – Обед в деревне. </p><p>15.30 – Переезд к горячим источникам Дзелинда (около 80 км пути). После треккинга всегда приятно расслабиться в горячих источниках.</p><p>18.00 - Трансфер в город Северобайкальск. Размещение в гостевом доме/хостеле. Ужин. </p>"
       },
       "pictures": [
-        { "title": {
-          "en": "\"Arlik\" is my favourite and most beautiful reindeer!" ,
-          "ru": "«Арлик» - мой любимый и самый красивый олень!"
+        {
+          "title": {
+            "en": "\"Arlik\" is my favourite and most beautiful reindeer!",
+            "ru": "«Арлик» - мой любимый и самый красивый олень!"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-7-1.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-7-1.jpeg" },
-        { "title": {
-          "en": "Sunrise in the mountains" ,
-          "ru": "Восход солнца в горах"
+        {
+          "title": {
+            "en": "Sunrise in the mountains",
+            "ru": "Восход солнца в горах"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-7-2.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-7-2.jpeg" },
-        { "title": {
-          "en": "Trekking down the pass with caravan of reindeer" ,
-          "ru": "Спуск с перевала с караваном оленей"
+        {
+          "title": {
+            "en": "Trekking down the pass with caravan of reindeer",
+            "ru": "Спуск с перевала с караваном оленей"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-7-3.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-7-3.jpeg" },
-        { "title": {
-          "en": "Trekking in the mountains of Northern Baikal with reindeer" ,
-          "ru": "Треккинг в горах Северного Байкала с оленями"
+        {
+          "title": {
+            "en": "Trekking in the mountains of Northern Baikal with reindeer",
+            "ru": "Треккинг в горах Северного Байкала с оленями"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-7-4.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-7-4.jpeg" },
-        { "title": {
-          "en": "On the mountain pass with caravan of reindeer" ,
-          "ru": "На перевале с караваном оленей"
+        {
+          "title": {
+            "en": "On the mountain pass with caravan of reindeer",
+            "ru": "На перевале с караваном оленей"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-7-5.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-7-5.jpeg" },
-        { "title": {
-          "en": "Blossoming bushes in the high land" ,
-          "ru": "Цветущие кусты в высокогорье"
+        {
+          "title": {
+            "en": "Blossoming bushes in the high land",
+            "ru": "Цветущие кусты в высокогорье"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-7-6.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-7-6.jpeg" },
-        { "title": {
-          "en": "Dzelinda hot springs" ,
-          "ru": "Горячие источники Дзелинда"
+        {
+          "title": {
+            "en": "Dzelinda hot springs",
+            "ru": "Горячие источники Дзелинда"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-7-7.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-7-7.jpeg" },
-        { "title": {
-          "en": "Trekking on the mountain pass" ,
-          "ru": "Треккинг на перевале"
+        {
+          "title": {
+            "en": "Trekking on the mountain pass",
+            "ru": "Треккинг на перевале"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-7-8.jpeg"
         },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-7-8.jpeg" },
-        { "title": {
-          "en": "Trekking with reindeer in the mountains of Northern Baikal" ,
-          "ru": "Треккинг с оленями в горах Северного Байкала"
-        },
-          "src": "/public/tours/expedition-to-reindeer-herders/day-7-9.jpeg" }
+        {
+          "title": {
+            "en": "Trekking with reindeer in the mountains of Northern Baikal",
+            "ru": "Треккинг с оленями в горах Северного Байкала"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-7-9.jpeg"
+        }
       ]
     },
     {
       "order": 8,
       "title": {
-        "en": "Climbing the mountain pass, trekking down to the forest zone. Transfer by car to Uoyan village. Hot springs. Arrival to Severobaikalsk." ,
+        "en": "Climbing the mountain pass, trekking down to the forest zone. Transfer by car to Uoyan village. Hot springs. Arrival to Severobaikalsk.",
         "ru": "Подъем на перевал, спуск в лесную зону. Переезд на машине в село Уоян. Горячие источники. Прибытие в Северобайкальск."
       },
       "description": {
-        "en": "<p>09.00 - Breakfast.</p><p>10.00 - Visit to the museum of BAM railway in Severobaikalsk.</p><p>12.30 - Transfer to the airport.</p><p>14.00 - Flight Nizhneangarsk - Irkutsk.</p><p>15.30 - Arrival to Irkutsk. Accommodation in homestay.</p><p>16.30 - Sightseeing Irkutsk. Visit the historical heart of the city, the shore of the Angara River, and the 130th Wooden Quarter.</p><p>19.00 - Dinner. Overnight.</p>" ,
+        "en": "<p>09.00 - Breakfast.</p><p>10.00 - Visit to the museum of BAM railway in Severobaikalsk.</p><p>12.30 - Transfer to the airport.</p><p>14.00 - Flight Nizhneangarsk - Irkutsk.</p><p>15.30 - Arrival to Irkutsk. Accommodation in homestay.</p><p>16.30 - Sightseeing Irkutsk. Visit the historical heart of the city, the shore of the Angara River, and the 130th Wooden Quarter.</p><p>19.00 - Dinner. Overnight.</p>",
         "ru": "<p>09.00 – Завтрак.</p><p>10.00 - Посещение музея БАМа в Северобайкальске.</p><p>12.30 – Трансфер в аэропорт.</p><p>14.00 – Рейс Нижнеангарск – Иркутск.</p><p>15.30 – Прибытие в Иркутск. Проживание в семье.</p><p>16.30 – Экскурсия по Иркутску. Посетите историческое сердце города, берег Ангары и 130-й Деревянный квартал.</p><p>19.00 – Ужин. Ночью.</p>"
       },
       "pictures": [
-        { "title": {
-          "en": "A wooden statue of Evenki and its reindeer in museum",
-          "ru": "Деревянная статуя эвенка и его оленя в музее"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-8-1.jpeg" },
-        { "title": {
-          "en": "BAM railway",
-          "ru": "Железная дорога БАМ"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-8-2.jpeg" }
-
+        {
+          "title": {
+            "en": "A wooden statue of Evenki and its reindeer in museum",
+            "ru": "Деревянная статуя эвенка и его оленя в музее"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-8-1.jpeg"
+        },
+        {
+          "title": {
+            "en": "BAM railway",
+            "ru": "Железная дорога БАМ"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-8-2.jpeg"
+        }
       ]
     },
     {
       "order": 9,
       "title": {
-        "en": "Visit to museum of BAM railway. Flight Nizhneangarsk - Irkutsk. Sightseeing Irkutsk." ,
+        "en": "Visit to museum of BAM railway. Flight Nizhneangarsk - Irkutsk. Sightseeing Irkutsk.",
         "ru": "Посещение музея железной дороги БАМа. Рейс Нижнеангарск – Иркутск. Достопримечательности Иркутска."
       },
       "description": {
-        "en": "<p>09.00 - Meeting with your guide and transfer to Taltsy museum. </p><p><i>Taltsy is an open-air museum of wooden architecture on your way to Listvyanka. You'll ride for 70 km (about 1 hour) - the shortest access to Baikal Lake from Irkutsk. Taltsy Museum is a collection of monuments featuring 17th- to 20th-century history, architecture, and ethnography. Visitors are allowed to get acquainted directly with the material and spiritual life of people living in Baikal County. The crowns of high trees will keep you in the shadows, and clean air from the Angara River will fill you with freshness.</i></p><p>12.30 - Lunch in Traktir, where you can taste the local cuisine.</p><p>13.30 - Transfer to Listvyanka.</p><p><i>Your second stop will be your first meeting with Baikal – the place where the Angara River flows out of the Lake. There are about 336 rivers that bring their water into the Lake, but the only one, called Blue-eyed Daughter Angara, flows out of the Lake. Listen to the beautiful local legend told by your guide about Angara and Shaman rock at this place.</i></p><p>14.30 - Cherskiy rock observation point by ski lift.</p><p><i>This observation point provides a fantastic view of Angara's outflow, port Baikal, and Baikal Lake. The funicular will bring you up the hill, and you may enjoy walking back in the surroundings.</i></p><p>16.00 - Visiting the central fish and souvenir market in Listvyanka.</p><p><i>This is the place where locals smoke and sell Baikal fish - Omul and grayling. You may try different varieties such as dried, hot, and cold smoked. It is one of the peculiarities of visiting Listvyanka. You may also look at the various Baikal souvenirs sold here: maps, precious stones, shamanism attributes, magnets, jewelry, and others.</i></p><p>17.00 - visit the wooden church of St.Nickolas.</p><p><i>St. Nicolas is considered a protector of travelers, sailors, and navigators. Your guide will tell you a legend about this church.</i></p><p><i>*As an option, you may visit the Baikal museum (not included), where you can familiarize yourself with Baikal's nature, geological structure, fauna, and flora. The aquarium with an alive Baikal seal - Nerpa, imitational diving to the bottom of Baikal, and fish exhibits will give you an idea of how unique the Lake is.</i></p><p>18.30 - Transfer back to Irkutsk.</p>" ,
+        "en": "<p>09.00 - Meeting with your guide and transfer to Taltsy museum. </p><p><i>Taltsy is an open-air museum of wooden architecture on your way to Listvyanka. You'll ride for 70 km (about 1 hour) - the shortest access to Baikal Lake from Irkutsk. Taltsy Museum is a collection of monuments featuring 17th- to 20th-century history, architecture, and ethnography. Visitors are allowed to get acquainted directly with the material and spiritual life of people living in Baikal County. The crowns of high trees will keep you in the shadows, and clean air from the Angara River will fill you with freshness.</i></p><p>12.30 - Lunch in Traktir, where you can taste the local cuisine.</p><p>13.30 - Transfer to Listvyanka.</p><p><i>Your second stop will be your first meeting with Baikal – the place where the Angara River flows out of the Lake. There are about 336 rivers that bring their water into the Lake, but the only one, called Blue-eyed Daughter Angara, flows out of the Lake. Listen to the beautiful local legend told by your guide about Angara and Shaman rock at this place.</i></p><p>14.30 - Cherskiy rock observation point by ski lift.</p><p><i>This observation point provides a fantastic view of Angara's outflow, port Baikal, and Baikal Lake. The funicular will bring you up the hill, and you may enjoy walking back in the surroundings.</i></p><p>16.00 - Visiting the central fish and souvenir market in Listvyanka.</p><p><i>This is the place where locals smoke and sell Baikal fish - Omul and grayling. You may try different varieties such as dried, hot, and cold smoked. It is one of the peculiarities of visiting Listvyanka. You may also look at the various Baikal souvenirs sold here: maps, precious stones, shamanism attributes, magnets, jewelry, and others.</i></p><p>17.00 - visit the wooden church of St.Nickolas.</p><p><i>St. Nicolas is considered a protector of travelers, sailors, and navigators. Your guide will tell you a legend about this church.</i></p><p><i>*As an option, you may visit the Baikal museum (not included), where you can familiarize yourself with Baikal's nature, geological structure, fauna, and flora. The aquarium with an alive Baikal seal - Nerpa, imitational diving to the bottom of Baikal, and fish exhibits will give you an idea of how unique the Lake is.</i></p><p>18.30 - Transfer back to Irkutsk.</p>",
         "ru": "<p>09.00 - Встреча с гидом и трансфер в музей Тальцы. </p><p><i>Тальцы — музей деревянного зодчества под открытым небом по дороге в Листвянку. Вы проедете 70 км (около 1 часа) - самый короткий путь к Байкалу из Иркутска. Музей Тальцы — это собрание памятников истории, архитектуры и этнографии 17-20 веков. Посетителям предоставляется возможность непосредственно познакомиться с материальной и духовной жизнью людей, проживающих в Прибайкалье. Кроны высоких деревьев удержат вас в тени, а чистый воздух реки Ангары наполнит свежестью.</i></p><p>12.30 – Обед в Трактире, где можно попробовать блюда местной кухни.</p><p>13.30 – Трансфер в Листвянку.</p><p><i>Вашей второй остановкой станет первая встреча с Байкалом – местом, где река Ангара вытекает из озера. В озеро впадают около 336 рек, но вытекает из озера единственная, называемая Голубоглазая дочь Ангара. Послушайте красивую местную легенду, рассказанную вашим гидом об Ангаре и Шаманском камне в этом месте.</i></p><p>14.30 - Смотровая площадка «Скала Черского» у подъемника.</p><p><i>С этой смотровой площадки открывается фантастический вид на приток Ангары, порт Байкал и озеро Байкал. Фуникулер доставит вас на гору, и вы сможете насладиться прогулкой по окрестностям.</i></p><p>16.00 - Посещение центрального рыбно-сувенирного рынка в Листвянке.</p><p><i>Здесь местные жители коптят и продают байкальскую рыбу – омуля и хариуса. Вы можете попробовать разные сорта, такие как сушеное, горячего и холодного копчения. Это одна из особенностей посещения Листвянки. Также здесь можно посмотреть различные байкальские сувениры: карты, драгоценные камни, атрибуты шаманизма, магниты, украшения и многое другое.</i></p><p>17.00 – посещение деревянной церкви Св. Николая.</p><p><i>Св. Николя считается покровителем путешественников, моряков и мореплавателей. Ваш гид расскажет вам легенду об этой церкви.</i></p><p><i>*Как вариант, вы можете посетить Байкальский музей (не входит в комплект), где сможете ознакомиться с природой, геологическим строением, фауной и флорой Байкала. Аквариум с живой байкальской нерпой - нерпой, имитация ныряния на дно Байкала и рыбные экспонаты дадут вам представление о том, насколько уникально озеро.</i></p><p>18.30 – Трансфер обратно в Иркутск.</p>"
       },
       "pictures": [
-        { "title": {
-          "en": "On Cherkiy rock in Listvyanka" ,
-          "ru": "На Черкийском камне в Листвянке"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-9-1.jpeg" },
-        { "title": {
-          "en": "Wooden house in Taltsy museum" ,
-          "ru": "Деревянный дом в музее Тальцы"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-9-2.jpeg" },
-        { "title": {
-          "en": "Birch bark craftsman in the village" ,
-          "ru": "Мастер по берестяным ремеслам в деревне"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-9-3.jpeg" },
-        { "title": {
-          "en": "Wooden church of St.Nickolas in Listvyanka" ,
-          "ru": "Деревянная церковь св. Николая в Листвянке"
-        }, "src": "/public/tours/expedition-to-reindeer-herders/day-9-4.jpeg" }
+        {
+          "title": {
+            "en": "On Cherkiy rock in Listvyanka",
+            "ru": "На Черкийском камне в Листвянке"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-9-1.jpeg"
+        },
+        {
+          "title": {
+            "en": "Wooden house in Taltsy museum",
+            "ru": "Деревянный дом в музее Тальцы"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-9-2.jpeg"
+        },
+        {
+          "title": {
+            "en": "Birch bark craftsman in the village",
+            "ru": "Мастер по берестяным ремеслам в деревне"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-9-3.jpeg"
+        },
+        {
+          "title": {
+            "en": "Wooden church of St.Nickolas in Listvyanka",
+            "ru": "Деревянная церковь св. Николая в Листвянке"
+          },
+          "src": "/public/tours/expedition-to-reindeer-herders/day-9-4.jpeg"
+        }
       ]
     }
   ]

@@ -23,7 +23,11 @@ const theme = createTheme({
     h5: { ...customFont, fontSize: "1.5rem", fontWeight: "normal" },
     subtitle1: { ...customFont, fontSize: "1.3rem", fontWeight: 500 },
     subtitle2: { ...customFont, fontSize: "1.2rem", fontWeight: 400 },
-    body1: { fontFamily: "Inter, system-ui, Avenir, Helvetica, Arial, sans-serif", fontSize: "1.1rem", lineHeight: 1.6 },
+    body1: {
+      fontFamily: "Inter, system-ui, Avenir, Helvetica, Arial, sans-serif",
+      fontSize: "1.1rem",
+      lineHeight: 1.6,
+    },
     body2: { fontFamily: "Inter, system-ui, Avenir, Helvetica, Arial, sans-serif", fontSize: "1rem", lineHeight: 1.4 },
     caption: { ...customFont, fontSize: "1rem", fontWeight: "normal", lineHeight: 1.2 },
   },

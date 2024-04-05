@@ -25,7 +25,10 @@ export default function GuestBookPage() {
         <NavbarBlock
           links={[
             { text: dictionary?.find((item) => item.id === "home")?.text[language], link: `/${language}/` },
-            { text: dictionary?.find((item) => item.id === "guestBook")?.text[language], link: `/${language}/guest-book` },
+            {
+              text: dictionary?.find((item) => item.id === "guestBook")?.text[language],
+              link: `/${language}/guest-book`,
+            },
           ]}
         />
       ) : (
@@ -46,7 +49,12 @@ export default function GuestBookPage() {
               <Button>Close</Button>
             </div>
           </Modal>
-          <Button variant="contained" color="primary" style={{ margin: "20px 0px 5px" }} onClick={() => setModalIsOpen(true)}>
+          <Button
+            variant="contained"
+            color="primary"
+            style={{ margin: "20px 0px 5px" }}
+            onClick={() => setModalIsOpen(true)}
+          >
             {dictionary.find((item) => item.id === "leaveReview")?.text[language]}
           </Button>
 

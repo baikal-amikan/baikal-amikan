@@ -40,8 +40,14 @@
     { "ru": "Все сборы за посещение зон национальных парков", "en": "All fees for visiting national park zones" },
     { "ru": "Услуги англоговорящего гида", "en": "English-speaking guide service" },
     { "ru": "Питание во время тура", "en": "Meals during the tour" },
-    { "ru": "Аренда туристического снаряжения, посуды для приготовления пищи и продуктов питания", "en": "Rent of camping equipment, cooking and food ware" },
-    { "ru": "Трансфер Иркутск – Слюдянка – Иркутск на автомобиле.", "en": "Transfer Irkutsk - Sludyanka - Irkutsk by car" },
+    {
+      "ru": "Аренда туристического снаряжения, посуды для приготовления пищи и продуктов питания",
+      "en": "Rent of camping equipment, cooking and food ware"
+    },
+    {
+      "ru": "Трансфер Иркутск – Слюдянка – Иркутск на автомобиле.",
+      "en": "Transfer Irkutsk - Sludyanka - Irkutsk by car"
+    },
     { "ru": "Трансфер в/из аэропорта", "en": "Transfer to/from airport" }
   ],
   "notIncludes": [
@@ -61,14 +67,31 @@
         "ru": "<p>09.00 - Трансфер Иркутск - Слюдянка.</p> <p><i>Утром мы отправимся на юг от Иркутска к озеру Байкал (около 120 км, асфальтированная дорога). Во время этой поездки, вы увидите тайгу, несколько небольших сибирских деревень на Транссибской магистрали и озеро Байкал, окруженное у хребта Хамар-Дабан. Машина отвезет нас в город Слюдянку по главной линии Транссиба рядом с склоны гор Хамар-Дабан.</i></p> <p>12.30 - Начало треккинга./p> <p><i>Маршрут трекинга начинается прямо на границе этого небольшого города. Если вы хотите, чтобы ваш вещи несли лошади - необходимо обсудить и заказать заранее. Походный маршрут проходит вдоль реки Слюдянки.</i></p> <p>14.00 - Обед будет подан вам как пикник на берегу реки.</p> <p><i>После обеда мы начнем поход по долине до истока реки. Походный маршрут проходит по старой геологической дороге для добычи редкого байкальского минерала - лазурита. Дорога была построена в 1960-х годах, а сейчас туда можно проехать только на огромных военных грузовиках. Мы пересечём реку несколько раз по деревянным мостам. Маршрут живописен: цветущие луга, зеленые склоны и кристально чистая проточная вода рядом. В жаркий день можно искупаться в горной реке. В этом районе очень высокая влажность воздуха, поэтому мох растет на камнях, земле и деревьях.</i></p> <p>18.00 - Вечером мы разобьем палаточный лагерь на живописной поляне среди вечнозеленого кедрового леса. Если группа в хорошей физической форме, то можно добраться до метеостанции на высоте 1400 метров и переночевать либо в теплом доме, либо в палатках (в зависимости от ваших требований).</p> <p>19.00 - Там для вас приготовят ужин. Ночлег: Палаточный лагерь/деревянный дом. Общая дистанция пути для этого день 23 км.</p>"
       },
       "pictures": [
-        { "title": { "ru": "Треккинг с корейской группой", "en": "Trekking with Korean group" }, "src": "/public/tours/trekking-to-khamar-daban-mountains/day-1-1.jpg" },
-        { "title": { "ru": "Сибирские джунгли", "en": "Siberian jungles" }, "places": ["khamar-daban"], "src": "/public/tours/trekking-to-khamar-daban-mountains/day-1-2.jpg" },
-        { "title": { "ru": "Кемпинг к метеостанции", "en": "Camping to the weather station" }, "places": ["khamar-daban"], "src": "/public/tours/trekking-to-khamar-daban-mountains/day-1-3.jpg" },
         {
-          "title": { "ru": "Иногда можно арендовать лошадей, чтобы доставить багаж на метеостанцию.", "en": "Sometimes, horses can be rented to bring the luggage to the weather station" },
+          "title": { "ru": "Треккинг с корейской группой", "en": "Trekking with Korean group" },
+          "src": "/public/tours/trekking-to-khamar-daban-mountains/day-1-1.jpg"
+        },
+        {
+          "title": { "ru": "Сибирские джунгли", "en": "Siberian jungles" },
+          "places": ["khamar-daban"],
+          "src": "/public/tours/trekking-to-khamar-daban-mountains/day-1-2.jpg"
+        },
+        {
+          "title": { "ru": "Кемпинг к метеостанции", "en": "Camping to the weather station" },
+          "places": ["khamar-daban"],
+          "src": "/public/tours/trekking-to-khamar-daban-mountains/day-1-3.jpg"
+        },
+        {
+          "title": {
+            "ru": "Иногда можно арендовать лошадей, чтобы доставить багаж на метеостанцию.",
+            "en": "Sometimes, horses can be rented to bring the luggage to the weather station"
+          },
           "src": "/public/tours/trekking-to-khamar-daban-mountains/day-1-4.jpg"
         },
-        { "title": { "ru": "Переход через мост через реку Слюдянку", "en": "Crossing the bridge over Sludyanka river" }, "src": "/public/tours/trekking-to-khamar-daban-mountains/day-1-5.jpg" }
+        {
+          "title": { "ru": "Переход через мост через реку Слюдянку", "en": "Crossing the bridge over Sludyanka river" },
+          "src": "/public/tours/trekking-to-khamar-daban-mountains/day-1-5.jpg"
+        }
       ]
     },
     {
@@ -83,25 +106,44 @@
       },
       "pictures": [
         {
-          "title": { "ru": "На скалистом участке по пути на вершину скалы Черского", "en": "On the rocky cliff on the way to the summit of Cherskiy rock" },
+          "title": {
+            "ru": "На скалистом участке по пути на вершину скалы Черского",
+            "en": "On the rocky cliff on the way to the summit of Cherskiy rock"
+          },
           "activities": ["trekking"],
           "src": "/public/tours/trekking-to-khamar-daban-mountains/day-2-1.jpg"
         },
-        { "title": { "ru": "Рододендрон Адамсий", "en": "Rhododēndron adāmsii" }, "places": ["khamar-daban"], "src": "/public/tours/trekking-to-khamar-daban-mountains/day-2-2.jpg" },
         {
-          "title": { "ru": "Подъём на вершину горного хребта, чтобы увидеть «Озеро Сердца»", "en": "Trekking up high to the top of the mountain ridge to see \"Lake Heart\"" },
+          "title": { "ru": "Рододендрон Адамсий", "en": "Rhododēndron adāmsii" },
+          "places": ["khamar-daban"],
+          "src": "/public/tours/trekking-to-khamar-daban-mountains/day-2-2.jpg"
+        },
+        {
+          "title": {
+            "ru": "Подъём на вершину горного хребта, чтобы увидеть «Озеро Сердца»",
+            "en": "Trekking up high to the top of the mountain ridge to see \"Lake Heart\""
+          },
           "src": "/public/tours/trekking-to-khamar-daban-mountains/day-2-3.jpg"
         },
         {
-          "title": { "ru": "Треккинг к пику Черского над лесной зоной", "en": "Trekking towards Cherskiy Peak above the forest zone" },
+          "title": {
+            "ru": "Треккинг к пику Черского над лесной зоной",
+            "en": "Trekking towards Cherskiy Peak above the forest zone"
+          },
           "src": "/public/tours/trekking-to-khamar-daban-mountains/day-2-4.jpg"
         },
         {
-          "title": { "ru": "«Озеро Сердце» в самом сердце гор Хамар-Дабан", "en": "\"Lake Heart\" in the heart of Khamar-Daban mountains" },
+          "title": {
+            "ru": "«Озеро Сердце» в самом сердце гор Хамар-Дабан",
+            "en": "\"Lake Heart\" in the heart of Khamar-Daban mountains"
+          },
           "places": ["khamar-daban"],
           "src": "/public/tours/trekking-to-khamar-daban-mountains/day-2-5.jpg"
         },
-        { "title": { "ru": "Вершина пика Черского", "en": "The top of Cherskiy Peak" }, "src": "/public/tours/trekking-to-khamar-daban-mountains/day-2-6.jpg" }
+        {
+          "title": { "ru": "Вершина пика Черского", "en": "The top of Cherskiy Peak" },
+          "src": "/public/tours/trekking-to-khamar-daban-mountains/day-2-6.jpg"
+        }
       ]
     },
     {
@@ -115,20 +157,38 @@
         "ru": "<p>09.00 – Завтрак.</p> <p>10.00 – Начало треккинга.</p> <p><i>Сегодня после завтрака мы посетим водопады реки Подкомарной. Один из водопадов, который вы можете видеть и слышать прямо с того места, где мы разбили лагерь. Маршрут проходит через лес, иногда по валунам (упавшие камни), по склонам. Это место в июне покрывается ковром из светло-желтых цветов, иногда встречается дикий чеснок. </i></p> <p>13.00 - Рядом с одним из водопадов для вас будет приготовлен обед.</p> <p><i>Наслаждайтесь купанием в сверкающих водопадах в жаркий день. Это освежает и заряжает энергией! Возвращаемся обратно в лагерь. </i></p> <p>19.00 – Ужин. Время отдыха.</p> <p><i>Осенью это роскошное место для любителей ягод. Ты можешь лежать на лугу и есть ягоды прямо перед вами.  В основном это сладкая черника и горная брусника. Туристы любят готовить из них подарочнные наборы из даров природы и трав. Ночлег: Палаточный лагерь/Деревянный дом. Общая дистанция похода за этот день — 15 км.</i></p>"
       },
       "pictures": [
-        { "title": { "ru": "На водопадах реки Подкомарной", "en": "On the waterfalls of Podkomarnaya river" }, "src": "/public/tours/trekking-to-khamar-daban-mountains/day-3-1.jpg" },
-        { "title": { "ru": "Цветущие луга Хамар-Дабана", "en": "Blooming meadow of Khamar-Daban" }, "src": "/public/tours/trekking-to-khamar-daban-mountains/day-3-2.jpg" },
         {
-          "title": { "ru": "На цветущих лугах в горах Хамар-Дабана", "en": "In the blossoming meadows in the Khamar-Daban mountains" },
+          "title": { "ru": "На водопадах реки Подкомарной", "en": "On the waterfalls of Podkomarnaya river" },
+          "src": "/public/tours/trekking-to-khamar-daban-mountains/day-3-1.jpg"
+        },
+        {
+          "title": { "ru": "Цветущие луга Хамар-Дабана", "en": "Blooming meadow of Khamar-Daban" },
+          "src": "/public/tours/trekking-to-khamar-daban-mountains/day-3-2.jpg"
+        },
+        {
+          "title": {
+            "ru": "На цветущих лугах в горах Хамар-Дабана",
+            "en": "In the blossoming meadows in the Khamar-Daban mountains"
+          },
           "places": ["khamar-daban"],
           "src": "/public/tours/trekking-to-khamar-daban-mountains/day-3-3.jpg"
         },
         {
-          "title": { "ru": "Один из водопадов в горах Хамар-Дабан.", "en": "One of the waterfalls in the Khamar-Daban mountains" },
+          "title": {
+            "ru": "Один из водопадов в горах Хамар-Дабан.",
+            "en": "One of the waterfalls in the Khamar-Daban mountains"
+          },
           "places": ["khamar-daban"],
           "src": "/public/tours/trekking-to-khamar-daban-mountains/day-3-4.jpg"
         },
-        { "title": { "ru": "Кемпинг в лесу", "en": "Camping in the forest" }, "src": "/public/tours/trekking-to-khamar-daban-mountains/day-3-5.jpg" },
-        { "title": { "ru": "На тропе среди кедров", "en": "Trekking under cedar trees" }, "src": "/public/tours/trekking-to-khamar-daban-mountains/day-3-6.jpg" }
+        {
+          "title": { "ru": "Кемпинг в лесу", "en": "Camping in the forest" },
+          "src": "/public/tours/trekking-to-khamar-daban-mountains/day-3-5.jpg"
+        },
+        {
+          "title": { "ru": "На тропе среди кедров", "en": "Trekking under cedar trees" },
+          "src": "/public/tours/trekking-to-khamar-daban-mountains/day-3-6.jpg"
+        }
       ]
     },
     {
@@ -143,12 +203,18 @@
       },
       "pictures": [
         {
-          "title": { "ru": "В сентябре на склонах Хамар-Дабана созревает брусника", "en": "In September, the lingonberry ripens on the slopes of Khamar-Daban" },
+          "title": {
+            "ru": "В сентябре на склонах Хамар-Дабана созревает брусника",
+            "en": "In September, the lingonberry ripens on the slopes of Khamar-Daban"
+          },
           "places": ["khamar-daban"],
           "src": "/public/tours/trekking-to-khamar-daban-mountains/day-3-7.jpg"
         },
         {
-          "title": { "ru": "Голубика созревает на склонах гор Хамар-Дабана в сентябре.", "en": "Blueberries ripen on the slopes of the Khamar-Daban mountains in September" },
+          "title": {
+            "ru": "Голубика созревает на склонах гор Хамар-Дабана в сентябре.",
+            "en": "Blueberries ripen on the slopes of the Khamar-Daban mountains in September"
+          },
           "places": ["khamar-daban"],
           "src": "/public/tours/trekking-to-khamar-daban-mountains/day-4-1.jpg"
         },

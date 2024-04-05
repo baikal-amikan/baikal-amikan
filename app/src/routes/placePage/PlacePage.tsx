@@ -83,7 +83,11 @@ export default function PlacePage() {
             {place.title[language]}
           </Typography>
 
-          {place.pictures ? <PicturesBlock pictures={place.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} /> : "Loading..."}
+          {place.pictures ? (
+            <PicturesBlock pictures={place.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} />
+          ) : (
+            "Loading..."
+          )}
 
           <Typography style={{ marginTop: "20px" }} variant="body1" align="left" paragraph>
             {place.description[language]}
@@ -94,7 +98,9 @@ export default function PlacePage() {
             {dictionary.find((item) => item.id === "tours")?.text[language]}
           </Typography>
           <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} style={{ marginBottom: "50px" }}>
-            {allTours?.filter((tour) => tour.places?.includes(place.id)).map((tour) => <TourBlock tour={tour} language={language} key={`tour-${tour.id}`} />)}
+            {allTours
+              ?.filter((tour) => tour.places?.includes(place.id))
+              .map((tour) => <TourBlock tour={tour} language={language} key={`tour-${tour.id}`} />)}
           </Grid>
         </Container>
       ) : (

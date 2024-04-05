@@ -22,7 +22,10 @@ export default function ActivitiesPage() {
         <NavbarBlock
           links={[
             { text: dictionary?.find((item) => item.id === "home")?.text[language], link: `/${language}/` },
-            { text: dictionary?.find((item) => item.id === "whatToDo")?.text[language], link: `/${language}/activities/` },
+            {
+              text: dictionary?.find((item) => item.id === "whatToDo")?.text[language],
+              link: `/${language}/activities/`,
+            },
           ]}
         />
       ) : (
@@ -37,7 +40,9 @@ export default function ActivitiesPage() {
                 key={activity.id}
                 image={activity.cover}
                 title={activity.title[language]}
-                subtitle={activity.seasons.map((season) => allSeasons.find((item) => item.id === season)?.title[language]).join(", ")}
+                subtitle={activity.seasons
+                  .map((season) => allSeasons.find((item) => item.id === season)?.title[language])
+                  .join(", ")}
                 link={`/${language}/activities/${activity.id}`}
               />
             ))}

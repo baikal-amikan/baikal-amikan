@@ -1,18 +1,8 @@
-import {
-  Box,
-  Card,
-  CardContent,
-  CardMedia,
-  ImageList,
-  ImageListItem,
-  Modal,
-  Paper,
-  Typography,
-  useMediaQuery,
-} from "@mui/material";
+import { ImageList, ImageListItem, useMediaQuery } from "@mui/material";
 import { useState } from "react";
 import css from "./PicturesBlock.module.scss";
 import theme from "../../theme.ts";
+import SlideShowBlock from "../slideShowBlock/SlideShowBlock.tsx";
 
 interface PicturesBlockProps {
   variant?: "woven" | "standard" | "masonry" | "quilted";
@@ -24,14 +14,9 @@ interface PicturesBlockProps {
 
 export default function PicturesBlock({ pictures, variant }: PicturesBlockProps) {
   const [open, setOpen] = useState(false);
+  // const [currentIndex, setCurrentIndex] = useState(0);
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
   const ImageListVariant = variant ? variant : "woven";
-  const handleOpen = () => {
-    setOpen(true);
-  };
-  const handleClose = () => {
-    setOpen(false);
-  };
   return (
     <>
       <ImageList
@@ -39,42 +24,38 @@ export default function PicturesBlock({ pictures, variant }: PicturesBlockProps)
         variant={isSmallScreen ? "standard" : ImageListVariant}
         cols={isSmallScreen ? 2 : 3}
         gap={isSmallScreen ? 6 : 8}
-        onClick={handleOpen}
       >
-        {pictures.map((item) => (
-          <ImageListItem key={`image-list-item-${item.url}`}>
-            <img
-              srcSet={`${item.url}?w=161&fit=crop&auto=format&dpr=2 2x`}
-              src={`${item.url}?w=161&fit=crop&auto=format`}
-              alt={item.title}
-              loading="lazy"
-              className={css.image}
-            />
-          </ImageListItem>
+        {pictures.map((item, index) => (
+          <a
+            href={`#image-${index}`}
+            className={css.link}
+            onClickCapture={() => setOpen(true)}
+            key={`image-list-item-${item.url}`}
+          >
+            <ImageListItem>
+              <img
+                srcSet={`${item.url}?w=161&fit=crop&auto=format&dpr=2 2x`}
+                src={`${item.url}?w=161&fit=crop&auto=format`}
+                alt={item.title}
+                loading="lazy"
+                className={css.image}
+                // onClick={() => {
+                //   // setCurrentIndex(index);
+                //   setOpen(true);
+                // }}
+              />
+            </ImageListItem>
+          </a>
         ))}
       </ImageList>
-      <Modal
+      <SlideShowBlock
+        pictures={pictures}
         open={open}
-        onClose={handleClose}
-        onClick={handleClose}
-        aria-labelledby="parent-modal-title"
-        aria-describedby="parent-modal-description"
-      >
-        <Box sx={{ maxHeight: "100%", overflow: "auto" }}>
-          {pictures.map((item) => (
-            <Card sx={{ maxWidth: "90%", margin: "10px auto 30px" }} key={`image-${item.url}`}>
-              <Paper elevation={3}>
-                <CardMedia component="img" alt={item.title} image={item.url} />
-                <CardContent>
-                  <Typography variant="body2" color="text.primary">
-                    {item.title}
-                  </Typography>
-                </CardContent>
-              </Paper>
-            </Card>
-          ))}
-        </Box>
-      </Modal>
+        // currentPic={currentIndex}
+        onClose={() => {
+          setOpen(false);
+        }}
+      />
     </>
   );
 }

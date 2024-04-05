@@ -17,7 +17,16 @@ export default function TourBlock({ tour, language }: TourBlockProps) {
       <Paper elevation={3} key={`tour-${tour.id}`} className={css.tourPaperBlock}>
         <Card>
           <Link to={`/${language}/tours/${tour.id}`}>
-            {season ? <CardMedia sx={{ height: 240 }} itemProp="image" image={tour.covers ? tour.covers[season?.id] : tour.cover} title={tour.title[language]} /> : ""}
+            {season ? (
+              <CardMedia
+                sx={{ height: 240 }}
+                itemProp="image"
+                image={tour.covers ? tour.covers[season?.id] : tour.cover}
+                title={tour.title[language]}
+              />
+            ) : (
+              ""
+            )}
           </Link>
 
           <CardContent>
@@ -39,7 +48,11 @@ export default function TourBlock({ tour, language }: TourBlockProps) {
               {tour.activities?.map((id) => {
                 const activity = allActivities?.find((item) => item.id === id);
                 return (
-                  <Link key={`activity-${id}`} to={`/${language}/activities/${activity?.id}`} className={css.activityLabel}>
+                  <Link
+                    key={`activity-${id}`}
+                    to={`/${language}/activities/${activity?.id}`}
+                    className={css.activityLabel}
+                  >
                     {activity?.title[language]}
                   </Link>
                 );

@@ -158,17 +158,24 @@ export function BaseContextProvider({ children }: BaseContextProps) {
   useEffect(() => {
     let ignore = false;
     if (!allSeasons || !season || !language) {
-      getData(`/public/settings.json`).then((defaultSettings: { defaultSeason: "summer" | "winter"; defaultLanguage: "en" | "ru"; seasons: Array<iSeason>; contacts: iContacts }) => {
-        if (!ignore) {
-          setAllSeasons(defaultSettings.seasons);
-          setContacts(defaultSettings.contacts);
-          setLanguage(defaultSettings.defaultLanguage);
-          const season = defaultSettings.seasons.find((item) => item.id === defaultSettings.defaultSeason);
-          if (season) {
-            setSeason(season);
+      getData(`/public/settings.json`).then(
+        (defaultSettings: {
+          defaultSeason: "summer" | "winter";
+          defaultLanguage: "en" | "ru";
+          seasons: Array<iSeason>;
+          contacts: iContacts;
+        }) => {
+          if (!ignore) {
+            setAllSeasons(defaultSettings.seasons);
+            setContacts(defaultSettings.contacts);
+            setLanguage(defaultSettings.defaultLanguage);
+            const season = defaultSettings.seasons.find((item) => item.id === defaultSettings.defaultSeason);
+            if (season) {
+              setSeason(season);
+            }
           }
-        }
-      });
+        },
+      );
     }
     return () => {
       ignore = true;

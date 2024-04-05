@@ -1,23 +1,21 @@
-
-.container{
+.container {
   max-width: 90%;
-  margin: 50px auto 100px
-
+  margin: 50px auto 100px;
 }
-.toursContainer{
+.toursContainer {
   padding: 0;
 }
-.tourTabs{
+.tourTabs {
   padding: 0 50px !important;
 }
 @media (max-width: 768px) {
-  .container{
+  .container {
     max-width: 100%;
     width: 100% !important;
     margin: 20px auto 50px;
     padding: 0 !important;
   }
-  .tourTabs{
+  .tourTabs {
     padding: 0 10px !important;
     margin: 0 20px !important;
   }

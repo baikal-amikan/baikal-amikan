@@ -13,7 +13,13 @@ export function NoMatch() {
     <div>
       <SideMenu />
       <LogoBlock />
-      {language && dictionary ? <NavbarBlock links={[{ text: dictionary?.find((item) => item.id === "home")?.text[language], link: `/${language}/` }]} /> : "Loading..."}
+      {language && dictionary ? (
+        <NavbarBlock
+          links={[{ text: dictionary?.find((item) => item.id === "home")?.text[language], link: `/${language}/` }]}
+        />
+      ) : (
+        "Loading..."
+      )}
 
       {language && dictionary ? (
         <Container maxWidth="sm">

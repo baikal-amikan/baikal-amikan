@@ -50,7 +50,11 @@ export default function FormBlock({ tourId, type }: FormBlockProps) {
   useEffect(() => {
     const today = new Date();
     const dateInTwoMonths = new Date(today.getFullYear(), today.getMonth() + 2, today.getDate());
-    const dateInTwoMonthsAndOneWeek = new Date(dateInTwoMonths.getFullYear(), dateInTwoMonths.getMonth(), dateInTwoMonths.getDate() + 7);
+    const dateInTwoMonthsAndOneWeek = new Date(
+      dateInTwoMonths.getFullYear(),
+      dateInTwoMonths.getMonth(),
+      dateInTwoMonths.getDate() + 7,
+    );
 
     const defaultData = {
       name: "",
@@ -243,7 +247,9 @@ ${dictionary.find((item) => item.id === "formOtherRequestsQuestion")?.text[langu
               helperText={errors["groupSize"]}
               placeholder={dictionary.find((item) => item.id === "formGroupSizePlaceholder")?.text[language]}
               value={formData.groupSize}
-              onChange={(e) => setFormData({ ...formData, groupSize: e.target.value && String(parseInt(e.target.value)) })}
+              onChange={(e) =>
+                setFormData({ ...formData, groupSize: e.target.value && String(parseInt(e.target.value)) })
+              }
             />
           ) : (
             ""
@@ -326,7 +332,9 @@ ${dictionary.find((item) => item.id === "formOtherRequestsQuestion")?.text[langu
           )}
 
           <Button type="submit" variant="contained" color="primary" style={{ marginTop: "40px", marginLeft: "auto" }}>
-            {type === "tour" ? dictionary.find((item) => item.id === "bookTour")?.text[language] : dictionary.find((item) => item.id === "sendReview")?.text[language]}
+            {type === "tour"
+              ? dictionary.find((item) => item.id === "bookTour")?.text[language]
+              : dictionary.find((item) => item.id === "sendReview")?.text[language]}
           </Button>
         </form>
       ) : (

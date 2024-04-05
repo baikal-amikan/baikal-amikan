@@ -30,13 +30,23 @@ export default function ReviewBlock({ review }: ReviewBlockProps) {
     <div className={css.reviewDiv} style={{ marginTop: "30px" }}>
       {review.avatar ? (
         <div className={css.avatarDiv}>
-          <Avatar alt="Svetlana" src={review.avatar} sx={{ width: 150, height: 150 }} style={{ margin: "25px 15px 5px 5px", float: "left" }} />
+          <Avatar
+            alt="Svetlana"
+            src={review.avatar}
+            sx={{ width: 150, height: 150 }}
+            style={{ margin: "25px 15px 5px 5px", float: "left" }}
+          />
         </div>
       ) : (
         ""
       )}
       <div className={css.reviewTextDiv}>
-        <Typography variant="h3" align="left" style={{ margin: "20px auto 0px auto" }} dangerouslySetInnerHTML={{ __html: review.name }} />
+        <Typography
+          variant="h3"
+          align="left"
+          style={{ margin: "20px auto 0px auto" }}
+          dangerouslySetInnerHTML={{ __html: review.name }}
+        />
         <Typography variant="subtitle2" align="left" style={{ margin: "0px auto 5px auto" }}>
           {review.date} {review.country ? `(${review.country})` : ""}
         </Typography>
@@ -49,7 +59,16 @@ export default function ReviewBlock({ review }: ReviewBlockProps) {
         ) : (
           ""
         )}
-        {review.text ? <Typography variant="body1" align="left" style={{ margin: "5px auto 5px auto" }} dangerouslySetInnerHTML={{ __html: review.text }} /> : ""}
+        {review.text ? (
+          <Typography
+            variant="body1"
+            align="left"
+            style={{ margin: "5px auto 5px auto" }}
+            dangerouslySetInnerHTML={{ __html: review.text }}
+          />
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

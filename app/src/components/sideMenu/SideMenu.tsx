@@ -28,7 +28,10 @@ export default function SideMenu() {
   const { language, dictionary, contacts, setLanguage } = useSafeContext(BaseContext);
 
   const toggleDrawer = (open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
-    if (event.type === "keydown" && ((event as React.KeyboardEvent).key === "Tab" || (event as React.KeyboardEvent).key === "Shift")) {
+    if (
+      event.type === "keydown" &&
+      ((event as React.KeyboardEvent).key === "Tab" || (event as React.KeyboardEvent).key === "Shift")
+    ) {
       return;
     }
     setIsOpen(open);
@@ -36,7 +39,14 @@ export default function SideMenu() {
 
   return (
     <div className={css.container}>
-      <Button variant={"contained"} onClick={toggleDrawer(true)} className={css.drawerButton} aria-label="menu" size={"large"} sx={{ size: "small" }}>
+      <Button
+        variant={"contained"}
+        onClick={toggleDrawer(true)}
+        className={css.drawerButton}
+        aria-label="menu"
+        size={"large"}
+        sx={{ size: "small" }}
+      >
         <MenuIcon />
       </Button>
 
@@ -69,31 +79,41 @@ export default function SideMenu() {
             <List style={{ margin: "50px 20px 50px 50px" }}>
               <ListItem key="tours">
                 <Button className={css.drawerLink} startIcon={<StarIcon />}>
-                  <Link to={`/${language}/tours`}>{dictionary.find((item) => item.id === "tours")?.text[language]}</Link>
+                  <Link to={`/${language}/tours`}>
+                    {dictionary.find((item) => item.id === "tours")?.text[language]}
+                  </Link>
                 </Button>
               </ListItem>
 
               <ListItem key="whereToGo">
                 <Button className={css.drawerLink} startIcon={<AirportShuttleIcon />}>
-                  <Link to={`/${language}/places`}>{dictionary.find((item) => item.id === "whereToGo")?.text[language]}</Link>
+                  <Link to={`/${language}/places`}>
+                    {dictionary.find((item) => item.id === "whereToGo")?.text[language]}
+                  </Link>
                 </Button>
               </ListItem>
 
               <ListItem key="whatToDo">
                 <Button className={css.drawerLink} startIcon={<HikingIcon />}>
-                  <Link to={`/${language}/activities`}>{dictionary.find((item) => item.id === "whatToDo")?.text[language]}</Link>
+                  <Link to={`/${language}/activities`}>
+                    {dictionary.find((item) => item.id === "whatToDo")?.text[language]}
+                  </Link>
                 </Button>
               </ListItem>
 
               <ListItem key="guestBook">
                 <Button className={css.drawerLink} startIcon={<RateReviewIcon />}>
-                  <Link to={`/${language}/guest-book`}>{dictionary.find((item) => item.id === "guestBook")?.text[language]}</Link>
+                  <Link to={`/${language}/guest-book`}>
+                    {dictionary.find((item) => item.id === "guestBook")?.text[language]}
+                  </Link>
                 </Button>
               </ListItem>
 
               <ListItem key="storiesAndArticles">
                 <Button className={css.drawerLink} startIcon={<AutoStoriesIcon />}>
-                  <Link to={`/${language}/articles`}>{dictionary.find((item) => item.id === "articles")?.text[language]}</Link>
+                  <Link to={`/${language}/articles`}>
+                    {dictionary.find((item) => item.id === "articles")?.text[language]}
+                  </Link>
                 </Button>
               </ListItem>
               <ListItem key="team">

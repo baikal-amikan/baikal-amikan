@@ -56,14 +56,33 @@ export default function TeamPage() {
             <div key={`member-${index}`} className={css.memberDiv} style={{ marginTop: "30px" }}>
               {member.avatar ? (
                 <div className={css.avatarDiv}>
-                  <Avatar alt={member.name[language]} src={member.avatar} sx={{ width: 150, height: 150 }} style={{ margin: "25px 15px 5px 5px", float: "left" }} />
+                  <Avatar
+                    alt={member.name[language]}
+                    src={member.avatar}
+                    sx={{ width: 150, height: 150 }}
+                    style={{ margin: "25px 15px 5px 5px", float: "left" }}
+                  />
                 </div>
               ) : (
                 ""
               )}
               <div className={css.memberTextDiv}>
-                <Typography variant="h3" align="left" style={{ margin: "20px auto 0px auto" }} dangerouslySetInnerHTML={{ __html: member.name[language] }} />
-                {member.text ? <Typography variant="body2" align="left" style={{ margin: "5px auto 5px auto" }} dangerouslySetInnerHTML={{ __html: member.text[language] }} /> : ""}
+                <Typography
+                  variant="h3"
+                  align="left"
+                  style={{ margin: "20px auto 0px auto" }}
+                  dangerouslySetInnerHTML={{ __html: member.name[language] }}
+                />
+                {member.text ? (
+                  <Typography
+                    variant="body2"
+                    align="left"
+                    style={{ margin: "5px auto 5px auto" }}
+                    dangerouslySetInnerHTML={{ __html: member.text[language] }}
+                  />
+                ) : (
+                  ""
+                )}
               </div>
             </div>
           ))}

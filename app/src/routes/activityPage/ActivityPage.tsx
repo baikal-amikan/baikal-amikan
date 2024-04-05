@@ -47,7 +47,9 @@ export default function ActivityPage() {
       for (const tour of allTours) {
         if (tour.activities && tour.activities.includes(updatedActivity.id)) {
           for (const day of tour.days) {
-            updatedActivity.pictures.push(...day.pictures.filter((picture) => picture.activities?.includes(updatedActivity.id)));
+            updatedActivity.pictures.push(
+              ...day.pictures.filter((picture) => picture.activities?.includes(updatedActivity.id)),
+            );
           }
         }
       }
@@ -69,7 +71,10 @@ export default function ActivityPage() {
         <NavbarBlock
           links={[
             { text: dictionary?.find((item) => item.id === "home")?.text[language], link: `/${language}/` },
-            { text: dictionary?.find((item) => item.id === "whatToDo")?.text[language], link: `/${language}/activities/` },
+            {
+              text: dictionary?.find((item) => item.id === "whatToDo")?.text[language],
+              link: `/${language}/activities/`,
+            },
             { text: activity.title[language], link: `${language}/activities/${activity.id}` },
           ]}
         />
@@ -83,7 +88,11 @@ export default function ActivityPage() {
             {activity.title[language]}
           </Typography>
 
-          {activity.pictures ? <PicturesBlock pictures={activity.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} /> : "Loading..."}
+          {activity.pictures ? (
+            <PicturesBlock pictures={activity.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} />
+          ) : (
+            "Loading..."
+          )}
 
           {activity.description ? (
             <Typography style={{ marginTop: "20px" }} variant="body1" align="left" paragraph>
@@ -99,7 +108,9 @@ export default function ActivityPage() {
           </Typography>
 
           <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} style={{ marginBottom: "50px" }}>
-            {allTours?.filter((tour) => tour.activities?.includes(activity.id)).map((tour) => <TourBlock tour={tour} language={language} key={`tour-${tour.id}`} />)}
+            {allTours
+              ?.filter((tour) => tour.activities?.includes(activity.id))
+              .map((tour) => <TourBlock tour={tour} language={language} key={`tour-${tour.id}`} />)}
           </Grid>
         </Container>
       ) : (

@@ -38,7 +38,9 @@ export default function PlacesPage() {
                     key={place.id}
                     image={place.cover}
                     title={place.title[language]}
-                    subtitle={place.seasons.map((season) => allSeasons.find((item) => item.id === season)?.title[language]).join(", ")}
+                    subtitle={place.seasons
+                      .map((season) => allSeasons.find((item) => item.id === season)?.title[language])
+                      .join(", ")}
                     link={`/${language}/places/${place.id}`}
                   />
                 ))
