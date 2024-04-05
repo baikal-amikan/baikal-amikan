@@ -45,7 +45,7 @@ export default function SlideShowBlock({ pictures, open, onClose }: SlideShowPro
       aria-labelledby="parent-modal-title"
       aria-describedby="parent-modal-description"
     >
-      <div className={css.verticalSlideshowContainer}>
+      <div className={css.verticalSlideshowContainer} onClick={onClose}>
         <Button onClick={onClose} className={css.closeButton} variant={"contained"}>
           <Close />
         </Button>
