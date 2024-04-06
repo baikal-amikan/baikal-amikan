@@ -11,6 +11,7 @@ import FooterBlock from "../../components/footerBlock/FooterBlock.tsx";
 import NavbarBlock from "../../components/narbarBlock/NavbarBlock.tsx";
 import ReviewBlock from "../../components/reviewBlock/ReviewBlock.tsx";
 import SendEmailBlock from "../../components/sendEmailBlock/SendEmailBlock.tsx";
+import FadeInBlocks from "../../components/fadeInBlocks/FadeInBlocks.tsx";
 
 export default function TourPage() {
   const { language, setLanguage, dictionary, allActivities, allPlaces, allTours, allReviews } =
@@ -154,26 +155,29 @@ export default function TourPage() {
             </Alert>
           </Paper>
 
-          {tour.days.map((day, index) => {
-            return (
-              <div key={index} className={css.dayCard}>
-                <Typography variant="h4">
-                  {dictionary.find((item) => item.id === "day")?.text[language]} {day.order}. {day.title[language]}
-                </Typography>
-                <Typography
-                  variant="body1"
-                  align="left"
-                  paragraph
-                  dangerouslySetInnerHTML={{ __html: day.description[language] }}
-                />
-                {day.pictures.length > 0 ? (
-                  <PicturesBlock pictures={day.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} />
-                ) : (
-                  ""
-                )}
-              </div>
-            );
-          })}
+          <FadeInBlocks
+            columns={1}
+            blocks={tour.days.map((day, index) => {
+              return (
+                <div key={index} className={css.dayCard}>
+                  <Typography variant="h4">
+                    {dictionary.find((item) => item.id === "day")?.text[language]} {day.order}. {day.title[language]}
+                  </Typography>
+                  <Typography
+                    variant="body1"
+                    align="left"
+                    paragraph
+                    dangerouslySetInnerHTML={{ __html: day.description[language] }}
+                  />
+                  {day.pictures.length > 0 ? (
+                    <PicturesBlock pictures={day.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} />
+                  ) : (
+                    ""
+                  )}
+                </div>
+              );
+            })}
+          />
           <Paper elevation={3}>
             <Alert severity="info" className={css.priceCard} icon={false}>
               {tour.note ? (
