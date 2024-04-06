@@ -3,13 +3,14 @@ import css from "./ToursPage.module.scss";
 import { useParams } from "react-router-dom";
 import { BaseContext, iTour } from "../../contexts/BaseContext.tsx";
 import { useSafeContext } from "../../config.ts";
-import { Container, Box, Tabs, Tab, Grid } from "@mui/material";
+import { Container, Box, Tabs, Tab} from "@mui/material";
 import SideMenu from "../../components/sideMenu/SideMenu.tsx";
 import LogoBlock from "../../components/logoBlock/LogoBlock.tsx";
 import FooterBlock from "../../components/footerBlock/FooterBlock.tsx";
 import { useEffect, useState } from "react";
 import TourBlock from "../../components/tourBlock/TourBlock.tsx";
 import NavbarBlock from "../../components/narbarBlock/NavbarBlock.tsx";
+import FadeInBlocks from "../../components/fadeInBlocks/FadeInBlocks.tsx";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -114,20 +115,14 @@ export default function ToursPage() {
           </Tabs>
         </Box>
 
-        {allSeasons && language
+        {allSeasons && language && seasonsWithTours
           ? allSeasons.map((season, index) => (
               <CustomTabPanel value={value} index={index} key={`seasons-tab-${index}`}>
-                <Grid
-                  container
-                  rowSpacing={1}
-                  columnSpacing={{ xs: 0, sm: 0, md: 1, lg: 2 }}
-                  className={css.toursContainer}
-                >
-                  {seasonsWithTours &&
-                    seasonsWithTours[season.id].map((tour) => (
+                <FadeInBlocks
+                  blocks={seasonsWithTours[season.id].map((tour) => (
                       <TourBlock tour={tour} language={language} key={`tour-${tour.id}`} />
                     ))}
-                </Grid>
+                />
               </CustomTabPanel>
             ))
           : "Loading seasons..."}

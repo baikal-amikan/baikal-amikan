@@ -1,6 +1,6 @@
 import css from "./TourBlock.module.scss";
 import { BaseContext, iTour } from "../../contexts/BaseContext.tsx";
-import { Card, CardContent, CardMedia, Divider, Grid, Paper, Typography } from "@mui/material";
+import { Card, CardContent, CardMedia, Paper, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import { useSafeContext } from "../../config.ts";
 
@@ -11,67 +11,62 @@ interface TourBlockProps {
 
 export default function TourBlock({ tour, language }: TourBlockProps) {
   const { allPlaces, allActivities, season } = useSafeContext(BaseContext);
-
   return (
-    <Grid item xs={12} md={6} key={`seasons-tab-${tour.id}`} className={css.tourContainer}>
-      <Paper elevation={3} key={`tour-${tour.id}`} className={css.tourPaperBlock}>
-        <Card>
-          <Link to={`/${language}/tours/${tour.id}`}>
-            {season ? (
-              <CardMedia
-                sx={{ height: 240 }}
-                itemProp="image"
-                image={tour.covers ? tour.covers[season?.id] : tour.cover}
-                title={tour.title[language]}
-              />
-            ) : (
-              ""
-            )}
-          </Link>
-
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              <Link to={`/${language}/tours/${tour.id}`} className={css.title}>
-                {tour.title[language]}
-              </Link>
+    <Paper elevation={1} key={`tour-${tour.id}`} className={css.tourPaperBlock}>
+      <Card>
+        <Link to={`/${language}/tours/${tour.id}`} className={css.tourLink}>
+          {season ? (
+            <CardMedia
+              sx={{height: 240}}
+              itemProp="image"
+              image={tour.covers ? tour.covers[season?.id] : tour.cover}
+              title={tour.title[language]}
+              className={css.cardMedia}
+            />
+          ) : (
+            ""
+          )}
+        </Link>
+        <CardContent className={css.cardContent}>
+          <Link to={`/${language}/tours/${tour.id}`} className={css.tourLink}>
+            <Typography gutterBottom variant="h5" component="h4" style={{marginBottom: "4px"}}>
+              {tour.title[language]}
             </Typography>
-            <Typography style={{ marginBottom: "10px" }} color="text.secondary">
+            <Typography variant="body2" style={{marginBottom: "10px"}} color="text.secondary">
               {tour.months[language]} (<span>{tour.duration[language]} </span>)
             </Typography>
-            <Typography variant="body2" color="text.primary" paragraph>
+            <Typography variant="body2" style={{marginBottom: "20px"}} color="text.primary" paragraph>
               {tour.shortDescription[language]}
             </Typography>
+          </Link>
+          <Typography variant="caption" align="left" component="div">
+            {tour.activities?.map((id) => {
+              const activity = allActivities?.find((item) => item.id === id);
+              return (
+                <Link
+                  key={`activity-${id}`}
+                  to={`/${language}/activities/${activity?.id}`}
+                  className={css.activityLabel}
+                >
+                  {activity?.title[language]}
+                </Link>
+              );
+            })}
+          </Typography>
 
-            <Divider style={{ marginBottom: "20px" }} />
+          <Typography variant="caption" align="left" component="div">
+            {tour.places?.map((id) => {
+              const place = allPlaces?.find((item) => item.id === id);
+              return (
+                <Link key={`place-${id}`} to={`/${language}/places/${place?.id}`} className={css.placeLabel}>
+                  {place?.title[language]}
+                </Link>
+              );
+            })}
+          </Typography>
+        </CardContent>
+      </Card>
+    </Paper>
 
-            <Typography variant="caption" align="left" paragraph style={{ marginBottom: "5px", lineHeight: "1.8rem" }}>
-              {tour.activities?.map((id) => {
-                const activity = allActivities?.find((item) => item.id === id);
-                return (
-                  <Link
-                    key={`activity-${id}`}
-                    to={`/${language}/activities/${activity?.id}`}
-                    className={css.activityLabel}
-                  >
-                    {activity?.title[language]}
-                  </Link>
-                );
-              })}
-            </Typography>
-
-            <Typography variant="caption" align="left" paragraph style={{ lineHeight: "1.8rem" }}>
-              {tour.places?.map((id) => {
-                const place = allPlaces?.find((item) => item.id === id);
-                return (
-                  <Link key={`place-${id}`} to={`/${language}/places/${place?.id}`} className={css.placeLabel}>
-                    {place?.title[language]}
-                  </Link>
-                );
-              })}
-            </Typography>
-          </CardContent>
-        </Card>
-      </Paper>
-    </Grid>
   );
 }

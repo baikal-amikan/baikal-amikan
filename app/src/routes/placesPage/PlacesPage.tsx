@@ -1,12 +1,13 @@
 import { BaseContext } from "../../contexts/BaseContext.tsx";
 import { useSafeContext } from "../../config.ts";
-import { Container, Grid } from "@mui/material";
+import { Container } from "@mui/material";
 import SideMenu from "../../components/sideMenu/SideMenu.tsx";
 import LogoBlock from "../../components/logoBlock/LogoBlock.tsx";
 import FooterBlock from "../../components/footerBlock/FooterBlock.tsx";
 import NavbarBlock from "../../components/narbarBlock/NavbarBlock.tsx";
 import PreviewBlock from "../../components/previewBlock/PreviewBlock.tsx";
 import { useEffect } from "react";
+import FadeInBlocks from "../../components/fadeInBlocks/FadeInBlocks.tsx";
 
 export default function PlacesPage() {
   useEffect(() => {
@@ -29,23 +30,21 @@ export default function PlacesPage() {
         "Loading..."
       )}
 
-      {language && dictionary && allPlaces ? (
+      {language && dictionary && allPlaces && allSeasons ? (
         <Container maxWidth="lg" style={{ margin: "50px auto 100px" }}>
-          <Grid container spacing={2}>
-            {language && allPlaces && allSeasons
-              ? allPlaces.map((place) => (
-                  <PreviewBlock
-                    key={place.id}
-                    image={place.cover}
-                    title={place.title[language]}
-                    subtitle={place.seasons
-                      .map((season) => allSeasons.find((item) => item.id === season)?.title[language])
-                      .join(", ")}
-                    link={`/${language}/places/${place.id}`}
-                  />
-                ))
-              : "Loading places..."}
-          </Grid>
+          <FadeInBlocks
+            blocks={
+              allPlaces.map((place) => (
+                <PreviewBlock
+                  key={place.id}
+                  image={place.cover}
+                  title={place.title[language]}
+                  subtitle={place.seasons
+                    .map((season) => allSeasons.find((item) => item.id === season)?.title[language])
+                    .join(", ")}
+                  link={`/${language}/places/${place.id}`}
+                />))
+            }/>
         </Container>
       ) : (
         "Loading..."

@@ -9,6 +9,7 @@ import NavbarBlock from "../../components/narbarBlock/NavbarBlock.tsx";
 import ReviewBlock from "../../components/reviewBlock/ReviewBlock.tsx";
 import { useEffect, useState } from "react";
 import SendEmailBlock from "../../components/sendEmailBlock/SendEmailBlock.tsx";
+import FadeInBlocks from "../../components/fadeInBlocks/FadeInBlocks.tsx";
 
 export default function GuestBookPage() {
   const { language, dictionary, allReviews } = useSafeContext(BaseContext);
@@ -57,10 +58,11 @@ export default function GuestBookPage() {
           >
             {dictionary.find((item) => item.id === "leaveReview")?.text[language]}
           </Button>
-
-          {allReviews.map((review, index) => (
-            <ReviewBlock review={review} key={`review-${index}`} />
-          ))}
+          <FadeInBlocks
+            columns={1}
+            blocks={allReviews.map((review, index) => (
+              <ReviewBlock review={review} key={`review-${index}`}/>
+            ))}/>
         </Container>
       ) : (
         <div>Loading...</div>

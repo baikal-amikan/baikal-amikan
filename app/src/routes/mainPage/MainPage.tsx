@@ -7,10 +7,16 @@ import { Typography, Container } from "@mui/material";
 import SideMenu from "../../components/sideMenu/SideMenu.tsx";
 import LogoBlock from "../../components/logoBlock/LogoBlock.tsx";
 import FooterBlock from "../../components/footerBlock/FooterBlock.tsx";
+import { Fade } from '@mui/material';
 
 export default function MainPage() {
+  const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
     document.title = "Baikal-Amikan";
+  }, []);
+  useEffect(() => {
+    // Set isVisible to true after the component has mounted
+    setIsVisible(true);
   }, []);
   const { dictionary, language, season } = useSafeContext(BaseContext);
   const [mainPageQuote, setMainPageQuote] = useState<string | null>(null);
@@ -35,11 +41,15 @@ export default function MainPage() {
             <div className={css.centerBlock}>
               {mainPageQuote ? (
                 <>
-                  <Typography variant="h1" align="center" dangerouslySetInnerHTML={{ __html: mainPageQuote }} />
+                  <Fade in={isVisible} timeout={2000}>
+                    <Typography variant="h1" align="center" dangerouslySetInnerHTML={{ __html: mainPageQuote }} />
+                  </Fade>
                   <br />
+                  <Fade in={isVisible} timeout={1000}>
                   <Link to={`/${language}/tours/`} className={css.exploreTours}>
                     {dictionary.find((item) => item.id === "exploreTours")?.text[language]}
                   </Link>
+                  </Fade>
                 </>
               ) : (
                 "Loading..."

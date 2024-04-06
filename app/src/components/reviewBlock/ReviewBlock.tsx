@@ -61,7 +61,7 @@ export default function ReviewBlock({ review }: ReviewBlockProps) {
         )}
         {review.text ? (
           <Typography
-            variant="body1"
+            variant="body2"
             align="left"
             style={{ margin: "5px auto 5px auto" }}
             dangerouslySetInnerHTML={{ __html: review.text }}

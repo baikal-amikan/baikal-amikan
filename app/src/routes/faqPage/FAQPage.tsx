@@ -6,6 +6,7 @@ import SideMenu from "../../components/sideMenu/SideMenu.tsx";
 import FooterBlock from "../../components/footerBlock/FooterBlock.tsx";
 import NavbarBlock from "../../components/narbarBlock/NavbarBlock.tsx";
 import { useEffect, useState } from "react";
+import FadeInBlocks from "../../components/fadeInBlocks/FadeInBlocks.tsx";
 
 interface iFAQ {
   question: { en: string; ru: string };
@@ -49,8 +50,10 @@ export default function FAQPage() {
       )}
 
       {FAQ && language && dictionary ? (
-        <Container maxWidth="lg" style={{ marginBottom: "100px" }}>
-          {FAQ.map((question, index) => (
+        <Container maxWidth="md" style={{ marginBottom: "100px" }}>
+          <FadeInBlocks
+            columns={1}
+            blocks={FAQ.map((question, index) => (
             <div key={`question-${index}`} style={{ marginTop: "30px" }}>
               <Typography
                 variant="h3"
@@ -65,7 +68,7 @@ export default function FAQPage() {
                 dangerouslySetInnerHTML={{ __html: question.response[language] }}
               />
             </div>
-          ))}
+          ))} />
         </Container>
       ) : (
         <div>Loading...</div>

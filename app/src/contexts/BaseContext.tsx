@@ -83,11 +83,11 @@ export interface iArticle {
   id: string;
   title: { en: string; ru: string };
   description: { en: string; ru: string; cover: string };
-  linkToFullVersionText: { en: string; ru: string; cover: string };
-  cover: string | null;
-  text: { en: string; ru: string };
-  pictures: Array<iPicture>;
-  video: Array<{
+  linkToFullVersionText?: { en: string; ru: string; cover: string };
+  cover?: string | null;
+  text?: { en: string; ru: string };
+  pictures?: Array<iPicture>;
+  video?: Array<{
     src: string;
     description: { en: string; ru: string };
   }> | null;

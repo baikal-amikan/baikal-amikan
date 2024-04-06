@@ -1,5 +1,5 @@
 import css from "./PreviewBlock.module.scss";
-import { Grid, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 
 interface PreviewBlockProps {
@@ -10,12 +10,12 @@ interface PreviewBlockProps {
 }
 export default function PreviewBlock({ title, subtitle, image, link }: PreviewBlockProps) {
   return (
-    <Grid item xs={12} md={6}>
-      <Link to={link} className={css.preview}>
-        <img src={`${image}`} alt={title} />
+    <Link to={link} className={css.preview}>
+      <img src={`${image}`} alt={title} />
+      <div className={css.overlay} >
         <Typography variant="h2">{title}</Typography>
         <Typography variant="subtitle1">{subtitle}</Typography>
-      </Link>
-    </Grid>
+      </div>
+    </Link>
   );
 }

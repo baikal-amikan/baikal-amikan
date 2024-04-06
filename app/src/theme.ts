@@ -19,8 +19,8 @@ const theme = createTheme({
     h1: { ...customTitle, fontSize: "2.5rem", fontWeight: "bold" },
     h2: { ...customTitle, fontSize: "2rem", fontWeight: "bold" },
     h3: { ...customFont, fontSize: "2rem", fontWeight: "bold" },
-    h4: { ...customFont, fontSize: "1.8rem", fontWeight: "normal" },
-    h5: { ...customFont, fontSize: "1.5rem", fontWeight: "normal" },
+    h4: { ...customFont, fontSize: "1.8rem", fontWeight: "normal", lineHeight: 1.2},
+    h5: { ...customFont, fontSize: "1.5rem", fontWeight: "normal", lineHeight: 1.1},
     subtitle1: { ...customFont, fontSize: "1.3rem", fontWeight: 500 },
     subtitle2: { ...customFont, fontSize: "1.2rem", fontWeight: 400 },
     body1: {
