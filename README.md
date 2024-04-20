@@ -3,14 +3,16 @@
 
 To modify the app locally 
 ```bash
-npm i --prefix app
-npm run --prefix app dev
+cd app 
+npm i
+npm run dev
 ```
 
 To deploy new version of the app
 ```bash
-npm run --prefix app build
-npm run --prefix app preview  # to check the build
+cd app
+npm run build
+npm run preview  # to check the build
 
 # commit the changes and push to the repo
 git add .
