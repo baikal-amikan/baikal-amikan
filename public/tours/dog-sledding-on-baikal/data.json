@@ -1,0 +1,33 @@
+{
+  "id": "dog-sledding-on-baikal",
+  "cover": "/tours/dog-sledding-on-baikal/cover.jpeg",
+  "duration": { "en": "2 days", "ru": "2 дня" },
+  "activities": ["dog-sledding"],
+  "places": ["listvyanka"],
+  "season": "winter",
+  "title": {
+    "en": "Dog-sledding on Baikal 2 days",
+    "ru": "Собачьи упряжки на Байкале 2 дня"
+  },
+  "months": {
+    "en": "January - April",
+    "ru": "Январь - Апрель"
+  },
+  "shortDescription": {
+    "en": "Dog-sledding in wintry taiga forest and on the ice of frozen Baikal lake. Overnight in wooden cabin in peaceful forest valley next to Baikal!",
+    "ru": "Собачьи упряжки в зимнем тайге и на льду замерзшего озера Байкал. Ночевка в деревянной избе в тихой лесной долине рядом с Байкалом!"
+  },
+  "description": { "ru": "", "en": "" },
+  "price": [{ "ru": "", "en": "", "price": "" }],
+  "note": { "ru": "", "en": "" },
+  "includes": [{ "ru": "", "en": "" }],
+  "notIncludes": [{ "ru": "", "en": "" }],
+  "days": [
+    {
+      "order": 1,
+      "title": { "ru": "", "en": "" },
+      "description": { "en": "", "ru": "" },
+      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
+    }
+  ]
+}

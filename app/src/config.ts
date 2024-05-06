@@ -1,7 +1,10 @@
 import { Context, useContext } from "react";
 
+export const FILES_PATH = process.env.NODE_ENV === 'development' ?
+  'http://localhost:5173' : 'https://raw.githubusercontent.com/baikal-amikan/baikal-amikan.github.io/main/public'
+
 export async function getData(url: string) {
-  const response = await fetch(url);
+  const response = await fetch(`${FILES_PATH}/${url}`);
   try {
     if (response.status !== 200) {
       console.log(`Failed to fetch ${url}. Response: ${response}`);
@@ -13,6 +16,7 @@ export async function getData(url: string) {
     return undefined;
   }
 }
+
 
 export function useSafeContext<T>(context: Context<T | undefined>, message?: string): T {
   const result = useContext(context);

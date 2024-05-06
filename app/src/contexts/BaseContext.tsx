@@ -144,7 +144,7 @@ export function BaseContextProvider({ children }: BaseContextProps) {
   useEffect(() => {
     let ignore = false;
     if (!dictionary) {
-      getData(`/public/dictionary.json`).then((result: Array<{ id: string; text: { en: string; ru: string } }>) => {
+      getData(`dictionary.json`).then((result: Array<{ id: string; text: { en: string; ru: string } }>) => {
         if (!ignore) {
           setDictionary(result);
         }
@@ -158,7 +158,7 @@ export function BaseContextProvider({ children }: BaseContextProps) {
   useEffect(() => {
     let ignore = false;
     if (!allSeasons || !season || !language) {
-      getData(`/public/settings.json`).then(
+      getData(`settings.json`).then(
         (defaultSettings: {
           defaultSeason: "summer" | "winter";
           defaultLanguage: "en" | "ru";
@@ -185,8 +185,8 @@ export function BaseContextProvider({ children }: BaseContextProps) {
   useEffect(() => {
     let ignore = false;
     if (!allActivities) {
-      getData(`/public/activities/all.json`).then((result: Array<string>) => {
-        const activityPromises = result.map((activityId) => getData(`/public/activities/${activityId}/data.json`));
+      getData(`activities/all.json`).then((result: Array<string>) => {
+        const activityPromises = result.map((activityId) => getData(`activities/${activityId}/data.json`));
         Promise.all(activityPromises).then((activities) => {
           if (!ignore) {
             setAllActivities(activities);
@@ -202,8 +202,8 @@ export function BaseContextProvider({ children }: BaseContextProps) {
   useEffect(() => {
     let ignore = false;
     if (!allPlaces) {
-      getData(`/public/places/all.json`).then((result: Array<string>) => {
-        const placePromises = result.map((placeId) => getData(`/public/places/${placeId}/data.json`));
+      getData(`places/all.json`).then((result: Array<string>) => {
+        const placePromises = result.map((placeId) => getData(`places/${placeId}/data.json`));
         Promise.all(placePromises).then((places) => {
           if (!ignore) {
             setAllPlaces(places);
@@ -219,8 +219,8 @@ export function BaseContextProvider({ children }: BaseContextProps) {
   useEffect(() => {
     let ignore = false;
     if (!allTours) {
-      getData(`/public/tours/all.json`).then((result: Array<string>) => {
-        const tourPromises = result.map((tourId) => getData(`/public/tours/${tourId}/data.json`));
+      getData(`tours/all.json`).then((result: Array<string>) => {
+        const tourPromises = result.map((tourId) => getData(`tours/${tourId}/data.json`));
         Promise.all(tourPromises).then((tours) => {
           if (!ignore) {
             setAllTours(tours);
@@ -236,7 +236,7 @@ export function BaseContextProvider({ children }: BaseContextProps) {
   useEffect(() => {
     let ignore = false;
     if (!allReviews) {
-      getData(`/public/reviews/data.json`).then((reviews: Array<iReview>) => {
+      getData(`reviews/data.json`).then((reviews: Array<iReview>) => {
         if (!ignore) {
           setAllReviews(reviews);
         }
@@ -250,8 +250,8 @@ export function BaseContextProvider({ children }: BaseContextProps) {
   useEffect(() => {
     let ignore = false;
     if (!allArticles) {
-      getData(`/public/articles/all.json`).then((result: Array<string>) => {
-        const articlePromises = result.map((articleId) => getData(`/public/articles/${articleId}/data.json`));
+      getData(`articles/all.json`).then((result: Array<string>) => {
+        const articlePromises = result.map((articleId) => getData(`articles/${articleId}/data.json`));
         Promise.all(articlePromises).then((articles) => {
           if (!ignore) {
             setAllArticles(articles);

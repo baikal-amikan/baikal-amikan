@@ -1,0 +1,13 @@
+{
+  "id": "irkutsk",
+  "cover": "/places/irkutsk/cover.jpeg",
+  "title": {
+    "en": "Irkutsk",
+    "ru": "Иркутск"
+  },
+  "seasons": ["summer", "winter"],
+  "description": {
+    "en": "Irkutsk is the capital of Eastern Siberia. It is a small Russian city with a rich history, located on the bank of Angara river, 70 km away from Baikal Lake.\nIrkutsk used to be wooden in the past. Even nowadays it is one of not many Siberian cities which preserved its wooden outlook. The city has mysterious charm: quiet shady streets with different carved decorations get on nowadays with many-storied modern buildings. Famous Russian writer Anton Chekhov compared Irkutsk to Paris. He said: “As England created London and France - Paris, the same Siberia created Irkutsk”.\n\nIrkutsk can join incompatible things together: asphalt and wooden pavements, domes of beautiful churches and grey boxes of administrative buildings, cultural level and penal experience, the past and the present…",
+    "ru": "Иркутск - столица Восточной Сибири. Небольшой русский город с богатой историей, расположенный на побережье реки Ангара и в 70 км от озера Байкал. Раньше Иркутск был исключительно «деревянным», именно поэтому и по сей день тихие тенистые улицы с резными украшениями на фасадах домой соседствуют с многоэтажными современными зданиями. Известный русский писатель Антон Чехов сравнивал Иркутск с Парижем: «Когда Англия создала Лондон, Франция - Париж, Сибирь создала Иркутск». Иркутск может объединяет, казалось бы, несовместимые вещи: деревянное зодчество и асфальт, золотые купола церквей и серые ящики административных зданий, культурный уровень и уголовный опыт, прошлое и настоящее ..."
+  }
+}

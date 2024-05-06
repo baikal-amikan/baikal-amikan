@@ -1,0 +1,13 @@
+{
+  "id": "olkhon",
+  "cover": "/places/olkhon/cover.jpeg",
+  "title": {
+    "en": "Olkhon",
+    "ru": "Ольхон"
+  },
+  "seasons": ["summer", "winter"],
+  "description": {
+    "en": "Olkhon island is a live heart of sacred Baikal, where shaman spirits are still being worshipped. It is the largest island of the lake, which outlines resemble the shape of Baikal. Though the island only 72 km long, various landscapes preserved there its beauty: woodless steppes together with golden sandy beaches are stretched along little bays, as well as monumental rocks and steep slopes are covered with thick shaggy forests at the eastern side. Olkhon is surrounded with lots of myths and legends; according to one there lives a master of Olkhon in the image of eagle. You won’t find ticks here and this island is called “Sunny Island” as there are almost no rains, but a lot of sunny days throughout the year.",
+    "ru": "Живое сердце священного Байкала, где жители и гости по-прежнему поклоняются шаманским духам. Это самый большой остров озера, очертания которого напоминают форму Байкала. Не смотря на протяженность в 72 км, остров сочетает в себе разные контрастные и живописные ландшафты, гармонично уживающиеся друг с другом: широкие степи вместе с золотыми песчаными пляжами протянулись вдоль небольших уютных бухт, могущественные скалы и покатистые склоны, захватывающие дух, а также густые лохматые леса на востоке острова. Ольхон окружен множеством мифов и легенд; по словам одного из них, образ Ольхона живет по образу орла. Здесь вы не встретите клещей, что вызывает особо чувство безопасности. Остров часто называют солнечным, и в этом легко убедиться самому, приехав погостить, здесь почти нет дождей, а количество ясных ярких дней составляет около 310 в год."
+  }
+}

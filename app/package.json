@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "cross-env NODE_ENV=development && vite",
     "pretty": "prettier --write .",
     "lint": "eslint src/**/ --ext ts,tsx --report-unused-disable-directives",
-    "build": "npm run lint && tsc && vite build --emptyOutDir && mkdir -p ../docs/public/ && cp -r ./public/* ../docs/public/ && cp 404.html ../docs/",
+    "build": "npm run lint && tsc && vite build --emptyOutDir && cp 404.html ../docs/",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -17,21 +17,23 @@
     "@mui/lab": "^5.0.0-alpha.169",
     "@mui/material": "^5.15.14",
     "@mui/x-date-pickers": "^7.1.0",
-    "prettier": "^3.2.5",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.10",
     "fs-extra": "^11.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.10.2",
     "react-router-dom": "^6.22.3",
     "sass": "^1.72.0"
   },
   "devDependencies": {
+    "@types/node": "^20.12.9",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
     "@vitejs/plugin-react": "^4.2.1",
+    "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",

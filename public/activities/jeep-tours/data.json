@@ -1,0 +1,13 @@
+{
+  "id": "jeep-tours",
+  "cover": "/activities/jeep-tours/cover.jpeg",
+  "title": {
+    "en": "Jeep tours",
+    "ru": "Джип-туры"
+  },
+  "seasons": ["summer", "winter"],
+  "description": {
+    "en": "Embark on an exhilarating adventure across the frozen expanses of Lake Baikal with our Jeep tours. Feel the thrill as our experienced guides navigate the icy terrain, offering you a unique opportunity to explore Siberia's winter wonderland.",
+    "ru": "просторам озера Байкал с нашими джип-турами. Почувствуйте острые ощущения, пока наши опытные гиды путешествуют по ледяной местности, предлагая вам уникальную возможность исследовать зимнюю страну чудес Сибири."
+  }
+}

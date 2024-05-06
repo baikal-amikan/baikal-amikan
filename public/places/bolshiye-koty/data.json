@@ -1,0 +1,13 @@
+{
+  "id": "bolshiye-koty",
+  "cover": "/places/bolshiye-koty/cover.jpeg",
+  "title": {
+    "en": "Bolshiye Koty",
+    "ru": "Большие Коты"
+  },
+  "seasons": ["summer", "winter"],
+  "description": {
+    "en": "On the western Baikal lakeside there is a small quiet town with a funny name Bolshiye Koty, which has nothing to do with \"Big Cats\".<p/>The name refers to the settlement built in 1842 to accommodate the gold miners. \"Gold rush\" time on Baikal reffers to 1840's. Gold mining those days was very difficult and dangerous, it mainly engaged the convicts, who in cold weather used to wear wooden shoes called - the “koty” (or “kotki”), pronounced with the first syllable stressed. It was estimated that over 160 kilograms of precious metal have been extracted during the whole period of gold mining carried out in Bolshiye Koty. Until 1968 the country's foreign exchange reserve was replenished by pure gold from the Baikal mines, including that of Bolshiye Koty. However, no one has undertaken to count the number of lives given for that gold.<p/>Moreover, there is another interpretation of origin of the \"Bolshiye Koty\" name. For example, according to the V.I. Dal’s dictionary “koty” is nothing but ordinary fish traps, installed at the mouths of rivers. And the semblable word “kottsy” in Siberia was used to call a wattle fence stretched across the river to catch cisco coming in the river to spawn.",
+    "ru": "Тихий уютный поселок на берегу Байкала. Сухопутная дорога доступна только для полноприводного транспорта. В основном до поселка добираются по воде (рейсами из Иркутска и Листвянки) и пешком по тропе (20 км). По одной из версий своё название посёлок получил от слова «котки», или «ко́ты». Так в этих местах называлась деревянная обувь, которую изготавливали для каторжников, в основном использовалась старателями золотых приисков. По другой версии «ко́ты» или \"котцы\" - ловушки для ловли рыбы, которые устанавливали в устьях рек. В поселке протекают реки Малая и Большая Котинка. Также здесь находится биологическая станция, магазин."
+  }
+}

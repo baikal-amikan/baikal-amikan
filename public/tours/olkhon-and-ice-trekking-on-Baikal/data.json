@@ -1,0 +1,34 @@
+{
+  "id": "olkhon-and-ice-trekking-on-Baikal",
+  "cover": "/tours/olkhon-and-ice-trekking-on-Baikal/cover.jpeg",
+  "duration": { "en": "8 days", "ru": "8 дней" },
+  "activities": ["trekking", "jeep-tours"],
+  "places": ["olkhon", "listvyanka", "vydrino-village"],
+  "season": "winter",
+  "title": {
+    "en": "Olkhon and ice trekking on Baikal",
+    "ru": "Ольхон и ледовый треккинг на Байкале"
+  },
+  "months": {
+    "en": "February - March",
+    "ru": "Февраль - Март"
+  },
+  "shortDescription": {
+    "en": "Explore ice of Baikal shores by riding over the ice in UAZ car and ice trekking across Baikal lake with spending night in tent in the middle of Baikal.",
+    "ru": "Исследуйте лед берегов Байкала, прокатившись по льду на УАЗе и пройдя ледовый треккинг через озеро Байкал, проведя ночь в палатке посреди Байкала."
+  },
+
+  "description": { "ru": "", "en": "" },
+  "price": [{ "ru": "", "en": "", "price": "" }],
+  "note": { "ru": "", "en": "" },
+  "includes": [{ "ru": "", "en": "" }],
+  "notIncludes": [{ "ru": "", "en": "" }],
+  "days": [
+    {
+      "order": 1,
+      "title": { "ru": "", "en": "" },
+      "description": { "en": "", "ru": "" },
+      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
+    }
+  ]
+}

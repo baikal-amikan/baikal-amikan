@@ -1,0 +1,13 @@
+{
+  "id": "kodar-mountains",
+  "cover": "/places/kodar-mountains/cover.jpeg",
+  "title": {
+    "en": "Kodar mountains",
+    "ru": "Кодар"
+  },
+  "seasons": ["winter"],
+  "description": {
+    "en": "The Kodar Mountains (Russian: Кода́р) are a mountain range in the Transbaikal region of Siberia, Russia. The name Kodar is derived from \"khada\", an Evenki word for rock.",
+    "ru": "Кодар — горный хребет в России в северной части Забайкалья, на территории Забайкальского края. Входит в систему Станового нагорья, являясь продолжением Северо-Муйского хребта."
+  }
+}

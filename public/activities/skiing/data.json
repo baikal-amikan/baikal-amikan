@@ -1,0 +1,13 @@
+{
+  "id": "skiing",
+  "cover": "/activities/skiing/cover.jpeg",
+  "title": {
+    "en": "Skiing",
+    "ru": "Катание на лыжах"
+  },
+  "seasons": ["winter"],
+  "description": {
+    "en": "Feel the rush as you carve through fresh powder while admiring panoramic views of the world's deepest freshwater lake. Whether you're a novice or an expert, Baikalsk promises unforgettable moments on the slopes, complemented by the serene beauty of Siberia's wilderness.",
+    "ru": "Почувствуйте прилив сил, преодолевая свежий снег и любуясь панорамным видом на самое глубокое пресноводное озеро в мире. Независимо от того, новичок вы или эксперт, Байкальск обещает незабываемые моменты на склонах, дополненные безмятежной красотой дикой природы Сибири."
+  }
+}

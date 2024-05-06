@@ -1,0 +1,13 @@
+{
+  "id": "sightseeing",
+  "cover": "/activities/sightseeing/cover.jpeg",
+  "title": {
+    "en": "Sightseeing",
+    "ru": "Экскурсии"
+  },
+  "seasons": ["summer", "winter"],
+  "description": {
+    "en": "Explore the historic city of Irkutsk, renowned for its elegant architecture and rich heritage. Wander through charming streets lined with wooden houses and ornate churches, and delve into the city's fascinating past at local museums and landmarks. ",
+    "ru": "Исследуйте исторический город Иркутск, известный своей элегантной архитектурой и богатым наследием. Прогуляйтесь по очаровательным улицам с деревянными домами и богато украшенными церквями и окунитесь в увлекательное прошлое города, посетив местные музеи и достопримечательности."
+  }
+}

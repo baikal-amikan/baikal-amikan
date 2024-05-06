@@ -1,0 +1,13 @@
+{
+  "id": "ice-fishing",
+  "cover": "/activities/ice-fishing/cover.jpeg",
+  "title": {
+    "en": "Ice-fishing",
+    "ru": "Зимняя рыбалка"
+  },
+  "seasons": ["winter"],
+  "description": {
+    "en": "Experience the thrill of angling in one of the world's most iconic settings. With the vast expanse of ice beneath your feet, immerse yourself in the serenity of the surroundings as you patiently await the catch of the day.",
+    "ru": "Испытайте острые ощущения от рыбалки в одном из самых знаковых мест мира. Погрузитесь в безмятежность окрестностей, терпеливо ожидая дневного улова, ощущая под ногами огромное пространство льда."
+  }
+}

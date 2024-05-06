@@ -1,0 +1,34 @@
+{
+  "id": "two-shores-two-cultures",
+  "cover": "/tours/two-shores-two-cultures/cover.jpeg",
+  "duration": { "en": "9 days", "ru": "9 дней" },
+  "activities": ["jeep-tours", "ice-fishing", "dog-sledding", "aeroglisseur"],
+  "places": ["ulan-ude", "listvyanka", "olkhon", "svyatoy-nos"],
+  "season": "winter",
+  "title": {
+    "en": "Two shores - two cultures",
+    "ru": "Две берега - две культуры"
+  },
+  "months": {
+    "en": "February - end of March",
+    "ru": "Февраль - конец марта"
+  },
+  "shortDescription": {
+    "en": "Visiting both shores of lake Baikal and experiencing two cultures, crossing on ice from Olkhon island to Oust Barguzin, dog-sledding and ice grottoes!",
+    "ru": "Посещение обоих берегов озера Байкал и испытание двух культур, переезд на льду с острова Ольхон в Усть-Баргузин, собачьи упряжки и ледяные гроты!"
+  },
+
+  "description": { "ru": "", "en": "" },
+  "price": [{ "ru": "", "en": "", "price": "" }],
+  "note": { "ru": "", "en": "" },
+  "includes": [{ "ru": "", "en": "" }],
+  "notIncludes": [{ "ru": "", "en": "" }],
+  "days": [
+    {
+      "order": 1,
+      "title": { "ru": "", "en": "" },
+      "description": { "en": "", "ru": "" },
+      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
+    }
+  ]
+}
