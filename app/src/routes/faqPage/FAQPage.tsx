@@ -23,7 +23,7 @@ export default function FAQPage() {
   useEffect(() => {
     let ignore = false;
     if (!FAQ) {
-      getData(`/public/faq.json`).then((team: Array<iFAQ>) => {
+      getData(`/faq.json`).then((team: Array<iFAQ>) => {
         if (!ignore) {
           setFAQ(team);
         }

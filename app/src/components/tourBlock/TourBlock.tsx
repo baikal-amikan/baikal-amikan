@@ -2,7 +2,7 @@ import css from "./TourBlock.module.scss";
 import { BaseContext, iTour } from "../../contexts/BaseContext.tsx";
 import { Card, CardContent, CardMedia, Paper, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import { useSafeContext } from "../../config.ts";
+import {FILES_PATH, useSafeContext} from "../../config.ts";
 
 interface TourBlockProps {
   tour: iTour;
@@ -19,7 +19,7 @@ export default function TourBlock({ tour, language }: TourBlockProps) {
             <CardMedia
               sx={{height: 240}}
               itemProp="image"
-              image={tour.covers ? tour.covers[season?.id] : tour.cover}
+              image={`${FILES_PATH}/${tour.covers ? tour.covers[season?.id] : tour.cover}`}
               title={tour.title[language]}
               className={css.cardMedia}
             />

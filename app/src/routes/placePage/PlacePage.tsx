@@ -1,7 +1,7 @@
 import css from "./PlacePage.module.scss";
 import { useParams } from "react-router-dom";
 import { BaseContext, iPlace } from "../../contexts/BaseContext.tsx";
-import { getData, useSafeContext } from "../../config.ts";
+import {FILES_PATH, getData, useSafeContext} from "../../config.ts";
 import { Typography, Container, Grid, Divider } from "@mui/material";
 import SideMenu from "../../components/sideMenu/SideMenu.tsx";
 import LogoBlock from "../../components/logoBlock/LogoBlock.tsx";
@@ -26,7 +26,7 @@ export default function PlacePage() {
           document.title = `${found.title[language]} | Baikal-Amikan`;
         }
       } else {
-        getData(`/public/places/${placeId}/data.json`).then((result: iPlace) => {
+        getData(`${FILES_PATH}/places/${placeId}/data.json`).then((result: iPlace) => {
           if (!ignore) {
             setPlace(result);
             document.title = `${result.title[language]} | Baikal-Amikan`;
@@ -84,7 +84,7 @@ export default function PlacePage() {
           </Typography>
 
           {place.pictures ? (
-            <PicturesBlock pictures={place.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} />
+            <PicturesBlock pictures={place.pictures.map((pic) => ({ title: pic.title[language], url: `${FILES_PATH}/${pic.src}` }))} />
           ) : (
             "Loading..."
           )}

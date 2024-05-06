@@ -1,5 +1,5 @@
 import { BaseContext, iReview, iTour } from "../../contexts/BaseContext.tsx";
-import { useSafeContext } from "../../config.ts";
+import {FILES_PATH, useSafeContext} from "../../config.ts";
 import { Avatar, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -32,7 +32,7 @@ export default function ReviewBlock({ review }: ReviewBlockProps) {
         <div className={css.avatarDiv}>
           <Avatar
             alt="Svetlana"
-            src={review.avatar}
+            src={`${FILES_PATH}/${review.avatar}`}
             sx={{ width: 150, height: 150 }}
             style={{ margin: "25px 15px 5px 5px", float: "left" }}
           />

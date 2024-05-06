@@ -1,5 +1,5 @@
 import { BaseContext, iArticle } from "../../contexts/BaseContext.tsx";
-import { useSafeContext } from "../../config.ts";
+import {FILES_PATH, useSafeContext} from "../../config.ts";
 import { Avatar, Divider, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import PicturesBlock from "../picturesBlock/PicturesBlock.tsx";
@@ -22,7 +22,7 @@ export function ShortBlock({ article, language  }: VersionBlockProps) {
         <div className={css.articlePreviewAvatar}>
           <Avatar
             alt={article.title[language]}
-            src={article.description.cover}
+            src={`${FILES_PATH}/${article.description.cover}`}
             sx={{ width: 150, height: 150 }}
             style={{ margin: "25px 15px 5px 5px", float: "left" }}
           />
@@ -54,7 +54,7 @@ export function ExtendedBlock({ article, language }: VersionBlockProps) {
     ) : ("")}
     {article.pictures ? (
       <PicturesBlock
-        pictures={article.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))}
+        pictures={article.pictures.map((pic) => ({ title: pic.title[language], url:`${FILES_PATH}/${pic.src}`}))}
       />
     ) : ("")}
     {article.video
@@ -68,7 +68,7 @@ export function ExtendedBlock({ article, language }: VersionBlockProps) {
               dangerouslySetInnerHTML={{ __html: video.description[language] }}
             />
           ) :  ("")}
-          <div dangerouslySetInnerHTML={{ __html: video.src }} />
+          <div dangerouslySetInnerHTML={{ __html: `${video.src}` }} />
         </div>
       )) : ""}
   </>

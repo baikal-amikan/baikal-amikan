@@ -1,7 +1,7 @@
 import css from "./MainPage.module.scss";
 import { Link } from "react-router-dom";
 import { BaseContext } from "../../contexts/BaseContext.tsx";
-import { useSafeContext } from "../../config.ts";
+import {FILES_PATH, useSafeContext} from "../../config.ts";
 import { useEffect, useState } from "react";
 import { Typography, Container } from "@mui/material";
 import SideMenu from "../../components/sideMenu/SideMenu.tsx";
@@ -33,7 +33,7 @@ export default function MainPage() {
   return (
     <>
       {language && dictionary ? (
-        <div className={css.root} style={{ backgroundImage: `url(${season?.cover})` }}>
+        <div className={css.root} style={{ backgroundImage: `url(${FILES_PATH}/${season?.cover})` }}>
           <SideMenu />
           <LogoBlock />
 

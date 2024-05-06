@@ -1,7 +1,7 @@
 import { Alert, Button, Container, Divider, Modal, Paper, Typography } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { getData, useSafeContext } from "../../config.ts";
+import {FILES_PATH, getData, useSafeContext} from "../../config.ts";
 import { BaseContext, iReview, iTour } from "../../contexts/BaseContext.tsx";
 import css from "./TourPage.module.scss";
 import PicturesBlock from "../../components/picturesBlock/PicturesBlock.tsx";
@@ -82,7 +82,7 @@ export default function TourPage() {
         <Paper
           elevation={3}
           className={css.cover}
-          style={{ backgroundImage: `url(${tour.cover})`, margin: "0 0 50px 0" }}
+          style={{ backgroundImage: `url(${FILES_PATH}/${tour.cover})`, margin: "0 0 50px 0" }}
         />
       ) : (
         ""
@@ -170,7 +170,7 @@ export default function TourPage() {
                     dangerouslySetInnerHTML={{ __html: day.description[language] }}
                   />
                   {day.pictures.length > 0 ? (
-                    <PicturesBlock pictures={day.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} />
+                    <PicturesBlock pictures={day.pictures.map((pic) => ({ title: pic.title[language], url: `${FILES_PATH}/${pic.src}`}))} />
                   ) : (
                     ""
                   )}

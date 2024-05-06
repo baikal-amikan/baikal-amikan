@@ -1,7 +1,7 @@
 import css from "./ActivityPage.module.scss";
 import { useParams } from "react-router-dom";
 import { BaseContext, iActivity, iPlace } from "../../contexts/BaseContext.tsx";
-import { getData, useSafeContext } from "../../config.ts";
+import {FILES_PATH, getData, useSafeContext} from "../../config.ts";
 import { Typography, Container, Grid, Divider } from "@mui/material";
 import SideMenu from "../../components/sideMenu/SideMenu.tsx";
 import LogoBlock from "../../components/logoBlock/LogoBlock.tsx";
@@ -26,7 +26,7 @@ export default function ActivityPage() {
           document.title = `${found.title[language]} | Baikal-Amikan`;
         }
       } else {
-        getData(`/public/activities/${activityId}/data.json`).then((result: iPlace) => {
+        getData(`${FILES_PATH}/activities/${activityId}/data.json`).then((result: iPlace) => {
           if (!ignore) {
             setActivity(result);
             document.title = `${result.title[language]} | Baikal-Amikan`;
@@ -89,7 +89,7 @@ export default function ActivityPage() {
           </Typography>
 
           {activity.pictures ? (
-            <PicturesBlock pictures={activity.pictures.map((pic) => ({ title: pic.title[language], url: pic.src }))} />
+            <PicturesBlock pictures={activity.pictures.map((pic) => ({ title: pic.title[language], url: `${FILES_PATH}/${pic.src}` }))} />
           ) : (
             "Loading..."
           )}

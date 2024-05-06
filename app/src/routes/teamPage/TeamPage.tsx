@@ -1,5 +1,5 @@
 import { Avatar, Container, Typography } from "@mui/material";
-import { getData, useSafeContext } from "../../config.ts";
+import {FILES_PATH, getData, useSafeContext} from "../../config.ts";
 import { BaseContext } from "../../contexts/BaseContext.tsx";
 import css from "./TeamPage.module.scss";
 import LogoBlock from "../../components/logoBlock/LogoBlock.tsx";
@@ -24,7 +24,7 @@ export default function TeamPage() {
   useEffect(() => {
     let ignore = false;
     if (!team) {
-      getData(`/public/team/data.json`).then((team: Array<iMember>) => {
+      getData(`/team/data.json`).then((team: Array<iMember>) => {
         if (!ignore) {
           setTeam(team);
         }
@@ -49,7 +49,6 @@ export default function TeamPage() {
       ) : (
         "Loading..."
       )}
-
       {team && language && dictionary ? (
         <Container maxWidth="lg" style={{ marginBottom: "100px" }}>
           {team.map((member, index) => (
@@ -58,7 +57,7 @@ export default function TeamPage() {
                 <div className={css.avatarDiv}>
                   <Avatar
                     alt={member.name[language]}
-                    src={member.avatar}
+                    src={`${FILES_PATH}/${member.avatar}`}
                     sx={{ width: 150, height: 150 }}
                     style={{ margin: "25px 15px 5px 5px", float: "left" }}
                   />
