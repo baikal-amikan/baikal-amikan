@@ -7,7 +7,7 @@ import SlideShowBlock from "../slideShowBlock/SlideShowBlock.tsx";
 interface PicturesBlockProps {
   variant?: "woven" | "standard" | "masonry" | "quilted";
   pictures: Array<{
-    title: string;
+    title: string | null;
     url: string;
   }>;
 }
@@ -36,7 +36,7 @@ export default function PicturesBlock({ pictures, variant }: PicturesBlockProps)
               <img
                 srcSet={`${item.url}?w=161&fit=crop&auto=format&dpr=2 2x`}
                 src={`${item.url}?w=161&fit=crop&auto=format`}
-                alt={item.title}
+                alt={item.title ? item.title : "image"}
                 loading="lazy"
                 className={css.image}
                 // onClick={() => {

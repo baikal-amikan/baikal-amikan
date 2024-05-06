@@ -170,7 +170,7 @@ export default function TourPage() {
                     dangerouslySetInnerHTML={{ __html: day.description[language] }}
                   />
                   {day.pictures.length > 0 ? (
-                    <PicturesBlock pictures={day.pictures.map((pic) => ({ title: pic.title[language], url: `${FILES_PATH}/${pic.src}`}))} />
+                    <PicturesBlock pictures={day.pictures.map((pic) => ({ title: pic.title? pic.title[language]: null, url: `${FILES_PATH}/${pic.src}`}))} />
                   ) : (
                     ""
                   )}

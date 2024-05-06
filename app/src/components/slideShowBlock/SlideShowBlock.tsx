@@ -7,36 +7,12 @@ interface SlideShowProps {
   open: boolean;
   onClose: () => void;
   pictures: Array<{
-    title: string;
+    title: string | null;
     url: string;
   }>;
 }
 
 export default function SlideShowBlock({ pictures, open, onClose }: SlideShowProps) {
-  // const [currentSlide, setCurrentSlide] = useState(currentPic || 0);
-  // const containerRef = useRef<HTMLDivElement>(null);
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (containerRef.current) {
-  //       const scrollTop = containerRef.current.scrollTop;
-  //       const clientHeight = containerRef.current.clientHeight;
-  //       const slideHeight = clientHeight / pictures.length;
-  //       const currentSlideIndex = Math.floor(scrollTop / slideHeight);
-  //       setCurrentSlide(currentSlideIndex);
-  //     }
-  //   };
-  //
-  //   const container = containerRef.current;
-  //   if (container) {
-  //     container.addEventListener("scroll", handleScroll);
-  //   }
-  //
-  //   return () => {
-  //     if (container) {
-  //       container.removeEventListener("scroll", handleScroll);
-  //     }
-  //   };
-  // }, [pictures.length]);
 
   return (
     <Modal
@@ -52,7 +28,7 @@ export default function SlideShowBlock({ pictures, open, onClose }: SlideShowPro
         {pictures.map((item, index) => (
           <div key={`image-${index}`} id={`image-${index}`} className={css.slide}>
             <div className={css.slideContent}>
-              <img alt={item.title} src={item.url} className={css.slideImg} />
+              <img alt={item.title ? item.title : 'image'} src={item.url} className={css.slideImg} />
               <div className={css.slideText}>{item.title}</div>
             </div>
           </div>
