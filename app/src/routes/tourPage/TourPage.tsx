@@ -41,7 +41,7 @@ export default function TourPage() {
           document.title = `${found.title[language]} | Baikal-Amikan`;
         }
       } else {
-        getData(`/public/tours/${tourId}/data.json`).then((result: iTour) => {
+        getData(`/tours/${tourId}/data.json`).then((result: iTour) => {
           if (!ignore) {
             setTour(result);
             document.title = `${result.title[language]} | Baikal-Amikan`;
