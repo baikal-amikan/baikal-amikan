@@ -1,0 +1,83 @@
+{
+  "id": "sobolinniye",
+  "cover": "/tours/sobolinniye/cover.jpeg",
+  "duration": { "en": "3 days", "ru": "3 дня" },
+  "activities": ["trekking", "rafting"],
+  "places": ["vydrino-village", "khamar-daban"],
+  "season": "summer",
+  "title": {
+    "en": "Trekking to lake Sobolinniye",
+    "ru": "Тур к соболиным озерам"
+  },
+  "months": {
+    "en": "June-October",
+    "ru": "Июнь-Октябрь"
+  },
+  "shortDescription": {
+    "en": "A wonderful opportunity to spend three days in the mountains of the Khamar-Daban ridge. Transfer by airboat along the Snezhnaya River, trekking along a picturesque taiga trail, evening and dinner by the fire on the shore of Lake Sobolinny, hike to the Skazka waterfall and, if desired, swimming in the Grokhotun waterfall.",
+    "ru": "Чудесная возможность провести три дня в горах хребта \"Хамар-Дабан\". Заброска на аэролодке по реке Снежная, треккинг по живописной таежной тропе, вечер и ужин у костра на берегу озера Соболинного, поход до водопада Сказка и по желанию купание в водопаде Грохотун."
+  },
+  "description": { 
+    "ru": "<p><b>Искупаться в водопаде!</b> Мы будем фотографироваться в красивых местах и на память у вас останутся отличные фотоснимки! Можете взять с собой платье!</p><p><b>Сибирские джунгли!</b> Главное в походе что? - Вкусно поесть! У нас будут вкуснейшие блюда! Во время треккинга - обед-пикник прямо на берегу!</p><p><b>Возможность порыбачить!</b> Мы будем жить в уютном гостевом доме, где будет только наша компания. Полное ощущение отдыха!</p><p><b>Дистанция маршрута.</b> 20 километров</p>", 
+    "en": "<p><b>Swim in the waterfall!</b> We will take pictures in beautiful places and you will have great photographs as a souvenir! You can take your dress with you!</p><p><b>Siberian jungle!</b> What’s the main thing about a hike? - Delicious food! We will have delicious dishes! During trekking, a picnic lunch right on the shore!</p><p><b>Opportunity to go fishing!</b> We will live in a cozy guest house, where only our company will be. A complete feeling of relaxation!</p><p><b>Distance.</b> 20 kilometers</p>" 
+  },
+
+  "price": [{ "ru": "руб с человека", "en": "rubles per person", "price": "13 000" }],
+
+  "note": {
+    "ru": "<p><b>Одежда</b> Удобная треккинговая обувь (не кеды!) с толстой нескользкой подошвой, термобелье, футболки, флисовая кофта, мембранная или ветрозащитная куртка, головной убор от солнца (шляпа, кепка или бандана), штаны, носки для треккинга (или спорта), сменная одежда (для дома и сна), солнцезащитные очки, треккинговые палочки (желательно, но необязательно), солнцезащитные крем, дождевик.</p><p><b>Для сна</b> Сменная одежда для сна. (спальник и коврик брать не нужно).</p><p><b>Упаковка вещей</b> Треккинговый рюкзак (30- 60л), чехол на рюкзак от дождя, гидромешок для документов.</p><p><b>Документы</b> Паспорт, деньги наличкой, телефон и зарядка, медицинская страховка и страховка от клеща.</p><p><b>Лекарства</b> Индивидуальная аптечка.</p><p><b>Личная гигиена</b> Гигиеническая помада, зубная щетка, зубная паста., туалетная бумага</p>",
+    "en": "<p><b>Clothing</b> Comfortable trekking shoes (not sneakers!) with thick non-slip soles, thermal underwear, T-shirts, fleece jacket, membrane or windproof jacket, sun headwear (hat, cap or bandana), pants, socks for trekking (or sports), a change of clothes (for home and sleep), sunglasses, trekking poles (preferably, but not required), sunscreen, raincoat.</p><p><b>For sleep</b> Change of clothes for sleep. (no need to take a sleeping bag and a mat).</p><p><b>Packaging</b> Trekking backpack (30-60 l), rain cover for the backpack, hydro bag for documents.</p><p> <b>Documents</b> Passport, money in cash, phone and charger, medical insurance and tick insurance.</p><p><b>Medicines</b> Individual first aid kit.</p><p>< b>Personal hygiene</b> Hygienic lipstick, toothbrush, toothpaste, toilet paper</p>"
+  },
+  "includes": [
+      { "ru": "Сопровождение гидом", "en": "Guide" },
+      { "ru": "Питание: обед, ужин, завтрак, обед", "en": "Meals according to the program" },
+      { "ru": "Проживание в палатках", "en": "Accommodation in tents" }
+    ],
+    "notIncludes": [
+      { "ru": "Личные перекусы (снеки, шоколадные батончики, и т.д.)", "en": "Personal snacks (snacks, candy bars, etc.)" },
+      { "ru": "Дополнительные услуги (баня, катание на лошадях, каяках, и другие услуги, не упомянутые в программе).", "en": "Additional services (sauna, horseback riding, kayaking, and other services not mentioned in the program)." },
+      { "ru": "Медицинская страховка и страховка от клеща", "en": "Medical and tick insurance" }
+    ],
+
+  "days": [
+    {
+      "order": 1,
+      "title": { 
+        "ru": "Трансфер Иркутск-Выдрино. Заброска на аэролодке до Стрелки. Треккинг до озера Соболинного.", 
+        "en": "Transfer Irkutsk-Vydrino. Transfer by airboat to Strelka. Trekking to Lake Sobolinnoye." 
+      },
+      "description": { 
+        "en": "", 
+        "ru": "" 
+      },
+      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
+    },
+    {
+      "order": 2,
+      "title": {
+         "ru": "Треккинг на водопад \"Сказка\". Возвращаемся в лагерь.", 
+         "en": "Trekking to the \"Fairy Tale\" waterfall and return to the camp." 
+        },
+      "description": { 
+        "en": "", 
+        "ru": "" 
+      },
+      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
+    },
+    {
+      "order": 3,
+      "title": { 
+        "ru": "Треккинг на водопад \"Грохотун\". Возвращаемся в Выдрино. Трансфер в Иркутск.", 
+        "en": "Trekking to the \"Rokhotun\" waterfall. Transfer to Irkutsk." 
+      },
+      "description": { 
+        "en": "<p><b>08.30</b> - Breakfast.</p><p><b>09.30</b> - We pack up the camp and set off on the way back. Along the way we will visit the Grokhotun waterfall and the bravest will be able to swim in the azure water.</p><p><b>13.30</b> - Picnic lunch.</p><p><b>17.00</b> - We arrive at the warm lakes from where a minibus will pick us up.</p><p><b>18.00</b>- Transfer to Irkutsk (about 190 km on the way).</p><p><b>21.00</b> - Arrival in Irkutsk.</p>", 
+        "ru": "<p><b>08.30</b> - Завтрак.</p><p><b>09.30</b> - Собираем лагерь и отправляемся в обратный путь. По пути мы посетим водопад Грохотун и самые смелые смогут искупаться в лазурной воде.</p><p><b>13.30</b> - Обед-пикник.</p><p><b>17.00</b> - Приходим на теплые озера откуда нас заберет микроавтобус.</p><p><b>18.00</b>- Трансфер в Иркутск.(около 190 км в пути).</p><p><b>21.00</b> -Прибытие в Иркутск.</p>" 
+      },
+      "pictures": [
+        { "title": { "ru": "У реки", "en": "Near the river" }, "src": "/tours/sobolinniye/day-3-1.jpg" },
+        { "title": { "ru": "Дикий берег ", "en": "Wild shore" }, "src": "/tours/sobolinniye/day-3-2.jpg" }
+    ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "rafting",
+  "cover": "/activities/rafting/cover.jpeg",
+  "title": {
+    "en": "Rafting",
+    "ru": "Сплав на рафте"
+  },
+  "seasons": ["summer"],
+  "description": {
+    "en": "Whether you're a seasoned rafter seeking a new challenge or a nature lover in search of awe-inspiring beauty, rafting around Lake Baikal promises an adventure like no other. Prepare to be captivated by the raw power and unspoiled majesty of Siberia's crown jewel, where every bend in the river reveals a new marvel waiting to be discovered.",
+    "ru": "Являетесь ли вы опытным сплавщиком, ищущим новых приключений, или любителем природы в поисках впечатляющей красоты, рафтинг по озеру Байкал обещает приключение, как никто другой. Приготовьтесь быть очарованными необузданной мощью и нетронутым величием жемчужины Сибири, где каждый изгиб реки открывает новое чудо, ожидающее своего открытия."
+  }
+}
