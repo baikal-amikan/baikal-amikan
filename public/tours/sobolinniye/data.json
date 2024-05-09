@@ -25,8 +25,8 @@
   "price": [{ "ru": "руб с человека", "en": "rubles per person", "price": "13 000" }],
 
   "note": {
-    "ru": "<p><b>Одежда</b> Удобная треккинговая обувь (не кеды!) с толстой нескользкой подошвой, термобелье, футболки, флисовая кофта, мембранная или ветрозащитная куртка, головной убор от солнца (шляпа, кепка или бандана), штаны, носки для треккинга (или спорта), сменная одежда (для дома и сна), солнцезащитные очки, треккинговые палочки (желательно, но необязательно), солнцезащитные крем, дождевик.</p><p><b>Для сна</b> Сменная одежда для сна. (спальник и коврик брать не нужно).</p><p><b>Упаковка вещей</b> Треккинговый рюкзак (30- 60л), чехол на рюкзак от дождя, гидромешок для документов.</p><p><b>Документы</b> Паспорт, деньги наличкой, телефон и зарядка, медицинская страховка и страховка от клеща.</p><p><b>Лекарства</b> Индивидуальная аптечка.</p><p><b>Личная гигиена</b> Гигиеническая помада, зубная щетка, зубная паста., туалетная бумага</p>",
-    "en": "<p><b>Clothing</b> Comfortable trekking shoes (not sneakers!) with thick non-slip soles, thermal underwear, T-shirts, fleece jacket, membrane or windproof jacket, sun headwear (hat, cap or bandana), pants, socks for trekking (or sports), a change of clothes (for home and sleep), sunglasses, trekking poles (preferably, but not required), sunscreen, raincoat.</p><p><b>For sleep</b> Change of clothes for sleep. (no need to take a sleeping bag and a mat).</p><p><b>Packaging</b> Trekking backpack (30-60 l), rain cover for the backpack, hydro bag for documents.</p><p> <b>Documents</b> Passport, money in cash, phone and charger, medical insurance and tick insurance.</p><p><b>Medicines</b> Individual first aid kit.</p><p>< b>Personal hygiene</b> Hygienic lipstick, toothbrush, toothpaste, toilet paper</p>"
+    "ru": "<p><b>Одежда</b> Удобная треккинговая обувь (не кеды!) с толстой нескользкой подошвой, термобелье, футболки, флисовая кофта, мембранная или ветрозащитная куртка, головной убор от солнца (шляпа, кепка или бандана), штаны, носки для треккинга (или спорта), сменная одежда (для дома и сна), солнцезащитные очки, треккинговые палочки (желательно, но необязательно), солнцезащитные крем, дождевик.</p><p><b>Для сна</b> Сменная одежда для сна, спальник и коврик.</p><p><b>Упаковка вещей</b> Треккинговый рюкзак (40- 60л), чехол на рюкзак от дождя, гидромешок для документов.</p><p><b>Документы</b> Паспорт, деньги наличкой, телефон и зарядка, медицинская страховка и страховка от клеща.</p><p><b>Лекарства</b> Индивидуальная аптечка.</p><p><b>Личная гигиена</b> Гигиеническая помада, зубная щетка, зубная паста., туалетная бумага</p>",
+    "en": "<p><b>Clothing</b> Comfortable trekking shoes (not sneakers!) with thick non-slip soles, thermal underwear, T-shirts, fleece jacket, membrane or windproof jacket, sun headwear (hat, cap or bandana), pants, socks for trekking (or sports), a change of clothes (for home and sleep), sunglasses, trekking poles (preferably, but not required), sunscreen, raincoat.</p><p><b>For sleep</b> Change of clothes for sleep, a sleeping bag and a mat).</p><p><b>Packaging</b> Trekking backpack (40-60 l), rain cover for the backpack, hydro bag for documents.</p><p> <b>Documents</b> Passport, money in cash, phone and charger, medical insurance and tick insurance.</p><p><b>Medicines</b> Individual first aid kit.</p><p>< b>Personal hygiene</b> Hygienic lipstick, toothbrush, toothpaste, toilet paper</p>"
   },
   "includes": [
       { "ru": "Сопровождение гидом", "en": "Guide" },
@@ -88,7 +88,10 @@
       "pictures": [
         { "title": { "ru": "У реки", "en": "Near the river" }, "src": "/tours/sobolinniye/day-3-1.jpg" },
         { "title": { "ru": "Дикий берег ", "en": "Wild shore" }, "src": "/tours/sobolinniye/day-3-2.jpg" },
-        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-3-3.jpg" }
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-3-3.jpg" },
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-3-4.jpg" },
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-3-5.jpg" },
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-3-6.jpg" }
     ]
     }
   ]
