@@ -18,8 +18,8 @@
     "ru": "Чудесная возможность провести три дня в горах хребта \"Хамар-Дабан\". Заброска на аэролодке по реке Снежная, треккинг по живописной таежной тропе, вечер и ужин у костра на берегу озера Соболинного, поход до водопада Сказка и по желанию купание в водопаде Грохотун."
   },
   "description": { 
-    "ru": "<p><b>Искупаться в водопаде!</b> Мы будем фотографироваться в красивых местах и на память у вас останутся отличные фотоснимки! Можете взять с собой платье!</p><p><b>Сибирские джунгли!</b> Главное в походе что? - Вкусно поесть! У нас будут вкуснейшие блюда! Во время треккинга - обед-пикник прямо на берегу!</p><p><b>Возможность порыбачить!</b> Мы будем жить в уютном гостевом доме, где будет только наша компания. Полное ощущение отдыха!</p><p><b>Дистанция маршрута.</b> 20 километров</p>", 
-    "en": "<p><b>Swim in the waterfall!</b> We will take pictures in beautiful places and you will have great photographs as a souvenir! You can take your dress with you!</p><p><b>Siberian jungle!</b> What’s the main thing about a hike? - Delicious food! We will have delicious dishes! During trekking, a picnic lunch right on the shore!</p><p><b>Opportunity to go fishing!</b> We will live in a cozy guest house, where only our company will be. A complete feeling of relaxation!</p><p><b>Distance.</b> 20 kilometers</p>" 
+    "ru": "<p><b>Искупаться в водопаде!</b> Вы сможете постоять под прохладной струей горной реки и на память у вас останутся отличные фотоснимки!</p><p><b>Сибирские джунгли!</b> На Хамар-Дабане уникальный климат и пышная растительность. По тропе вы встретите реликтовые тополя, заросли папоротника и ели, поросшие пушистым лишайником. </p><p><b>Возможность порыбачить!</b> Любители рыбалки могут взять с собой снасти и попробовать поймать окуня и сорогу в горной реке или в озерах. </p><p><b>Дистанция маршрута.</b> 20 километров</p>", 
+    "en": "<p><b>Swim in the waterfall!</b> You will be able to stand under the fresh stream of a mountain river and take memorable pictures!</p><p><b>Siberian jungle!</b> Khamar-Daban has a unique climate and lush vegetation. Along the trail you will meet relict poplars, thickets of ferns and spruces, overgrown with fluffy lichen </p><p><b>An opportunity to go fishing!</b> Fishing enthusiasts can take fishing gear with you and try to catch perch in a mountain river or in lakes</p><p><b>Distance of the route.</b> 20 kilometers</p>"
   },
 
   "price": [{ "ru": "руб с человека", "en": "rubles per person", "price": "13 000" }],
@@ -47,10 +47,17 @@
         "en": "Transfer Irkutsk-Vydrino. Transfer by airboat to Strelka. Trekking to Lake Sobolinnoye." 
       },
       "description": { 
-        "en": "", 
-        "ru": "" 
+        "en": "<p><b>07.30</b> - Group meeting in Irkutsk. Meet the guide.</p><p><b>08.00</b> - Departure by minibus to Vydrino. (Distance 190 km.)</p><p><b>11.00</b> - We board an airboat that will take us straight along the snowy river to Strelka. The arrow is the confluence of two rivers - the Selenginka and the Snezhnaya.</p><p><b>12.00</b> - Snack, pack our backpacks.</p><p><b>13.00</b> - Trekking along the taiga trail to Sobolinye Lake. Distance approximately 6 km. We take pictures in beautiful places, fill ourselves with the life-giving power of Baikal and nature.</p><p><b>16.00</b> - Setting up the camp. We set up tents and prepare a place for a fire.</p><p><b>17.00</b> - Swimming in the lake, walking, free time, relaxation.</p><p><b>19.00</b> - Dinner.</p>", 
+        "ru": "<p><b>07.30</b> - Встреча группы в Иркутске. Знакомство с гидом.</p><p><b>08.00</b> - Отправление на микроавтобусе в Выдрино. (Расстояние 190 км.)</p><p><b>11.00</b> - Садимся на аэролодку которая доставит нас прямо по реке снежная до Стрелки. Стрелкой называют слияние двух рек - Селенгинки и Снежной.</p><p><b>12.00</b> - Перекус, пакуем рюкзаки.</p><p><b>13.00</b> - Треккинг по таежной тропе до Соболинного озера. Расстояние примерно 6 км. Фотографируемся в красивых местах, наполняемся живительной силой Байкала и природы.</p><p><b>16.00</b> - Обустройство лагеря. Устанавливаем палатки и готовим место для костра.</p><p><b>17.00</b> - Купание в озере, прогулки, свободное время, отдых.</p><p><b>19.00</b> - Ужин.</p>" 
       },
-      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
+      "pictures": [
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-1-1.jpg" },
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-1-4.jpg" },
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-1-3.jpg" },
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-1-2.jpg" },
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-1-5.jpg" },
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-1-6.jpg" }
+      ]
     },
     {
       "order": 2,
@@ -59,10 +66,14 @@
          "en": "Trekking to the \"Fairy Tale\" waterfall and return to the camp." 
         },
       "description": { 
-        "en": "", 
-        "ru": "" 
+        "en": "<p><b>09.00 </b>- Breakfast.</p><p><b>10.00 </b>- With light backpacks, we go trekking to the Skazka waterfall. Along the way we will meet the hunting winter hut of Old Man Beard. The distance to the waterfall is about 7 km one way. The path goes up the mountain and then down to the river. You will notice how lush the vegetation is here; it’s not for nothing that Khamar-Daban is also called the Siberian jungle.</p><p><i>The “Fairy Tale” waterfall appears unexpectedly. This is a 20-meter waterfall that will take your breath away.</i></p><p><b>13.30</b> - Picnic lunch.</p><p><b>15.00</b >- We move in the opposite direction to our camp.</p><p><b>18.00</b> - Dinner.</p><p><b>19.00</b> - Songs by the fire. </p><p><i>Lake Sobolinoye is an excellent place for fishing. You can take your gear with you and fish in your free time.</i></p>", 
+        "ru": "<p><b>09.00 </b>- Завтрак.</p><p><b>10.00 </b>- С легкими рюкзаками отправляемся в треккинг до водопада \"Сказка\". По пути нам встретится охотничье зимовье Старика Бороды. Расстояние до водопада около 7 км в одну сторону. Тропа то поднимается в гору, то спускается к реке. Вы заметите какая тут пышная растительность, недаром Хамар-Дабан еще называют Сибирскими джунглями.</p><p><i>Водопад Сказка появляется неожиданно. Это 20-ти метровый водопад, от которого захватывает дух.</i></p><p><b>13.30</b> - Обед-пикник.</p><p><b>15.00 </b>- Выдвигаемся в обратную сторону в наш лагерь.</p><p><b>18.00</b> - Ужин.</p><p><b>19.00</b> - Песни у костра. </p><p><i>Озеро Соболиное - отличное место для рыбалки. Вы можете взять с собой снасти и в свободное время ловить рыбу.</i></p>" 
       },
-      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
+      "pictures": [
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-2-1.jpg" },
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-2-2.jpg" },
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-2-3.jpg" }
+      ]
     },
     {
       "order": 3,
@@ -76,7 +87,8 @@
       },
       "pictures": [
         { "title": { "ru": "У реки", "en": "Near the river" }, "src": "/tours/sobolinniye/day-3-1.jpg" },
-        { "title": { "ru": "Дикий берег ", "en": "Wild shore" }, "src": "/tours/sobolinniye/day-3-2.jpg" }
+        { "title": { "ru": "Дикий берег ", "en": "Wild shore" }, "src": "/tours/sobolinniye/day-3-2.jpg" },
+        { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-3-3.jpg" }
     ]
     }
   ]

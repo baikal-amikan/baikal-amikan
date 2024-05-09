@@ -3,8 +3,7 @@
 
 To modify the app locally 
 ```bash
-cd app 
-npm i && npm run dev
+cd app && npm i && npm run dev
 ```
 
 To deploy new version of the app

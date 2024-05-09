@@ -192,8 +192,9 @@
   {
     "id": "tourEmailBody",
     "text": {
-      "ru": "Как вас зовут? ...\nКогда вы хотели бы начать тур? ...\nКогда вы хотели бы вернуться? ... \nСколько человек в группе?  ... \nСколько детей в группе? (если есть)  ... \nКакой тип размещения вы предпочитаете (двухместные, одноместные номера)? ... \nЕсть ли у вас пищевые предпочтения или аллергии? ... \nЕсть ли у вас другие пожелания или вопросы?  ...\n",
-      "en": "What is your name? ...\nWhen would you like to start the tour? ...\nWhen would you like to return? ... \nHow many people in the group?  ... \nHow many children in the group? (if any)  ... \nWhat type of accommodation do you prefer (double, single rooms)? ... \nDo you have any dietary preferences or allergies? ... \nDo you have any other wishes or questions?  ..."
+      "ru": "Как вас зовут?...\nЖелаемые даты поездки...\nКоличество человек...\nВаши пожелания по размещению и питанию...\n",
+
+      "en": "What is your name?...\nDesired travel dates...\nGroup size...\nYour wishes for accommodation and meals...\n"
     }
   },
   {
