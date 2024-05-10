@@ -1,14 +1,11 @@
 {
   "id": "trekking-to-khamar-daban-mountains",
   "cover": "/tours/trekking-to-khamar-daban-mountains/cover.jpeg",
-  "covers": {
-    "winter": "/tours/trekking-to-khamar-daban-mountains/cover-winter.jpeg",
-    "summer": "/tours/trekking-to-khamar-daban-mountains/cover-summer.jpeg"
-  },
+  
   "duration": { "en": "4 days", "ru": "4 дня" },
   "activities": ["trekking", "sightseeing", "skiing"],
   "places": ["irkutsk", "khamar-daban"],
-  "season": "all",
+  "season": "summer",
   "title": {
     "en": "Trekking to Khamar-Daban mountains",
     "ru": "Треккинг в горы Хамар-Дабан"
