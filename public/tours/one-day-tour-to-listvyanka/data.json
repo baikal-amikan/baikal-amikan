@@ -38,7 +38,10 @@
   ],
   "notIncludes": [
     { "en": "Alcohol drinks", "ru": "Алкогольные напитки" },
-    { "en": "Extra services not mentioned in the programme (such as horse-riding, Banya, quad and boat rides, ceramic master-class)", "ru": "Дополнительные услуги, не упомянутые в программе (верховая езда, поездки на квадроциклах и катерах, мастер-классы)" },
+    { 
+      "en": "Extra services not mentioned in the programme (such as horse-riding, Banya, quad and boat rides, ceramic master-class)",
+      "ru": "Дополнительные услуги, не упомянутые в программе (верховая езда, поездки на квадроциклах и катерах, мастер-классы)"
+    }
   ],
   "days": [
     {
