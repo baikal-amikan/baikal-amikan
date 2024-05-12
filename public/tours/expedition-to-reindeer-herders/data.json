@@ -1,7 +1,7 @@
 {
   "id": "expedition-to-reindeer-herders",
   "cover": "/tours/expedition-to-reindeer-herders/cover.jpeg",
-  "duration": { "en": "9 days", "ru": "9 дней" },
+  "duration": { "en": "7 days", "ru": "7 дней" },
   "activities": ["trekking"],
   "places": ["north-of-baikal", "severobaikalsk"],
   "season": "summer",
@@ -22,22 +22,16 @@
     "ru": "<p>Этот тур для настоящих энтузиастов, желающих познакомиться с традициями и бытом коренных жителей Сибири – эвенков. Они до сих пор мигрируют из летних стоянок в зимние в горных долинах и хорошо приспособлены к суровым условиям Севера. Один из родов Северного Байкала, Чильчигиры, жил в долине Верхней Ангары и занимался преимущественно охотой, рыболовством и оленеводством. Эвенки живут на природе, едят натуральную пищу, носят натуральную одежду и попадая в это место, вы становитесь участниками «реальной жизни» этих уникальных людей и их культуры. В предлагаемом туре вы будете жить среди эвенков и пересекать горные перевалы с оленями; мы постараемся максимально сохранить повседневный образ жизни эвенков и позволить участникам экспедиции на равном уровне участвовать во всех повседневных делах.</p><p><b>День 1.</b> Прибытие в город Северобайкальск (Транссибирским поездом или самолетом из Иркутска или Улан-Удэ). Встреча с группой и гидом. Экскурсия на смотровую площадку. Трансфер Северобайкальск – поселок Новый Уоян. (около 4-5 часов езды). Ночевка в гостевом доме.<br/><b>День 2.</b> Поездка по лесу на полноприводном автомобиле (80 км), знакомство с оленями и эвенками, переход к озеру (7 км), переправа через озеро на лодке (зимой на снегоходах). Размещение в охотничьем домике. Баня на берегу озера (по запросу). <br/><b>День 3.</b> Переход от озера до оленеводческой фермы (4 км). Размещение в деревянном доме. Пришло время познакомиться с бытом оленей и эвенков и попробовать местную кухню.<br/><b>День 4.</b> Переход к озеру Балтуриха. (14 км). Возвращение на ферму.<br/><b>День 5.</b> Начало похода от оленеводческой фермы к зимовью охотника (7 км). Ночевка в палатках.<br/><b>День 6.</b> Переход на перевал (12 км). Ночевка в палатке или чуме.<br/><b>День 7.</b> Подъем на перевал, переход в лесную зону (10 км). Переезд на машине в село Уоян. По пути в СевероБайкальск возможно посетить горячие источники.Прибытие в Северобайкальск.<br/><b>День 8.</b> Посещение музея БАМа. Возвращение в Иркутск. </p><p> Аэропорт находится в г.Нижнеангарск.  (20 км от Северобайкальска).</p>",
     "en": "<p>This tour is for real enthusiasts who would like to get familiar with the traditions and lifestyle of the native people of Siberia – Evenki. They still migrate from summer to winter camps in the mountain valleys and are well adapted to the harsh conditions of the North. One of the clans of Northern Baikal, called Chilchigiry, used to live in the valley of Upper Angara River, primarily engaged in hunting, fishing, and reindeer breeding. Evenki people live in nature, eat natural food, wear natural clothes, and once you get there - you become participants in the \"real life\" of these unique people and their culture. In the proposed tour, you will live with Evenki people and cross mountain passes with reindeer; we will try to preserve the family's everyday lifestyle as much as possible and allow the expedition participants to participate on an equal level in all daily matters.</p><p><b>Day 1.</b> Arrival in Severobaikalsk city (by Transsiberian train or by plane from Irkutsk or Ulan-Ude). Meeting with a group and your guide. Excursion to the observation point Transfer Severobaikalsk - Noviy Uoyan village. (about 4-5 hours ride). Overnight in the guest house.<br/><b>Day 2.</b> A ride in the forest by 4WD (80 km), meeting the reindeer and Evenki people, trekking to the lake (7 km), and crossing the lake by boat (snowmobiles in winter). Accommodation in hunter's cabin. Banya on the shore of the lake (on demand). <br/><b>Day 3.</b> Trekking from the lake to the reindeer farm (4 km). Accommodation in a wooden house. It is time to familiarize yourself with the reindeer and Evenki lifestyle and taste the local cuisine.<br/><b>Day 4.</b> Trekking to Balturikha Lake. (14 km). Return to the farm.<br/><b>Day 5.</b> Start trekking from the reindeer farm to the hunter's winter cabin (7 km), where you will stay in tents.<br/><b>Day 6.</b> Trekking to the mountain pass (12 km). Overnight in a tent or chum.<br/><b>Day 7.</b> Climbing the mountain pass, trekking to the forest zone (10 km). Transfer by car to Uoyan village and further to the hot springs. Arrival to Severobaikalsk.<br/><b>Day 8.</b> Visit the museum of BAM railway. Flight or train to Irkutsk. <br/></p><p>An airport is located in Nizhneangarsk, which is 20 km away from Severobaikalsk.</p>"
   },
-  "price": [
-    {
-      "ru": "Стоимость тура по запросу и зависит от cезона и размера группы",
-      "en": "Tour price on request and depends on a season and the group size",
-      "price": ""
-    }
-  ],
-  "note": {
-    "ru": "Лучшее время для поездки в это место – первая половина июня. Участники должны быть готовы к первичным условиям проживания (охотничьи домики с туалетами на улице и палатки). Тем, кто предпочитает комфортное путешествие, стоит поискать другой тур.",
-    "en": "The best time to travel to this place is the first half of June. Participants must be ready for primary accommodation conditions (hunter's huts with toilets outside and tents). Those who prefer comfortable traveling should find another tour."
+  "price": [{ "ru": "38 000 ₽ с чел.", "en": "38 000 ₽ per person", "price": "" }],
+    "note": {
+    "ru": "Лучшее время для поездки в это место – первая половина июня. Участники должны быть готовы к простым условиям проживания (охотничьи домики с туалетами на улице и палатки). Тем, кто предпочитает комфортное проживание, стоит поискать другой тур. Маршрут может быть изменен в связи с погодными условиями.",
+    "en": "The best time to travel to this place is the first half of June. Participants must be ready for primary accommodation conditions (hunter's huts with toilets outside and tents). Those who prefer comfortable traveling should find another tour. The route might be changed due to the weather conditions."
   },
-  "includes": [
+    "includes": [
     { "en": "Accommodation as mentioned in the programme", "ru": "Проживание согласно программе" },
     { "en": "All fees for visiting national park zones", "ru": "Все сборы за посещение зон национальных парков" },
     { "en": "All transfers mentioned in the programme", "ru": "Все трансферы, указанные в программе" },
-    { "en": "English-speaking guide service", "ru": "Услуги англоговорящего гида" },
+    { "en": "English-speaking guide service", "ru": "Услуги гида" },
     { "en": "Meals during the tour", "ru": "Питание во время тура" },
     { "en": "Transfer to/from airport", "ru": "Трансфер в/из аэропорта" }
   ],
@@ -93,13 +87,6 @@
             "ru": "Посещение берега озера Байкал вечером"
           },
           "src": "/tours/expedition-to-reindeer-herders/day-1-5.jpeg"
-        },
-        {
-          "title": {
-            "en": "In the village of Noviy Uoyan",
-            "ru": "В поселке Новый Уоян"
-          },
-          "src": "/tours/expedition-to-reindeer-herders/day-1-6.jpeg"
         },
         {
           "title": {
@@ -176,6 +163,13 @@
             "ru": "Некоторые олени белые и называются альбиносами"
           },
           "src": "/tours/expedition-to-reindeer-herders/day-2-8.jpeg"
+        },
+        {
+          "title": {
+            "en": "In Noviy Uoyan village",
+            "ru": "В пос.Новый Уоян"
+          },
+          "src": "/tours/expedition-to-reindeer-herders/day-2-9.jpeg"
         }
       ]
     },
@@ -231,13 +225,6 @@
             "ru": "На ферме оленеводов Северного Байкала"
           },
           "src": "/tours/expedition-to-reindeer-herders/day-3-6.jpeg"
-        },
-        {
-          "title": {
-            "en": "Blossoming bushes on the way",
-            "ru": "Цветущие кусты на пути"
-          },
-          "src": "/tours/expedition-to-reindeer-herders/day-3-7.jpeg"
         }
       ]
     },
@@ -286,6 +273,13 @@
             "ru": "Чум - традиционный конический дом эвенков"
           },
           "src": "/tours/expedition-to-reindeer-herders/day-4-5.jpeg"
+        },
+        {
+          "title": {
+            "en": "Blossoming bushes on the way",
+            "ru": "Цветущие кусты на пути"
+          },
+          "src": "/tours/expedition-to-reindeer-herders/day-4-6.jpeg"
         }
       ]
     },
@@ -341,13 +335,6 @@
             "ru": "Цветущие цветы в горах"
           },
           "src": "/tours/expedition-to-reindeer-herders/day-5-6.jpeg"
-        },
-        {
-          "title": {
-            "en": "Trekking with reindeer in the mountain valley",
-            "ru": "Треккинг с оленями в горной долине"
-          },
-          "src": "/tours/expedition-to-reindeer-herders/day-5-7.jpeg"
         }
       ]
     },
@@ -410,6 +397,20 @@
             "ru": "Треккинг в долине среди гор"
           },
           "src": "/tours/expedition-to-reindeer-herders/day-6-7.jpeg"
+        },
+        {
+          "title": {
+            "en": "Trekking with reindeer in the mountain valley",
+            "ru": "Треккинг с оленями в горной долине"
+          },
+          "src": "/tours/expedition-to-reindeer-herders/day-6-8.jpeg"
+        },
+        {
+          "title": {
+            "en": "A wooden statue of Evenki and its reindeer in museum",
+            "ru": "Деревянная статуя эвенка и его оленя в музее"
+          },
+          "src": "/tours/expedition-to-reindeer-herders/day-6-9.jpeg"
         }
       ]
     },
@@ -421,7 +422,7 @@
       },
       "description": {
         "en": "<p>08.00 - Breakfast. </p><p>10.00 - Loading the reindeer and start of trekking.</p><p><i>Today, you will ascend the mountain pass with a nice panoramic view of the nearby mountains of Verkhne-Angarskiy mountain ridge. Trekking down for about 10 km. You will be picked up by a 4WD car on the forest road. It is difficult to say \"Goodbye\" to these magnificent animals and people who became your family for these last 5 days.</i></p><p>14.00 - Transfer to Uoyan village. </p><p>14.30 - Lunch in the village. </p><p>15.30 - Transfer to hot springs Dzelinda (about 80 km ride). It is always nice to relax in hot springs after trekking.</p><p>18.00 - Transfer to Severobaikalsk city. Accommodation in guest house/hostel. Dinner. </p>",
-        "ru": "<p>08.00 – Завтрак. </p><p>10.00 – Погрузка оленей и начало треккинга.</p><p><i>Сегодня вы подниметесь на перевал, откуда открывается прекрасный панорамный вид на близлежащие горы Верхне-Ангарского хребта. Спуск около 10 км. На лесной дороге вас встретит полноприводный автомобиль. Трудно сказать «Прощай» этим великолепным животным и людям, ставшим вашей семьей за эти 5 дней.</i></p><p>14.00 – Трансфер в село Уоян. </p><p>14.30 – Обед в деревне. </p><p>15.30 – Переезд к горячим источникам Дзелинда (около 80 км пути). После треккинга всегда приятно расслабиться в горячих источниках.</p><p>18.00 - Трансфер в город Северобайкальск. Размещение в гостевом доме/хостеле. Ужин. </p>"
+        "ru": "<p>08.00 – Завтрак. </p><p>10.00 – Погрузка оленей и начало треккинга.</p><p><i>Сегодня вы подниметесь на перевал, откуда открывается прекрасный панорамный вид на близлежащие горы Верхне-Ангарского хребта. Спуск около 10 км. На лесной дороге вас встретит полноприводный автомобиль. Трудно сказать «Прощай» этим великолепным животным и людям, ставшим вашей семьей за эти 5 дней.</i></p><p>14.00 – Трансфер в село Уоян. </p><p>14.30 – Обед в деревне. </p><p>15.30 – Переезд к горячим источникам Дзелинда (около 80 км пути). После треккинга всегда приятно расслабиться в горячих источниках.</p><p>18.00 - Трансфер в город Северобайкальск. </p>"
       },
       "pictures": [
         {
@@ -486,74 +487,6 @@
             "ru": "Треккинг с оленями в горах Северного Байкала"
           },
           "src": "/tours/expedition-to-reindeer-herders/day-7-9.jpeg"
-        }
-      ]
-    },
-    {
-      "order": 8,
-      "title": {
-        "en": "Climbing the mountain pass, trekking down to the forest zone. Transfer by car to Uoyan village. Hot springs. Arrival to Severobaikalsk.",
-        "ru": "Подъем на перевал, спуск в лесную зону. Переезд на машине в село Уоян. Горячие источники. Прибытие в Северобайкальск."
-      },
-      "description": {
-        "en": "<p>09.00 - Breakfast.</p><p>10.00 - Visit to the museum of BAM railway in Severobaikalsk.</p><p>12.30 - Transfer to the airport.</p><p>14.00 - Flight Nizhneangarsk - Irkutsk.</p><p>15.30 - Arrival to Irkutsk. Accommodation in homestay.</p><p>16.30 - Sightseeing Irkutsk. Visit the historical heart of the city, the shore of the Angara River, and the 130th Wooden Quarter.</p><p>19.00 - Dinner. Overnight.</p>",
-        "ru": "<p>09.00 – Завтрак.</p><p>10.00 - Посещение музея БАМа в Северобайкальске.</p><p>12.30 – Трансфер в аэропорт.</p><p>14.00 – Рейс Нижнеангарск – Иркутск.</p><p>15.30 – Прибытие в Иркутск. Проживание в семье.</p><p>16.30 – Экскурсия по Иркутску. Посетите историческое сердце города, берег Ангары и 130-й Деревянный квартал.</p><p>19.00 – Ужин. Ночью.</p>"
-      },
-      "pictures": [
-        {
-          "title": {
-            "en": "A wooden statue of Evenki and its reindeer in museum",
-            "ru": "Деревянная статуя эвенка и его оленя в музее"
-          },
-          "src": "/tours/expedition-to-reindeer-herders/day-8-1.jpeg"
-        },
-        {
-          "title": {
-            "en": "BAM railway",
-            "ru": "Железная дорога БАМ"
-          },
-          "src": "/tours/expedition-to-reindeer-herders/day-8-2.jpeg"
-        }
-      ]
-    },
-    {
-      "order": 9,
-      "title": {
-        "en": "Visit to museum of BAM railway. Flight Nizhneangarsk - Irkutsk. Sightseeing Irkutsk.",
-        "ru": "Посещение музея железной дороги БАМа. Рейс Нижнеангарск – Иркутск. Достопримечательности Иркутска."
-      },
-      "description": {
-        "en": "<p>09.00 - Meeting with your guide and transfer to Taltsy museum. </p><p><i>Taltsy is an open-air museum of wooden architecture on your way to Listvyanka. You'll ride for 70 km (about 1 hour) - the shortest access to Baikal Lake from Irkutsk. Taltsy Museum is a collection of monuments featuring 17th- to 20th-century history, architecture, and ethnography. Visitors are allowed to get acquainted directly with the material and spiritual life of people living in Baikal County. The crowns of high trees will keep you in the shadows, and clean air from the Angara River will fill you with freshness.</i></p><p>12.30 - Lunch in Traktir, where you can taste the local cuisine.</p><p>13.30 - Transfer to Listvyanka.</p><p><i>Your second stop will be your first meeting with Baikal – the place where the Angara River flows out of the Lake. There are about 336 rivers that bring their water into the Lake, but the only one, called Blue-eyed Daughter Angara, flows out of the Lake. Listen to the beautiful local legend told by your guide about Angara and Shaman rock at this place.</i></p><p>14.30 - Cherskiy rock observation point by ski lift.</p><p><i>This observation point provides a fantastic view of Angara's outflow, port Baikal, and Baikal Lake. The funicular will bring you up the hill, and you may enjoy walking back in the surroundings.</i></p><p>16.00 - Visiting the central fish and souvenir market in Listvyanka.</p><p><i>This is the place where locals smoke and sell Baikal fish - Omul and grayling. You may try different varieties such as dried, hot, and cold smoked. It is one of the peculiarities of visiting Listvyanka. You may also look at the various Baikal souvenirs sold here: maps, precious stones, shamanism attributes, magnets, jewelry, and others.</i></p><p>17.00 - visit the wooden church of St.Nickolas.</p><p><i>St. Nicolas is considered a protector of travelers, sailors, and navigators. Your guide will tell you a legend about this church.</i></p><p><i>*As an option, you may visit the Baikal museum (not included), where you can familiarize yourself with Baikal's nature, geological structure, fauna, and flora. The aquarium with an alive Baikal seal - Nerpa, imitational diving to the bottom of Baikal, and fish exhibits will give you an idea of how unique the Lake is.</i></p><p>18.30 - Transfer back to Irkutsk.</p>",
-        "ru": "<p>09.00 - Встреча с гидом и трансфер в музей Тальцы. </p><p><i>Тальцы — музей деревянного зодчества под открытым небом по дороге в Листвянку. Вы проедете 70 км (около 1 часа) - самый короткий путь к Байкалу из Иркутска. Музей Тальцы — это собрание памятников истории, архитектуры и этнографии 17-20 веков. Посетителям предоставляется возможность непосредственно познакомиться с материальной и духовной жизнью людей, проживающих в Прибайкалье. Кроны высоких деревьев удержат вас в тени, а чистый воздух реки Ангары наполнит свежестью.</i></p><p>12.30 – Обед в Трактире, где можно попробовать блюда местной кухни.</p><p>13.30 – Трансфер в Листвянку.</p><p><i>Вашей второй остановкой станет первая встреча с Байкалом – местом, где река Ангара вытекает из озера. В озеро впадают около 336 рек, но вытекает из озера единственная, называемая Голубоглазая дочь Ангара. Послушайте красивую местную легенду, рассказанную вашим гидом об Ангаре и Шаманском камне в этом месте.</i></p><p>14.30 - Смотровая площадка «Скала Черского» у подъемника.</p><p><i>С этой смотровой площадки открывается фантастический вид на приток Ангары, порт Байкал и озеро Байкал. Фуникулер доставит вас на гору, и вы сможете насладиться прогулкой по окрестностям.</i></p><p>16.00 - Посещение центрального рыбно-сувенирного рынка в Листвянке.</p><p><i>Здесь местные жители коптят и продают байкальскую рыбу – омуля и хариуса. Вы можете попробовать разные сорта, такие как сушеное, горячего и холодного копчения. Это одна из особенностей посещения Листвянки. Также здесь можно посмотреть различные байкальские сувениры: карты, драгоценные камни, атрибуты шаманизма, магниты, украшения и многое другое.</i></p><p>17.00 – посещение деревянной церкви Св. Николая.</p><p><i>Св. Николя считается покровителем путешественников, моряков и мореплавателей. Ваш гид расскажет вам легенду об этой церкви.</i></p><p><i>*Как вариант, вы можете посетить Байкальский музей (не входит в комплект), где сможете ознакомиться с природой, геологическим строением, фауной и флорой Байкала. Аквариум с живой байкальской нерпой - нерпой, имитация ныряния на дно Байкала и рыбные экспонаты дадут вам представление о том, насколько уникально озеро.</i></p><p>18.30 – Трансфер обратно в Иркутск.</p>"
-      },
-      "pictures": [
-        {
-          "title": {
-            "en": "On Cherkiy rock in Listvyanka",
-            "ru": "На Черкийском камне в Листвянке"
-          },
-          "src": "/tours/expedition-to-reindeer-herders/day-9-1.jpeg"
-        },
-        {
-          "title": {
-            "en": "Wooden house in Taltsy museum",
-            "ru": "Деревянный дом в музее Тальцы"
-          },
-          "src": "/tours/expedition-to-reindeer-herders/day-9-2.jpeg"
-        },
-        {
-          "title": {
-            "en": "Birch bark craftsman in the village",
-            "ru": "Мастер по берестяным ремеслам в деревне"
-          },
-          "src": "/tours/expedition-to-reindeer-herders/day-9-3.jpeg"
-        },
-        {
-          "title": {
-            "en": "Wooden church of St.Nickolas in Listvyanka",
-            "ru": "Деревянная церковь св. Николая в Листвянке"
-          },
-          "src": "/tours/expedition-to-reindeer-herders/day-9-4.jpeg"
         }
       ]
     }
