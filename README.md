@@ -11,5 +11,5 @@ git pull && cd app && npm i && npm run dev
 
 
 # commit the changes and push to the repo
-cd ../ && git add . && git commit -am "tour to khamar-daban deleted from winter season" && git push
+cd ../ && git add . && git commit -am "Mamay tour cost changed" && git push
 ```
