@@ -1,0 +1,64 @@
+{
+  "id": "mamay",
+  "cover": "/tours/mamay/cover.jpeg",
+  "duration": { "en": "2 days", "ru": "2 дня" },
+  "activities": ["trekking", "sightseeing"],
+  "places": ["khamar-daban"],
+  "season": "summer",
+  "title": {
+    "en": "Tour to Mamay",
+    "ru": "Тур на Мамай"
+  },
+  "months": {
+    "en": "June - September",
+    "ru": "Июнь - сентябрь"
+  },
+  "shortDescription": {
+    "en": "A real dense forest with old spruces and relict poplars, ferns as tall as a man and lush vegetation around. A crystal mountain lake, which is so pleasant to plunge into after trekking. A wonderful opportunity to spend two days far from civilization in the mountains of Khamar-Daban.",
+    "ru": "Настоящий густой лес, с вековыми елями и реликтовыми тополями, папоротники с человеческий рост и пышная растительность вокруг. Хрустальное горное озеро, в которое так приятно окунуться, пройдя пешую часть нашего маршрута. Чудесная возможность провести два дня в горах хребта Хамар-Дабан вдали от цивилизации."
+  },
+
+  "description": {
+    "ru": "<p><b>Сибирские джунгли!</b> Возможность увидеть пышную растительность и альпийские луга! Мы будем фотографироваться в красивых местах и на память у вас останутся отличные фотоснимки! </p><p><b>Искупаться в горном озере! </b> Самые смелые могут окунуться в горном озере Лесная сказка!</p><p><b>Уютное размещение </b> Мы будем жить в уютном деревяном доме, где будет только наша компания. Полное ощущение отдыха!</p><p> Маршрут среднего уровня сложности и требует к себе достаточной подготовки и выносливости участников. Горное ущелье Мамай - то место, которое идеально подходит для отдыха от цивилизации и наслаждения первозданными красотами прибайкальской природы.</p>",
+    "en": "<p><b>Siberian jungles!</b> You will see lush vegetation and alpine meadows! We will take pictures in beautiful places and you will have great photographs! </p><p><b>Delicious food</b> You can plunge into clear waters of mountain lake! - The bravest ones can take a swim in the mountain lake “Forest Fairy Tale”!</p><p><b>Cozy accommodation</b> We will live in a wooden house, where only our company will stay. A complete feeling of relaxation!</p><p>The route is of medium difficulty and requires sufficient preparation and endurance of the participants. The Mamay mountain gorge is a place that is ideal for relaxing from civilization and enjoying the pristine beauty of the Baikal nature.</p>"
+  },
+  "price": [{ "ru": "11 000 ₽ с чел.", "en": "11 000 ₽ per person", "price": "" }],
+  "note": {
+    "ru": "<p><b>Одежда</b> Удобная треккинговая обувь (не кеды!) с толстой нескользкой подошвой, термобелье, футболки, флисовая кофта, мембранная или ветрозащитная куртка, головной убор от солнца (шляпа, кепка или бандана), штаны, носки для треккинга (или спорта), сменная одежда (для дома и сна), солнцезащитные очки, треккинговые палочки (желательно, но необязательно), солнцезащитные крем, дождевик.</p><p><b>Для сна</b> Сменная одежда для сна. (спальник и коврик брать не нужно).</p><p><b>Упаковка вещей</b> Треккинговый рюкзак (30- 60л), чехол на рюкзак от дождя, гидромешок для документов.</p><p><b>Документы</b> Паспорт, деньги наличкой, телефон и зарядка, медицинская страховка и страховка от клеща.</p><p><b>Лекарства</b> Индивидуальная аптечка.</p><p><b>Личная гигиена</b> Гигиеническая помада, зубная щетка, зубная паста, туалетная бумага.</p><p>Возможна аренда полноприводного автомобиля, который сможет довезти вас и ваш багаж до домика. Заброска не входит в стоимость тура и заказывается заранее.</p>",
+    "en": "<p><b>Clothing</b> Comfortable trekking shoes (not sneakers!) with thick non-slip soles, thermal underwear, T-shirts, fleece jacket, membrane or windproof jacket, sun headwear (hat, cap or bandana), pants, socks for trekking (or sports), a change of clothes (for home and sleep), sunglasses, trekking poles (preferably, but not required), sunscreen, raincoat.</p><p><b>For sleep</b> Change of clothes for sleep. (no need to take a sleeping bag and a mat).</p><p><b>Packaging</b> Trekking backpack (30-60 l), rain cover for the backpack, hydro bag for documents.</p><p> <b>Documents</b> Passport, money in cash, phone and charger, medical insurance and tick insurance.</p><p><b>Medicines</b> Individual first aid kit.</p><p>< b>Personal hygiene</b> Hygienic lipstick, toothbrush, toothpaste, toilet paper.</p><p> It is possible to rent a 4WD car, which may bring you and your luggage to the wooden house. It is not included in the tour cost and should be booked in advance.</p></p>"
+  },
+  "includes": [
+    { "ru": "Сопровождение гидом", "en": "Guide" },
+    { "ru": "Питание: обед, ужин, завтрак, обед", "en": "Meals according to the program" },
+    { "ru": "Трансфер Иркутск - Мамай - Иркутск", "en": "Transfer Irkutsk - Mamay - Irkutsk" },
+    { "ru": "Проживание в деревяном домике. (туалет на улице).", "en": "Accommodation in a wooden hut.(toilet outside)" },
+    { "ru": "Разрешение на посещение нац.парка", "en": "National park fee" }
+  ],
+  "notIncludes": [
+    { "ru": "Личные перекусы (снеки, шоколадные батончики, и т.д.)", "en": "Personal snacks (snacks, candy bars, etc.)" },
+    { "ru": "Дополнительные услуги (баня, катание на лошадях, каяках, и другие услуги, не упомянутые в программе).", "en": "Additional services (sauna, horseback riding, kayaking, and other services not mentioned in the program)." },
+    { "ru": "Медицинская страховка и страховка от клеща", "en": "Medical and tick insurance" }
+  ],
+  "days": [
+    {
+      "order": 1,
+      "title": { "ru": "Трансфер Иркутск-Мамай. Треккинг по лесной дороге до домика в ущелье Мамай. (8 км.)", "en": "Transfer Irkutsk-Mamay. Trekking along a forest road to a house in the Mamay valley.(8 km). " },
+      "description": { "en": "<p>08.30 - Group meeting in Irkutsk. Meet the guide.</p><p>09.00 - Departure by minibus to the Mamai gorge. (Distance 200 km. Travel time approximately 3 hours).</p><p>12.30 - We pack our backpacks and go trekking along a mountain road. The distance from the highway to the house is about 8 km. On the way we will need to overcome several climbs, the steepest of which is Pykhtun. The Mamaia mountain gorge has a unique mild microclimate, thanks to which a lot of snow lingers here in winter and is a favorite place for freeride lovers. And in summer, thanks to the warm and humid climate, alpine meadows in the highlands, mosses and lichens predominate here, and ferns grow as tall as a person!</p></p><p>14.00 - Picnic lunch in the forest.</p><p>15.00 - Free time. Walk to the kung or to the stream. We take pictures in beautiful places, fill ourselves with the life-giving power of Baikal and nature.</p><p>17.00 - Bathhouse. (for the brave, swimming in a mountain stream is possible). Rest.</p><p>20.00 - Dinner.</p>", "ru": "<p>08.30 - Встреча группы в Иркутске. Знакомство с гидом.</p><p>09.00 - Отправление на микроавтобусе до ущелья Мамай. (Расстояние 200 км. В пути примерно 3 часа).</p><p>12.30 - Пакуем рюкзаки и отправляемся в треккинг по горной дороге. Расстояние от трассы до домика - около 8 км. По дороге нам нужно будет преодолеть несколько подъемов, самый крутой из них - Пыхтун. В горном ущелье Мамая царит уникальный мягкий микроклимат, благодаря которому зимой здесь задерживается много снега и это излюбленное место для любителей фрирайда. А летом благодаря теплому и влажному климату здесь преобладают альпийские луга в высокогорье, мхи и лишайники, а папоротники вырастают высотой с человека!</p><p>14.00 - Обед-пикник в лесу.</p><p>15.00 - Свободное время. Прогулка до кунга или до ручья. Фотографируемся в красивых местах, наполняемся живительной силой Байкала и природы.</p><p>17.00 - Баня. (для смелых возможно купание в горном ручье). Отдых.</p><p>20.00 - Ужин.</p>" },
+      "pictures": [
+        { "title": { "en": "", "ru": ""}, "src": "/tours/mamay/day-1-1.jpeg" },
+        { "title": { "en": "", "ru": ""}, "src": "/tours/mamay/day-1-2.jpeg" },
+        { "title": { "en": "", "ru": ""}, "src": "/tours/mamay/day-1-3.jpeg" }
+      ]
+    },
+    {
+      "order": 2,
+      "title": { "ru": "Треккинг до озера Лесная сказка. Возвращаемся в домик и далее спускаемся к трассе. Трансфер в Иркутск.", "en": "Trekking to the lake called Forest Fairy Tale. We return to the house and then go down to the highway. Transfer to Irkutsk." },
+      "description": { "en": "<p>09.00 - Breakfast.</p><p>10.00 - With light backpacks we go trekking to a mountain lake called Forest Fairy Tale. Mamai is not even one mountain, but a whole mountainous region with the valleys of the Bolshoy, Maly and Left Mamai rivers. The distance from the southern shore of Lake Baikal is 10 km, from the village. Vydrino - 19.4 km. The name has nothing to do with Khan Mamai, who never visited this area. It is likely that the etymology is related to the Evenki word “moma”, which is translated as “wooded place”. The distance from the house to the lake is about 3.5 km. The distance to the waterfall from the lake is about 600 m one way. The path goes uphill and then down. You will notice how lush the vegetation is here; it’s not for nothing that Khamar-Daban is also called the Siberian jungle.</p><p>13.00 - Picnic lunch.</p><p>15.00 - We start going back. Along the way, we'll pick up our backpacks from the house and continue down the road to the highway, where the car will be waiting for us.</p><p>19.00 - Transfer Mamay - Irkutsk. (The return travel time is approximate and is about 3 hours).</p>", "ru": "<p>09.00 - Завтрак.</p><p>10.00 - С легкими рюкзаками отправляемся в треккинг до горного озера под названием Лесная сказка. Мамай — это даже не одна гора, а целый горный район с долинами рек Большой, Малый и Левый Мамай. Расстояние от южного берега озера Байкал — 10 км, от пос. Выдрино — 19,4 км. Название не имеет отношения к хану Мамаю, который никогда не бывал в этой местности. Вполне вероятно, что этимология связана с эвенкским словом «мома», которое переводится как «лесистое место». Расстояние от домика до озера около 3.5 км. Расстояние до водопада от озера около 600 м в одну сторону. Тропа то поднимается в гору, то спускается вниз. Вы заметите какая тут пышная растительность, недаром Хамар-Дабан еще называют Сибирскими джунглями.</p><p>13.00 - Обед-пикник.</p><p>15.00 - Выдвигаемся в обратную сторону. По пути забираем рюкзаки из домика и продолжаем спускаться по дороге к трассе, где нас будет ждать машина.</p><p>19.00 - Трансфер Мамай - Иркутск. (Время обратно в пути ориентировочное и составляет около 3 часов).</p>" },
+      "pictures": [
+        { "title": { "en": "", "ru": ""}, "src": "/tours/mamay/day-2-1.jpeg" },
+        { "title": { "en": "", "ru": ""}, "src": "/tours/mamay/day-2-2.jpeg" },
+        { "title": { "en": "", "ru": ""}, "src": "/tours/mamay/day-2-3.jpeg" }
+      ]
+    }
+  ]
+}
