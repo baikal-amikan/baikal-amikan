@@ -7,7 +7,7 @@
     "dev": "cross-env NODE_ENV=development && vite",
     "pretty": "prettier --write .",
     "lint": "eslint src/**/ --ext ts,tsx --report-unused-disable-directives",
-    "bild": "npm run lint && tsc && vite build --emptyOutDir && cp 404.html ../docs/",
+    "build": "npm run lint && tsc && vite build --emptyOutDir && cp 404.html ../docs/",
     "preview": "vite preview"
   },
   "dependencies": {
