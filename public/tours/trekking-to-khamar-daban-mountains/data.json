@@ -3,7 +3,7 @@
   "cover": "/tours/trekking-to-khamar-daban-mountains/cover.jpeg",
   
   "duration": { "en": "4 days", "ru": "4 дня" },
-  "activities": ["trekking", "sightseeing", "skiing"],
+  "activities": ["trekking", "sightseeing"],
   "places": ["irkutsk", "khamar-daban"],
   "season": "summer",
   "title": {
@@ -20,11 +20,11 @@
   },
   "description": {
     "en": "<p>4-day trekking tour to mysterious Taiga mountains on the south of Baikal Lake – Khamar-Daban . which is called Siberian Alps, among giant cedar trees, mountain rushing streams and a cascade of waterfalls, fresh bracing mountain air, meadows of blossoming wildflowers, and a masterpiece of Mother Nature - a Lake shaped like a Heart – you won’t stop   admiring this beauty which will inspire you! Sleeping in tents or wooden houses upon your demand.</p><p><b>Day 1.</b> Transfer Irkutsk - Sludyanka. Trekking up Slyudyanka river to Weather station. (20 km). <br/><b>Day 2.</b> Trekking to the top of Chersky Mountain. <br/><b>Day 3.</b> Visiting the cascade of waterfalls. <br/><b>Day 4.</b> Trekking back to Slyudyanka village. Transfer to Irkutsk.</p>",
-    "ru": "<p>4-дневный треккинг-тур в загадочные таежные горы на юге озера Байкал – Хамар-Дабан. который называется Сибирские Альпы, среди гигантских кедров, стремительных горных ручьев и каскада водопадов, свежая бодрящая гора воздух, луга цветущих полевых цветов и шедевр матери-природы – озеро в форме сердца – вы не остановитесь любуясь этой красотой, которая вдохновит вас! Ночлег в палатках или деревянных домиках по вашему желанию.</p><p><b>День 1.</b> Трансфер Иркутск - Слюдянка. Переход вверх по реке Слюдянке к Метеостанции. (20 км). <br/><b>День 2.</b> Треккинг на вершину горы Черского. <br/><b>День 3.</b> Посещение каскада водопадов. <br/><b>День 4.</b> Возвращение в село Слюдянка. Переезд в Иркутск.</p>"
+    "ru": "<p>4-дневный треккинг-тур в загадочные таежные горы на юге озера Байкал – Хамар-Дабан. который называется Сибирские Альпы, среди гигантских кедров, стремительных горных ручьев и каскада водопадов, свежая бодрящая гора воздух, луга цветущих полевых цветов и шедевр матери-природы – озеро в форме сердца – вы не остановитесь любуясь этой красотой, которая вдохновит вас! Ночлег в палатках или деревянных домиках по вашему желанию.</p><p><b>День 1.</b> Трансфер Иркутск - Слюдянка. Треккинг до Метеостанции. (20 км). <br/><b>День 2.</b> Восхождение на пик Черского. <br/><b>День 3.</b> Посещение каскада водопадов. <br/><b>День 4.</b> Возвращение в пос. Слюдянка. Трансфер в Иркутск.</p>"
   },
   "price": [
     {
-      "ru": "Цена может меняться в зависимости от сезона. Актуальные цены уточняйте у нашего менеджера.",
+      "ru": "Стоимость может меняться в зависимости от сезона. Актуальные цены уточняйте у нашего менеджера.",
       "en": "The price may vary depending on the season. Please contact our manager regarding the actual prices.",
       "price": ""
     }
@@ -35,7 +35,7 @@
   },
   "includes": [
     { "ru": "Все сборы за посещение зон национальных парков", "en": "All fees for visiting national park zones" },
-    { "ru": "Услуги англоговорящего гида", "en": "English-speaking guide service" },
+    { "ru": "Услуги гида", "en": "English-speaking guide service" },
     { "ru": "Питание во время тура", "en": "Meals during the tour" },
     {
       "ru": "Аренда туристического снаряжения, посуды для приготовления пищи и продуктов питания",
@@ -44,8 +44,7 @@
     {
       "ru": "Трансфер Иркутск – Слюдянка – Иркутск на автомобиле.",
       "en": "Transfer Irkutsk - Sludyanka - Irkutsk by car"
-    },
-    { "ru": "Трансфер в/из аэропорта", "en": "Transfer to/from airport" }
+    }
   ],
   "notIncludes": [
     { "ru": "Дополнительные услуги, не упомянутые в программе", "en": "Extra services not mentioned in the programme" },
