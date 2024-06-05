@@ -183,7 +183,7 @@ export default function TourPage() {
               {tour.note ? (
                 <>
                   <Typography
-                    variant="caption"
+                    variant="body1"
                     align="left"
                     dangerouslySetInnerHTML={{ __html: tour.note[language] }}
                   />
@@ -197,9 +197,11 @@ export default function TourPage() {
                 <>
                   <Typography variant="h5">{dictionary.find((item) => item.id === "price")?.text[language]}</Typography>
                   {tour.price.map((price, index) => (
-                    <Typography variant="body1" key={`price-${index}`}>
-                      {price[language]} <b>{price.price}</b>
-                    </Typography>
+                    <Typography
+                      variant="body1"
+                      key={`price-${index}`}
+                      dangerouslySetInnerHTML={{ __html: `${price[language]} <b>${price.price}</b>` }}
+                    />
                   ))}
                 </>
               ) : (

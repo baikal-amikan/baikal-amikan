@@ -9,26 +9,47 @@
     "en": "",
     "ru": ""
   },
+
   "months": {
     "en": "",
     "ru": ""
   },
+
   "shortDescription": {
     "en": "",
     "ru": ""
   },
 
   "description": { "ru": "", "en": "" },
-  "price": [{ "ru": "", "en": "", "price": "" }],
+
+  "price": [
+    { "ru": "", "en": "", "price": "" },
+    { "ru": "", "en": "", "price": "" }
+  ],
+
   "note": { "ru": "", "en": "" },
-  "includes": [{ "ru": "", "en": "" }],
-  "notIncludes": [{ "ru": "", "en": "" }],
+
+  "includes": [
+    { "ru": "", "en": "" }
+  ],
+
+  "notIncludes": [
+    { "ru": "", "en": "" }
+  ],
+
   "days": [
     {
       "order": 1,
       "title": { "ru": "", "en": "" },
       "description": { "en": "", "ru": "" },
-      "pictures": [{ "title": { "ru": "", "en": "" }, "src": "" }]
+      "pictures": [
+        {
+          "title": { "ru": "", "en": "" }, "src": ""
+        },
+        {
+          "title": { "ru": "", "en": "" }, "src": ""
+        }
+      ]
     }
   ]
 }

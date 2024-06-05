@@ -12,7 +12,7 @@ interface SendEmailBlockProps {
 
 export default function SendEmailBlock({ tourId, type }: SendEmailBlockProps) {
   const defaultEmptyString = ``;
-  const { allTours, language, dictionary } = useSafeContext(BaseContext);
+  const { allTours, language, dictionary, contacts } = useSafeContext(BaseContext);
   const [tour, setTour] = useState<iTour | null>(null);
   const [initialBody, setInitialBody] = useState<string | null>(null);
   const [subject, setSubject] = useState<string>(defaultEmptyString);
@@ -69,10 +69,10 @@ export default function SendEmailBlock({ tourId, type }: SendEmailBlockProps) {
 
   return (
     <div className={css.sendEmailBlock}>
-      {language && dictionary && initialBody ? (
+      {language && dictionary && initialBody && contacts? (
         <div>
           <Typography variant={"body1"} style={{ margin: "20px auto" }}>
-            Email to: <b>baikalamikan@gmail.com</b>
+            Email to: <b>{contacts.email}</b>
             <br />
             Email Subject: <b>"{subject}"</b>
           </Typography>
@@ -92,7 +92,7 @@ export default function SendEmailBlock({ tourId, type }: SendEmailBlockProps) {
           </Typography>
           <Link
             className={css.sendEmailLink}
-            to={`mailto:baikalamikan@com?subject=${subject}&body=${body.replace(/\n/g, "%0D%0A")}&Content-Type=text/html`}
+            to={`mailto:${contacts.email}?subject=${subject}&body=${body.replace(/\n/g, "%0D%0A")}&Content-Type=text/html`}
           >
             {dictionary.find((item) => item.id === "sendEmail")?.text[language]}
           </Link>

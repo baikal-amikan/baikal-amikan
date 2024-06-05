@@ -120,6 +120,13 @@
     }
   },
   {
+    "id": "sendTelegramMessage",
+    "text": {
+      "en": "send telegram message",
+      "ru": "Отправить сообщение в телеграм"
+    }
+  },
+  {
     "id": "leaveReview",
     "text": {
       "en": "Leave us a review",
