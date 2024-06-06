@@ -21,24 +21,12 @@
     "ru": "<p><b>Искупаться в водопаде!</b> Вы сможете постоять под прохладной струей горной реки и на память у вас останутся отличные фотоснимки!</p><p><b>Сибирские джунгли!</b> На Хамар-Дабане уникальный климат и пышная растительность. По тропе вы встретите реликтовые тополя, заросли папоротника и ели, поросшие пушистым лишайником. </p><p><b>Возможность порыбачить!</b> Любители рыбалки могут взять с собой снасти и попробовать поймать окуня и сорогу в горной реке или в озерах. </p><p><b>Дистанция маршрута.</b> 20 километров</p>", 
     "en": "<p><b>Swim in the waterfall!</b> You will be able to stand under the fresh stream of a mountain river and take memorable pictures!</p><p><b>Siberian jungle!</b> Khamar-Daban has a unique climate and lush vegetation. Along the trail you will meet relict poplars, thickets of ferns and spruces, overgrown with fluffy lichen </p><p><b>An opportunity to go fishing!</b> Fishing enthusiasts can take fishing gear with you and try to catch perch in a mountain river or in lakes</p><p><b>Distance of the route.</b> 20 kilometers</p>"
   },
-
-  "price": [{ "ru": "руб с человека", "en": "rubles per person", "price": "18 000" }],
-
-  "note": {
-    "ru": "<p><b>Одежда</b> Удобная треккинговая обувь (не кеды!) с толстой нескользкой подошвой, термобелье, футболки, флисовая кофта, мембранная или ветрозащитная куртка, головной убор от солнца (шляпа, кепка или бандана), штаны, носки для треккинга (или спорта), сменная одежда (для дома и сна), солнцезащитные очки, треккинговые палочки (желательно, но необязательно), солнцезащитные крем, дождевик.</p><p><b>Для сна</b> Сменная одежда для сна, спальник и коврик.</p><p><b>Упаковка вещей</b> Треккинговый рюкзак (40- 60л), чехол на рюкзак от дождя, гидромешок для документов.</p><p><b>Документы</b> Паспорт, деньги наличкой, телефон и зарядка, медицинская страховка и страховка от клеща.</p><p><b>Лекарства</b> Индивидуальная аптечка.</p><p><b>Личная гигиена</b> Гигиеническая помада, зубная щетка, зубная паста., туалетная бумага</p>",
-    "en": "<p><b>Clothing</b> Comfortable trekking shoes (not sneakers!) with thick non-slip soles, thermal underwear, T-shirts, fleece jacket, membrane or windproof jacket, sun headwear (hat, cap or bandana), pants, socks for trekking (or sports), a change of clothes (for home and sleep), sunglasses, trekking poles (preferably, but not required), sunscreen, raincoat.</p><p><b>For sleep</b> Change of clothes for sleep, a sleeping bag and a mat).</p><p><b>Packaging</b> Trekking backpack (40-60 l), rain cover for the backpack, hydro bag for documents.</p><p> <b>Documents</b> Passport, money in cash, phone and charger, medical insurance and tick insurance.</p><p><b>Medicines</b> Individual first aid kit.</p><p>< b>Personal hygiene</b> Hygienic lipstick, toothbrush, toothpaste, toilet paper</p>"
+  "media": {
+    "video": {
+      "src": "<iframe width=\"100%\" height=\"350\" src=\"https://www.youtube.com/embed/7CF4nQ24Eos?si=ZRZCACMb4aCix-QL\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "description": { "ru": "Тур к соболиным озерам c baikal-amikan.ru", "en": "Trekking to lake Sobolinniye by baikal-amikan.ru" }
+    }
   },
-  "includes": [
-      { "ru": "Сопровождение гидом", "en": "Guide" },
-      { "ru": "Питание: обед, ужин, завтрак, обед", "en": "Meals according to the program" },
-      { "ru": "Проживание в палатках", "en": "Accommodation in tents" }
-    ],
-    "notIncludes": [
-      { "ru": "Личные перекусы (снеки, шоколадные батончики, и т.д.)", "en": "Personal snacks (snacks, candy bars, etc.)" },
-      { "ru": "Дополнительные услуги (баня, катание на лошадях, каяках, и другие услуги, не упомянутые в программе).", "en": "Additional services (sauna, horseback riding, kayaking, and other services not mentioned in the program)." },
-      { "ru": "Медицинская страховка и страховка от клеща", "en": "Medical and tick insurance" }
-    ],
-
   "days": [
     {
       "order": 1,
@@ -94,5 +82,21 @@
         { "title": { "ru": "", "en": "" }, "src": "/tours/sobolinniye/day-3-6.jpg" }
     ]
     }
+  ],
+  "price": [{ "ru": "руб с человека", "en": "rubles per person", "price": "18 000" }],
+
+  "note": {
+    "ru": "<p><b>Одежда</b> Удобная треккинговая обувь (не кеды!) с толстой нескользкой подошвой, термобелье, футболки, флисовая кофта, мембранная или ветрозащитная куртка, головной убор от солнца (шляпа, кепка или бандана), штаны, носки для треккинга (или спорта), сменная одежда (для дома и сна), солнцезащитные очки, треккинговые палочки (желательно, но необязательно), солнцезащитные крем, дождевик.</p><p><b>Для сна</b> Сменная одежда для сна, спальник и коврик.</p><p><b>Упаковка вещей</b> Треккинговый рюкзак (40- 60л), чехол на рюкзак от дождя, гидромешок для документов.</p><p><b>Документы</b> Паспорт, деньги наличкой, телефон и зарядка, медицинская страховка и страховка от клеща.</p><p><b>Лекарства</b> Индивидуальная аптечка.</p><p><b>Личная гигиена</b> Гигиеническая помада, зубная щетка, зубная паста., туалетная бумага</p>",
+    "en": "<p><b>Clothing</b> Comfortable trekking shoes (not sneakers!) with thick non-slip soles, thermal underwear, T-shirts, fleece jacket, membrane or windproof jacket, sun headwear (hat, cap or bandana), pants, socks for trekking (or sports), a change of clothes (for home and sleep), sunglasses, trekking poles (preferably, but not required), sunscreen, raincoat.</p><p><b>For sleep</b> Change of clothes for sleep, a sleeping bag and a mat).</p><p><b>Packaging</b> Trekking backpack (40-60 l), rain cover for the backpack, hydro bag for documents.</p><p> <b>Documents</b> Passport, money in cash, phone and charger, medical insurance and tick insurance.</p><p><b>Medicines</b> Individual first aid kit.</p><p>< b>Personal hygiene</b> Hygienic lipstick, toothbrush, toothpaste, toilet paper</p>"
+  },
+  "includes": [
+    { "ru": "Сопровождение гидом", "en": "Guide" },
+    { "ru": "Питание: обед, ужин, завтрак, обед", "en": "Meals according to the program" },
+    { "ru": "Проживание в палатках", "en": "Accommodation in tents" }
+  ],
+  "notIncludes": [
+    { "ru": "Личные перекусы (снеки, шоколадные батончики, и т.д.)", "en": "Personal snacks (snacks, candy bars, etc.)" },
+    { "ru": "Дополнительные услуги (баня, катание на лошадях, каяках, и другие услуги, не упомянутые в программе).", "en": "Additional services (sauna, horseback riding, kayaking, and other services not mentioned in the program)." },
+    { "ru": "Медицинская страховка и страховка от клеща", "en": "Medical and tick insurance" }
   ]
 }

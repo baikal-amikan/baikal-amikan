@@ -28,7 +28,6 @@ export default function PicturesBlock({ pictures, variant }: PicturesBlockProps)
         {pictures.map((item, index) => (
           <a
             href={`#image-${index}`}
-            className={css.link}
             onClickCapture={() => setOpen(true)}
             key={`image-list-item-${item.url}`}
           >
@@ -39,10 +38,6 @@ export default function PicturesBlock({ pictures, variant }: PicturesBlockProps)
                 alt={item.title ? item.title : "image"}
                 loading="lazy"
                 className={css.image}
-                // onClick={() => {
-                //   // setCurrentIndex(index);
-                //   setOpen(true);
-                // }}
               />
             </ImageListItem>
           </a>
@@ -51,7 +46,6 @@ export default function PicturesBlock({ pictures, variant }: PicturesBlockProps)
       <SlideShowBlock
         pictures={pictures}
         open={open}
-        // currentPic={currentIndex}
         onClose={() => {
           setOpen(false);
         }}

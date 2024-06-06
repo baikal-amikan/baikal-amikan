@@ -1,9 +1,17 @@
 {
   "id": "expedition-to-reindeer-herders",
   "cover": "/tours/expedition-to-reindeer-herders/cover.jpeg",
-  "duration": { "en": "7 days", "ru": "7 дней" },
-  "activities": ["trekking"],
-  "places": ["north-of-baikal", "severobaikalsk"],
+  "duration": {
+    "en": "7 days",
+    "ru": "7 дней"
+  },
+  "activities": [
+    "trekking"
+  ],
+  "places": [
+    "north-of-baikal",
+    "severobaikalsk"
+  ],
   "season": "summer",
   "title": {
     "en": "Expedition to reindeer herders of Northern Baikal",
@@ -17,29 +25,70 @@
     "en": "This tour is for real enthusiasts who would like to get familiar with traditions and lifestyle of the native people of Siberia – Evenki.",
     "ru": "Экспедиция для настоящих энтузиастов, желающих познакомиться с традициями и образом жизни коренных народов Сибири – эвенков."
   },
-
+  "media": {
+    "video": {
+      "src": "<iframe width=\"100%\" height=\"350\" src=\"https://www.youtube.com/embed/yJhomfmrKwg\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+      "description": null
+    }
+  },
   "description": {
     "ru": "<p>Этот тур для настоящих энтузиастов, желающих познакомиться с традициями и бытом коренных жителей Сибири – эвенков. Они до сих пор мигрируют из летних стоянок в зимние в горных долинах и хорошо приспособлены к суровым условиям Севера. Один из родов Северного Байкала, Чильчигиры, жил в долине Верхней Ангары и занимался преимущественно охотой, рыболовством и оленеводством. Эвенки живут на природе, едят натуральную пищу, носят натуральную одежду и попадая в это место, вы становитесь участниками «реальной жизни» этих уникальных людей и их культуры. В предлагаемом туре вы будете жить среди эвенков и пересекать горные перевалы с оленями; мы постараемся максимально сохранить повседневный образ жизни эвенков и позволить участникам экспедиции на равном уровне участвовать во всех повседневных делах.</p><p><b>День 1.</b> Прибытие в город Северобайкальск (Транссибирским поездом или самолетом из Иркутска или Улан-Удэ). Встреча с группой и гидом. Экскурсия на смотровую площадку. Трансфер Северобайкальск – поселок Новый Уоян. (около 4-5 часов езды). Ночевка в гостевом доме.<br/><b>День 2.</b> Поездка по лесу на полноприводном автомобиле (80 км), знакомство с оленями и эвенками, переход к озеру (7 км), переправа через озеро на лодке (зимой на снегоходах). Размещение в охотничьем домике. Баня на берегу озера (по запросу). <br/><b>День 3.</b> Переход от озера до оленеводческой фермы (4 км). Размещение в деревянном доме. Пришло время познакомиться с бытом оленей и эвенков и попробовать местную кухню.<br/><b>День 4.</b> Переход к озеру Балтуриха. (14 км). Возвращение на ферму.<br/><b>День 5.</b> Начало похода от оленеводческой фермы к зимовью охотника (7 км). Ночевка в палатках.<br/><b>День 6.</b> Переход на перевал (12 км). Ночевка в палатке или чуме.<br/><b>День 7.</b> Подъем на перевал, переход в лесную зону (10 км). Переезд на машине в село Уоян. По пути в СевероБайкальск возможно посетить горячие источники.Прибытие в Северобайкальск.<br/><b>День 8.</b> Посещение музея БАМа. Возвращение в Иркутск. </p><p> Аэропорт находится в г.Нижнеангарск.  (20 км от Северобайкальска).</p>",
     "en": "<p>This tour is for real enthusiasts who would like to get familiar with the traditions and lifestyle of the native people of Siberia – Evenki. They still migrate from summer to winter camps in the mountain valleys and are well adapted to the harsh conditions of the North. One of the clans of Northern Baikal, called Chilchigiry, used to live in the valley of Upper Angara River, primarily engaged in hunting, fishing, and reindeer breeding. Evenki people live in nature, eat natural food, wear natural clothes, and once you get there - you become participants in the \"real life\" of these unique people and their culture. In the proposed tour, you will live with Evenki people and cross mountain passes with reindeer; we will try to preserve the family's everyday lifestyle as much as possible and allow the expedition participants to participate on an equal level in all daily matters.</p><p><b>Day 1.</b> Arrival in Severobaikalsk city (by Transsiberian train or by plane from Irkutsk or Ulan-Ude). Meeting with a group and your guide. Excursion to the observation point Transfer Severobaikalsk - Noviy Uoyan village. (about 4-5 hours ride). Overnight in the guest house.<br/><b>Day 2.</b> A ride in the forest by 4WD (80 km), meeting the reindeer and Evenki people, trekking to the lake (7 km), and crossing the lake by boat (snowmobiles in winter). Accommodation in hunter's cabin. Banya on the shore of the lake (on demand). <br/><b>Day 3.</b> Trekking from the lake to the reindeer farm (4 km). Accommodation in a wooden house. It is time to familiarize yourself with the reindeer and Evenki lifestyle and taste the local cuisine.<br/><b>Day 4.</b> Trekking to Balturikha Lake. (14 km). Return to the farm.<br/><b>Day 5.</b> Start trekking from the reindeer farm to the hunter's winter cabin (7 km), where you will stay in tents.<br/><b>Day 6.</b> Trekking to the mountain pass (12 km). Overnight in a tent or chum.<br/><b>Day 7.</b> Climbing the mountain pass, trekking to the forest zone (10 km). Transfer by car to Uoyan village and further to the hot springs. Arrival to Severobaikalsk.<br/><b>Day 8.</b> Visit the museum of BAM railway. Flight or train to Irkutsk. <br/></p><p>An airport is located in Nizhneangarsk, which is 20 km away from Severobaikalsk.</p>"
   },
-  "price": [{ "ru": "38 000 ₽ с чел.", "en": "38 000 ₽ per person", "price": "" }],
-    "note": {
+  "price": [
+    {
+      "ru": "<b>38 000 ₽</b> с чел.",
+      "en": "<b>38 000 ₽</b> per person",
+      "price": ""
+    }
+  ],
+  "note": {
     "ru": "Лучшее время для поездки в это место – первая половина июня. Участники должны быть готовы к простым условиям проживания (охотничьи домики с туалетами на улице и палатки). Тем, кто предпочитает комфортное проживание, стоит поискать другой тур. Маршрут может быть изменен в связи с погодными условиями.",
     "en": "The best time to travel to this place is the first half of June. Participants must be ready for primary accommodation conditions (hunter's huts with toilets outside and tents). Those who prefer comfortable traveling should find another tour. The route might be changed due to the weather conditions."
   },
-    "includes": [
-    { "en": "Accommodation as mentioned in the programme", "ru": "Проживание согласно программе" },
-    { "en": "All fees for visiting national park zones", "ru": "Все сборы за посещение зон национальных парков" },
-    { "en": "All transfers mentioned in the programme", "ru": "Все трансферы, указанные в программе" },
-    { "en": "English-speaking guide service", "ru": "Услуги гида" },
-    { "en": "Meals during the tour", "ru": "Питание во время тура" },
-    { "en": "Transfer to/from airport", "ru": "Трансфер в/из аэропорта" }
+  "includes": [
+    {
+      "en": "Accommodation as mentioned in the programme",
+      "ru": "Проживание согласно программе"
+    },
+    {
+      "en": "All fees for visiting national park zones",
+      "ru": "Все сборы за посещение зон национальных парков"
+    },
+    {
+      "en": "All transfers mentioned in the programme",
+      "ru": "Все трансферы, указанные в программе"
+    },
+    {
+      "en": "English-speaking guide service",
+      "ru": "Услуги гида"
+    },
+    {
+      "en": "Meals during the tour",
+      "ru": "Питание во время тура"
+    },
+    {
+      "en": "Transfer to/from airport",
+      "ru": "Трансфер в/из аэропорта"
+    }
   ],
   "notIncludes": [
-    { "en": "Bank transfer fees", "ru": "Комиссия за банковский перевод" },
-    { "en": "Alcohol drinks", "ru": "Алкогольные напитки" },
-    { "en": "Plane or train tickets to Severobaikalsk", "ru": "Билеты на самолет или поезд до Северобайкальска" },
-    { "en": "Personal expenses and souvenirs", "ru": "Личные расходы и сувениры" }
+    {
+      "en": "Bank transfer fees",
+      "ru": "Комиссия за банковский перевод"
+    },
+    {
+      "en": "Alcohol drinks",
+      "ru": "Алкогольные напитки"
+    },
+    {
+      "en": "Plane or train tickets to Severobaikalsk",
+      "ru": "Билеты на самолет или поезд до Северобайкальска"
+    },
+    {
+      "en": "Personal expenses and souvenirs",
+      "ru": "Личные расходы и сувениры"
+    }
   ],
   "days": [
     {

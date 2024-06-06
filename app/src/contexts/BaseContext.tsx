@@ -13,6 +13,10 @@ export interface iPicture {
 export interface iTour {
   id: string;
   title: { en: string; ru: string };
+  media?: {
+    video?: {src: string, description: { en: string; ru: string }},
+    pictures?: Array<iPicture>;
+  }
   cover: string;
   covers?: { [key: string]: string };
   duration: { en: string; ru: string };

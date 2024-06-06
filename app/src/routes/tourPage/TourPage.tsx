@@ -155,6 +155,12 @@ export default function TourPage() {
             </Alert>
           </Paper>
 
+          {tour.media && tour.media.pictures && tour.media.pictures.length > 0 ? (
+              <PicturesBlock variant="standard" pictures={tour.media.pictures.map((pic) => ({ title: pic.title? pic.title[language]: null, url: `${FILES_PATH}/${pic.src}`}))} />
+          ) : (
+              ""
+          )}
+
           <FadeInBlocks
             columns={1}
             blocks={tour.days.map((day, index) => {
@@ -252,6 +258,21 @@ export default function TourPage() {
               </Button>
             </Alert>
           </Paper>
+
+          {tour.media && tour.media.video
+              ? (
+                  <div key={`video-${tour.id}`} className={css.videoPreview}>
+                    <div dangerouslySetInnerHTML={{ __html: `${tour.media.video.src}` }} />
+                    {tour.media.video.description ? (
+                        <Typography
+                            variant="caption"
+                            align="center"
+                            style={{ margin: "0 auto 20px auto" }}
+                            dangerouslySetInnerHTML={{ __html: tour.media.video.description[language] }}
+                        />
+                    ) :  ("")}
+                  </div>
+              ) : ""}
 
           {reviews ? (
             <>

@@ -49,8 +49,8 @@ p > i {
   color: rgb(173, 72, 189);
 }
 .priceCard {
-  margin-top: 50px;
-  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   padding: 20px 50px 30px !important;
 }
 .priceCard h5 {
@@ -61,4 +61,10 @@ p > i {
 }
 .bookTour {
   margin-top: 30px;
+}
+.videoPreview {
+  margin: 0 auto 20px;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
 }

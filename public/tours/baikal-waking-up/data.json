@@ -17,27 +17,19 @@
     "en": "Summer is a great time to travel! We will spend one day on the shore of Lake Baikal, enjoy the colors of blooming rhododendron, Baikal flowers, fresh greenery, the smells of the forest and pine needles during trekking along the lake shore. We will also climb to the top of the Skripper mountain to enjoy the panoramic view and take memorable pictures!",
     "ru": "Лето - это отличное время, чтобы отправиться в путешествие! Мы проведем один день на берегу Байкала, насладимся красками цветущего багульника, свежей зеленью, запахами леса и хвои во время треккинга вдоль берега озера. Также мы поднимемся на вершину горы Скриппер, чтобы насладиться панорамным видом и сделать чудесные фото на память!"
   },
-
   "description": {
     "ru": "<p><b>Фотосессия в красивом месте</b> Мы будем фотографироваться в красивых местах и на память у вас останутся отличные фотоснимки! Можете взять с собой платье!</p><p><b>Вкусная еда</b> Главное в походе что? - Вкусно поесть!У нас будут вкуснейшие блюда! Во время треккинга - обед-пикник прямо на берегу!</p><p><b>Поездка на катере. </b> С Листвянки до пос.Большие Коты нас довезет катер. Мини-круиз по Байкалу!</p>",
     "en": "<p><b>Photo session in a beautiful place</b> We will take pictures in beautiful places and you will have great photographs as a souvenir! You can take your dress with you!</p><p><b>Delicious food</b> What is the main thing on a hike? - Delicious food! We will have delicious dishes! During trekking, a picnic lunch right on the shore!</p><p><b>Boat ride.</b>You will have a boat ride from Listvyanka to Bolshiye Koty. Such a mini-cruise on Baikal lake!</p>"
   },
-  "price": [{ "ru": "<i>3900 ₽<i> с чел.", "en": "<i>3900 ₽ <i> per person", "price": "" }],
-  "note": {
-    "ru": "<p><b>Одежда</b> Удобная треккинговая обувь (не кеды!) с толстой нескользкой подошвой, термобелье, футболки, флисовая кофта, мембранная или ветрозащитная куртка, головной убор от солнца (шляпа, кепка или бандана), штаны, носки для треккинга (или спорта), сменная одежда (для дома и сна), солнцезащитные очки, треккинговые палочки (желательно, но необязательно), солнцезащитные крем, дождевик.</p><p><b>Для сна</b> Сменная одежда для сна. (спальник и коврик брать не нужно).</p><p><b>Упаковка вещей</b> Треккинговый рюкзак (30- 60л), чехол на рюкзак от дождя, гидромешок для документов.</p><p><b>Документы</b> Паспорт, деньги наличкой, телефон и зарядка, медицинская страховка и страховка от клеща.</p><p><b>Лекарства</b> Индивидуальная аптечка.</p><p><b>Личная гигиена</b> Гигиеническая помада, зубная щетка, зубная паста., туалетная бумага</p>",
-    "en": "<p><b>Clothing</b> Comfortable trekking shoes (not sneakers!) with thick non-slip soles, thermal underwear, T-shirts, fleece jacket, membrane or windproof jacket, sun headwear (hat, cap or bandana), pants, socks for trekking (or sports), a change of clothes (for home and sleep), sunglasses, trekking poles (preferably, but not required), sunscreen, raincoat.</p><p><b>For sleep</b> Change of clothes for sleep. (no need to take a sleeping bag and a mat).</p><p><b>Packaging</b> Trekking backpack (30-60 l), rain cover for the backpack, hydro bag for documents.</p><p> <b>Documents</b> Passport, money in cash, phone and charger, medical insurance and tick insurance.</p><p><b>Medicines</b> Individual first aid kit.</p><p>< b>Personal hygiene</b> Hygienic lipstick, toothbrush, toothpaste, toilet paper</p>"
+  "media": {
+    "video": {
+      "src": "<iframe width=\"100%\" height=\"350\" src=\"https://www.youtube.com/embed/_0Puw13zKmE?si=s8Op41XQZAEA5J-q\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "description": { "ru": "Пробуждение Байкала c baikal-amikan.ru", "en": "Baikal Waking-up by baikal-amikan.ru" }
+    },
+    "pictures": [
+
+    ]
   },
-  "includes": [
-    { "ru": "Сопровождение гидом", "en": "Guide" },
-    { "ru": "Питание: обед-пикник", "en": "Meals according to the program" },
-    { "ru": "Поездка на катере Листвянка - Б.Коты - Листвянка", "en": "Boat trip Listvyanka - B. Koty - Listvyanka" },
-    { "ru": "Разрешение нац.парка", "en": "National park permit" }
-  ],
-  "notIncludes": [
-    { "ru": "Личные перекусы (снеки, шоколадные батончики, и т.д.)", "en": "Personal snacks (snacks, candy bars, etc.)" },
-    { "ru": "Дополнительные услуги (баня, катание на лошадях, каяках, и другие услуги, не упомянутые в программе).", "en": "Additional services (sauna, horseback riding, kayaking, and other services not mentioned in the program)." },
-    { "ru": "Медицинская страховка и страховка от клеща", "en": "Medical and tick insurance" }
-  ],
   "days": [
     {
       "order": 1,
@@ -53,5 +45,21 @@
         { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-1-6.jpeg" }
       ]
     }
+  ],
+  "price": [{ "ru": "<i>3900 ₽<i> с чел.", "en": "<i>3900 ₽ <i> per person", "price": "" }],
+  "note": {
+    "ru": "<p><b>Одежда</b> Удобная треккинговая обувь (не кеды!) с толстой нескользкой подошвой, термобелье, футболки, флисовая кофта, мембранная или ветрозащитная куртка, головной убор от солнца (шляпа, кепка или бандана), штаны, носки для треккинга (или спорта), сменная одежда (для дома и сна), солнцезащитные очки, треккинговые палочки (желательно, но необязательно), солнцезащитные крем, дождевик.</p><p><b>Для сна</b> Сменная одежда для сна. (спальник и коврик брать не нужно).</p><p><b>Упаковка вещей</b> Треккинговый рюкзак (30- 60л), чехол на рюкзак от дождя, гидромешок для документов.</p><p><b>Документы</b> Паспорт, деньги наличкой, телефон и зарядка, медицинская страховка и страховка от клеща.</p><p><b>Лекарства</b> Индивидуальная аптечка.</p><p><b>Личная гигиена</b> Гигиеническая помада, зубная щетка, зубная паста., туалетная бумага</p>",
+    "en": "<p><b>Clothing</b> Comfortable trekking shoes (not sneakers!) with thick non-slip soles, thermal underwear, T-shirts, fleece jacket, membrane or windproof jacket, sun headwear (hat, cap or bandana), pants, socks for trekking (or sports), a change of clothes (for home and sleep), sunglasses, trekking poles (preferably, but not required), sunscreen, raincoat.</p><p><b>For sleep</b> Change of clothes for sleep. (no need to take a sleeping bag and a mat).</p><p><b>Packaging</b> Trekking backpack (30-60 l), rain cover for the backpack, hydro bag for documents.</p><p> <b>Documents</b> Passport, money in cash, phone and charger, medical insurance and tick insurance.</p><p><b>Medicines</b> Individual first aid kit.</p><p>< b>Personal hygiene</b> Hygienic lipstick, toothbrush, toothpaste, toilet paper</p>"
+  },
+  "includes": [
+    { "ru": "Сопровождение гидом", "en": "Guide" },
+    { "ru": "Питание: обед-пикник", "en": "Meals according to the program" },
+    { "ru": "Поездка на катере Листвянка - Б.Коты - Листвянка", "en": "Boat trip Listvyanka - B. Koty - Listvyanka" },
+    { "ru": "Разрешение нац.парка", "en": "National park permit" }
+  ],
+  "notIncludes": [
+    { "ru": "Личные перекусы (снеки, шоколадные батончики, и т.д.)", "en": "Personal snacks (snacks, candy bars, etc.)" },
+    { "ru": "Дополнительные услуги (баня, катание на лошадях, каяках, и другие услуги, не упомянутые в программе).", "en": "Additional services (sauna, horseback riding, kayaking, and other services not mentioned in the program)." },
+    { "ru": "Медицинская страховка и страховка от клеща", "en": "Medical and tick insurance" }
   ]
 }

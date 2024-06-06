@@ -12,8 +12,9 @@ import RateReviewIcon from "@mui/icons-material/RateReview";
 import GroupsIcon from "@mui/icons-material/Groups";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import QuestionMarkIcon from "@mui/icons-material/QuestionMark";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { Link } from "react-router-dom";
-import {EmailRounded, FacebookRounded, FindInPageRounded, Instagram, Phone, Telegram} from "@mui/icons-material";
+import {EmailRounded, FacebookRounded, FindInPageRounded, Instagram, Telegram} from "@mui/icons-material";
 import LanguageIcon from "@mui/icons-material/Language";
 
 const CustomDrawer = styled(Drawer)(() => ({
@@ -160,15 +161,15 @@ export default function SideMenu() {
                       </Typography>
                     </Box>
                     <Box display="flex" alignItems="left">
-                      <Phone />
+                      <WhatsAppIcon />
                       <Typography variant="caption">
-                        (WhatsApp)<Link to={`tel:${contacts.phone}`}>{contacts.phone}</Link>
+                         <Link to={`https://wa.me/${contacts.phone}`}>Whatsapp</Link>
                       </Typography>
                     </Box>
                     <Box display="flex" alignItems="left">
                       <Telegram />
                       <Typography variant="caption">
-                        <Link to={`telegram:${contacts.social.telegram}`}>Telegram</Link>
+                        <Link to={`https://t.me/${contacts.phone}`}>Telegram</Link>
                       </Typography>
                     </Box>
                   </div>
