@@ -1,7 +1,7 @@
 {
   "id": "baikal-waking-up",
   "cover": "/tours/baikal-waking-up/cover.jpeg",
-  "duration": { "en": "2 days", "ru": "2 дня" },
+  "duration": { "en": "1 day", "ru": "1 день" },
   "activities": ["trekking", "sightseeing"],
   "places": ["irkutsk", "listvyanka", "bolshoye-goloustnoye", "bolshiye-koty"],
   "season": "summer",
@@ -11,27 +11,26 @@
   },
   "months": {
     "en": "End of April - May",
-    "ru": "Конец апреля - май"
+    "ru": "Конец апреля - июнь"
   },
   "shortDescription": {
-    "en": "Spring is a great time to travel! We will spend two days on the shore of Lake Baikal, enjoy the colors of blooming rhododendron, Baikal flowers, fresh greenery, the smells of the forest and pine needles during trekking along the lake shore. We will also climb to the top of the Skripper mountain to enjoy the panoramic view.",
-    "ru": "Весна - это отличное время, чтобы отправиться в путешествие! Мы проведем два дня на берегу Байкала, насладимся красками цветущего багульника, Байкальскими первоцветами, свежей зеленью, запахами леса и хвои во время треккинга вдоль берега озера. Также мы поднимемся на вершину горы Скриппер, чтобы насладиться панорамным видом."
+    "en": "Summer is a great time to travel! We will spend one day on the shore of Lake Baikal, enjoy the colors of blooming rhododendron, Baikal flowers, fresh greenery, the smells of the forest and pine needles during trekking along the lake shore. We will also climb to the top of the Skripper mountain to enjoy the panoramic view and take memorable pictures!",
+    "ru": "Лето - это отличное время, чтобы отправиться в путешествие! Мы проведем один день на берегу Байкала, насладимся красками цветущего багульника, свежей зеленью, запахами леса и хвои во время треккинга вдоль берега озера. Также мы поднимемся на вершину горы Скриппер, чтобы насладиться панорамным видом и сделать чудесные фото на память!"
   },
 
   "description": {
-    "ru": "<p><b>Фотосессия в красивом месте</b> Мы будем фотографироваться в красивых местах и на память у вас останутся отличные фотоснимки! Можете взять с собой платье!</p><p><b>Вкусная еда</b> Главное в походе что? - Вкусно поесть!У нас будут вкуснейшие блюда! Во время треккинга - обед-пикник прямо на берегу!</p><p><b>Уютное размещение </b> Мы будем жить в уютном гостевом доме, где будет только наша компания. Полное ощущение отдыха!</p>",
-    "en": "<p><b>Photo session in a beautiful place</b> We will take pictures in beautiful places and you will have great photographs as a souvenir! You can take your dress with you!</p><p><b>Delicious food</b> What is the main thing on a hike? - Delicious food! We will have delicious dishes! During trekking, a picnic lunch right on the shore!</p><p><b>Cozy accommodation</b> We will live in a cozy guest house, where only our company will be. A complete feeling of relaxation!</p>"
+    "ru": "<p><b>Фотосессия в красивом месте</b> Мы будем фотографироваться в красивых местах и на память у вас останутся отличные фотоснимки! Можете взять с собой платье!</p><p><b>Вкусная еда</b> Главное в походе что? - Вкусно поесть!У нас будут вкуснейшие блюда! Во время треккинга - обед-пикник прямо на берегу!</p><p><b>Поездка на катере. </b> С Листвянки до пос.Большие Коты нас довезет катер. Мини-круиз по Байкалу!</p>",
+    "en": "<p><b>Photo session in a beautiful place</b> We will take pictures in beautiful places and you will have great photographs as a souvenir! You can take your dress with you!</p><p><b>Delicious food</b> What is the main thing on a hike? - Delicious food! We will have delicious dishes! During trekking, a picnic lunch right on the shore!</p><p><b>Boat ride.</b>You will have a boat ride from Listvyanka to Bolshiye Koty. Such a mini-cruise on Baikal lake!</p>"
   },
-  "price": [{ "ru": "6800 ₽ с чел.", "en": "6800 ₽ per person", "price": "" }],
+  "price": [{ "ru": "<i>3900 ₽<i> с чел.", "en": "<i>3900 ₽ <i> per person", "price": "" }],
   "note": {
     "ru": "<p><b>Одежда</b> Удобная треккинговая обувь (не кеды!) с толстой нескользкой подошвой, термобелье, футболки, флисовая кофта, мембранная или ветрозащитная куртка, головной убор от солнца (шляпа, кепка или бандана), штаны, носки для треккинга (или спорта), сменная одежда (для дома и сна), солнцезащитные очки, треккинговые палочки (желательно, но необязательно), солнцезащитные крем, дождевик.</p><p><b>Для сна</b> Сменная одежда для сна. (спальник и коврик брать не нужно).</p><p><b>Упаковка вещей</b> Треккинговый рюкзак (30- 60л), чехол на рюкзак от дождя, гидромешок для документов.</p><p><b>Документы</b> Паспорт, деньги наличкой, телефон и зарядка, медицинская страховка и страховка от клеща.</p><p><b>Лекарства</b> Индивидуальная аптечка.</p><p><b>Личная гигиена</b> Гигиеническая помада, зубная щетка, зубная паста., туалетная бумага</p>",
     "en": "<p><b>Clothing</b> Comfortable trekking shoes (not sneakers!) with thick non-slip soles, thermal underwear, T-shirts, fleece jacket, membrane or windproof jacket, sun headwear (hat, cap or bandana), pants, socks for trekking (or sports), a change of clothes (for home and sleep), sunglasses, trekking poles (preferably, but not required), sunscreen, raincoat.</p><p><b>For sleep</b> Change of clothes for sleep. (no need to take a sleeping bag and a mat).</p><p><b>Packaging</b> Trekking backpack (30-60 l), rain cover for the backpack, hydro bag for documents.</p><p> <b>Documents</b> Passport, money in cash, phone and charger, medical insurance and tick insurance.</p><p><b>Medicines</b> Individual first aid kit.</p><p>< b>Personal hygiene</b> Hygienic lipstick, toothbrush, toothpaste, toilet paper</p>"
   },
   "includes": [
     { "ru": "Сопровождение гидом", "en": "Guide" },
-    { "ru": "Питание: обед, ужин, завтрак, обед", "en": "Meals according to the program" },
+    { "ru": "Питание: обед-пикник", "en": "Meals according to the program" },
     { "ru": "Поездка на катере Листвянка - Б.Коты - Листвянка", "en": "Boat trip Listvyanka - B. Koty - Listvyanka" },
-    { "ru": "Проживание в гостевом доме (2-3 местные номера, душ и туалет на этаже).", "en": "Accommodation in a guest house (2-3 bed rooms, shower and toilet on the floor)." },
     { "ru": "Разрешение нац.парка", "en": "National park permit" }
   ],
   "notIncludes": [
@@ -43,21 +42,15 @@
     {
       "order": 1,
       "title": { "ru": "Поездка на катере, треккинг по берегу Байкала.", "en": "" },
-      "description": { "en": "<p>08.30 - Meeting in Irkutsk.</p><p>08.45 - Departure to the village. Listvyanka by car (70 km, about 1 hour on the way).</p><p>10.00 - We take a boat to the village. Listvyanka and go to the village. Big Cats.</p><p>11.00 - Arrival in the village. Bolshie Koty, accommodation in a guest house. (2 and 3 bed rooms, common room, toilet and shower on the floor). 12.00 - After a light snack, we leave our things and go trekking with light backpacks.</p><p>12.30 - 17.00 - Trekking along the shore of Lake Baikal. We take pictures in beautiful places, fill ourselves with the life-giving power of Lake Baikal and nature.</p><p>17.00 - Return to the guest house.</p><p>19.00 - Dinner. Free time.</p>", "ru": "<p>08.30 - Встреча в Иркутске.</p><p>08.45 - Отправление в пос. Листвянка на машине (70 км, около 1 часа в пути).</p><p>10.00 - Садимся на катер в пос. Листвянка и отправляемся в пос. Большие Коты.</p><p>11.00 - Прибытие в пос. Большие Коты, размещение в гостевом доме. (2-х и 3-х местные комнаты, общий зал, туалет и душ на этаже). 12.00 - После легкого перекуса мы оставляем вещи и с легкими рюкзаками отправляемся в треккинг.</p><p>12.30 - 17.00 - Треккинг по берегу Байкала. Фотографируемся в красивых местах, наполняемся живительной силой Байкала и природы.</p><p>17.00 - Возвращение в гостевой дом.</p><p>19.00 - Ужин. Отдых.</p>" },
-      "pictures": [
-        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-1-1.jpeg" },
-        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-1-2.jpeg" },
-        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-1-3.jpeg" }
-      ]
+      "description": { "en": "<p>08.30 - Meeting in Irkutsk.</p><p>08.45 - Departure to the village. Listvyanka by car (70 km, about 1 hour on the way).</p><p>10.00 - We take a boat from Listvyanka to Bolshiye Koty village.</p><p>11.00 - Arrival in the village Bolshie Koty.11.30 - Trekking along the shore of Lake Baikal. We take pictures in beautiful places, fill ourselves with the life-giving power of Lake Baikal and nature.</p><p>16.00 - Start trekking back to the pier.</p><p>18.00 - Boat ride back to Listvyanka. </p><p>19.00 - Transfer Listvyanka - Irkutsk by car.</p>", "ru": "<p>08.30 - Встреча в Иркутске.</p><p>08.45 - Отправление в пос. Листвянка на машине (70 км, около 1 часа в пути).</p><p>10.00 - Садимся на катер в пос. Листвянка и отправляемся в пос. Большие Коты.</p><p>11.00 - Прибытие в пос. Большие Коты. Треккинг по берегу Байкала. Фотографируемся в красивых местах, наполняемся живительной силой Байкала и природы.</p><p>13.00 - Обед-пикник на берегу озера. Отдых.</p><p>16.00 - Треккинг в обратный путь до пос.Большие Коты.</p><p>18.00 - Посадка на катер и отправление в Листвянку.</p><p>19.00 - Трансфер в Иркутск на машине.</p><p><i>*Скрипер представляет собой скалистый мыс, расположенный на западном побережье озера Байкал, в пяти километрах от пос. Большие Коты. В пади Сенной тропа серпантином поднимается на мыс Скрипер, с которого открывается прекрасный вид на Байкал и живописные берега. Подъем довольно изнурительный, зато шикарный вид, который откроется на Байкал, бухты и леса сверху, будет громадной наградой за все!</i>"
     },
-    {
-      "order": 2,
-      "title": { "ru": "Поездка на катере, треккинг по берегу Байкала.", "en": "" },
-      "description": { "en": "<p>09.00 - Breakfast.</p><p>10.00 - With light backpacks we go trekking to Scripper Mountain to enjoy the beautiful view. Distance from the village Big Cats to Skripper - 7 km one way. The trail either goes uphill, then descends into the valleys directly to the lake.</p><p>13.00 - Hiking picnic lunch.</p><p>14.00 - We move in the opposite direction to the village. Big Cats.</p><p>17.00 - We board the boat and return to the village. Listvyanka.</p><p>18.00 - Transfer to Irkutsk.</p>", "ru": "<p>09.00 - Завтрак.</p><p>10.00 - С легкими рюкзаками отправляемся в треккинг на гору Скриппер, чтобы насладиться прекрасным видом. Расстояние от пос. Большие Коты до Скриппера - 7 км в одну сторону. Тропа то поднимается в гору, то спускается в распадки прямо к озеру.</p><p>13.00 - Походный обед-пикник.</p><p>14.00 - Выдвигаемся в обратную сторону в пос. Большие Коты.</p><p>17.00 - Садимся на катер и возвращаемся в пос. Листвянка.</p><p>18.00 - Трансфер в Иркутск.</p>" },
       "pictures": [
-        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-2-1.jpeg" },
-        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-2-2.jpeg" },
-        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-2-3.jpeg" }
+        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-1-1.jpg" },
+        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-1-2.jpg" },
+        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-1-3.jpg" },
+        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-1-4.jpg" },
+        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-1-5.jpg" },
+        { "title": { "en": "", "ru": ""}, "src": "/tours/baikal-waking-up/day-1-6.jpeg" }
       ]
     }
   ]
