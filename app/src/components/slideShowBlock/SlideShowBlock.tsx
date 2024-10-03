@@ -2,6 +2,7 @@
 import { Modal, Button } from "@mui/material";
 import { Close } from "@mui/icons-material";
 import css from "./SlideShowBlock.module.scss";
+import FadeInBlocks from "../fadeInBlocks/FadeInBlocks.tsx";
 
 interface SlideShowProps {
   open: boolean;
@@ -25,14 +26,14 @@ export default function SlideShowBlock({ pictures, open, onClose }: SlideShowPro
         <Button onClick={onClose} className={css.closeButton} variant={"contained"}>
           <Close />
         </Button>
-        {pictures.map((item, index) => (
+        <FadeInBlocks columns={1} blocks={pictures.map((item, index) => (
           <div key={`image-${index}`} id={`image-${index}`} className={css.slide}>
             <div className={css.slideContent}>
               <img alt={item.title ? item.title : 'image'} src={item.url} className={css.slideImg} />
               <div className={css.slideText}>{item.title}</div>
             </div>
           </div>
-        ))}
+        ))} />
       </div>
     </Modal>
   );
