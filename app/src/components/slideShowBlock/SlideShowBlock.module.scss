@@ -25,6 +25,16 @@
   align-content: center;
   justify-content: center;
   padding: 20px 40px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: combo 1.5s forwards;
+}
+
+@keyframes combo {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 768px) {
