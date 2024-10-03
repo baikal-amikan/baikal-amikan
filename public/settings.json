@@ -1,6 +1,6 @@
 {
   "defaultLanguage": "ru",
-  "defaultSeason": "summer",
+  "defaultSeason": "winter",
   "contacts": {
     "email": "baikalamikan@gmail.com",
     "phone": "+79149259553",
@@ -23,19 +23,19 @@
   "seasons": [
     {
       "title": {
-        "en": "Summer",
-        "ru": "Лето"
-      },
-      "id": "summer",
-      "cover": "/main-images/summer.jpg"
-    },
-    {
-      "title": {
         "en": "Winter",
         "ru": "Зима"
       },
       "id": "winter",
       "cover": "/main-images/winter.jpg"
+    },
+    {
+      "title": {
+        "en": "Summer",
+        "ru": "Лето"
+      },
+      "id": "summer",
+      "cover": "/main-images/summer.jpg"
     }
   ]
 }
