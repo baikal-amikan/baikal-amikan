@@ -35,14 +35,16 @@ export default function MainPage() {
       {language && dictionary ? (
         <div className={css.root} style={{ backgroundImage: `url(${FILES_PATH}/${season?.cover})` }}>
           <SideMenu />
-          <LogoBlock />
+          <LogoBlock position="center" />
 
           <Container maxWidth="sm">
             <div className={css.centerBlock}>
               {mainPageQuote ? (
                 <>
                   <Fade in={isVisible} timeout={2000}>
-                    <Typography variant="h1" align="center" dangerouslySetInnerHTML={{ __html: mainPageQuote }} />
+                    <Typography variant="h1" sx={{
+                      fontSize: {xs: '1.8rem', sm: '2rem', md: '2.5rem'},
+                    }} align="center" dangerouslySetInnerHTML={{ __html: mainPageQuote }} />
                   </Fade>
                   <br />
                   <Fade in={isVisible} timeout={1000}>

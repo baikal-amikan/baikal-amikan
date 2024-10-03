@@ -1,13 +1,27 @@
-.logoImage {
+.logoImage.left {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 20px;
+  left: 20px;
+  display: block;
+  max-width: 340px;
+  cursor: pointer !important;
+}
+
+.logoImage.center {
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 170px);
   display: block;
   max-width: 340px;
   cursor: pointer !important;
 }
 
 @media (max-width: 768px) {
+
+  .logoImage.center {
+    left: calc(50% - 125px);
+    max-width: 250px;
+  }
   .logoImage {
     max-width: 250px;
   }
@@ -15,7 +29,6 @@
 
 .logoImage img {
   width: 100%;
-  margin: 20px 0 0 20px;
 }
 .logoImage:hover {
   cursor: pointer !important;
